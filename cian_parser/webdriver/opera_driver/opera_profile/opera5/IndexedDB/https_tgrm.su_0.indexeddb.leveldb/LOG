@@ -1,0 +1,7 @@
+2020/06/15-17:36:56.804 391d Reusing MANIFEST /home/roman/.config/opera/IndexedDB/https_tgrm.su_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/15-17:36:56.804 391d Recovering log #3
+2020/06/15-17:36:56.805 391d Reusing old log /home/roman/.config/opera/IndexedDB/https_tgrm.su_0.indexeddb.leveldb/000003.log 
+2020/06/15-17:36:59.981 3b6b Level-0 table #5: started
+2020/06/15-17:36:59.990 3b6b Level-0 table #5: 1050 bytes OK
+2020/06/15-17:36:59.994 3b6b Delete type=0 #3
+2020/06/15-17:36:59.994 3b6b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

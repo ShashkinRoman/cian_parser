@@ -1,0 +1,10 @@
+[
+  {"id": "spotify-web", "title": "App for Spotify™"},
+  {"id": "instagram-app", "title": "App for Instagram™"},
+  {"id": "hide-tabs", "title": "Hide Tabs (Panic Button)"},
+  {"id": "cookie-switch", "title": "Cookie Switch ON|OFF"},
+  {"id": "app-for-translate", "title": "App for Google Translate™"},
+  {"id": "magnifying-glass", "title": "Magnifying Glass (Hover Zoom)"},
+  {"id": "color-changer-facebook", "title": "Color Changer for Facebook™"},
+  {"id": "screen-color-temperature", "title": "Color Temperature (Change Lux)"}
+]

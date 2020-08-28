@@ -1,0 +1,8 @@
+html, body {
+  display: block !important;
+}
+
+div[class*="modal-backdrop"],
+div[class*="error_modal_window"] {
+  display: none !important;
+}

@@ -1,0 +1,8 @@
+2020/06/26-10:59:06.297 6653 Reusing MANIFEST /home/roman/.config/opera/IndexedDB/chrome_startpage_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/26-10:59:06.297 6653 Recovering log #18
+2020/06/26-10:59:06.297 6653 Reusing old log /home/roman/.config/opera/IndexedDB/chrome_startpage_0.indexeddb.leveldb/000018.log 
+2020/06/26-10:59:08.838 6791 Level-0 table #22: started
+2020/06/26-10:59:08.838 6791 Level-0 table #22: 0 bytes OK
+2020/06/26-10:59:08.841 6791 Delete type=0 #18
+2020/06/26-10:59:08.841 6791 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/26-10:59:08.841 6791 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

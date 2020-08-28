@@ -1,0 +1,9 @@
+2020/08/28-11:17:27.411 3452 Reusing MANIFEST /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/MANIFEST-000001
+2020/08/28-11:17:27.411 3452 Recovering log #28
+2020/08/28-11:17:27.411 3452 Reusing old log /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/000028.log 
+2020/08/28-11:27:37.109 37d7 Level-0 table #33: started
+2020/08/28-11:27:37.115 37d7 Level-0 table #33: 8883 bytes OK
+2020/08/28-11:27:37.120 37d7 Delete type=0 #28
+2020/08/28-11:41:52.270 37d7 Level-0 table #35: started
+2020/08/28-11:41:52.273 37d7 Level-0 table #35: 8514 bytes OK
+2020/08/28-11:41:52.275 37d7 Delete type=0 #32

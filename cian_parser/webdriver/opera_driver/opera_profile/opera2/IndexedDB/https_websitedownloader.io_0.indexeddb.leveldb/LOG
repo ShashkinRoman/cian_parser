@@ -1,0 +1,5 @@
+2020/07/30-11:50:45.080 5008 Reusing MANIFEST /home/roman/.config/opera/IndexedDB/https_websitedownloader.io_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/30-12:11:34.297 55bf Level-0 table #5: started
+2020/07/30-12:11:34.301 55bf Level-0 table #5: 9329 bytes OK
+2020/07/30-12:11:34.304 55bf Delete type=0 #3
+2020/07/30-12:11:34.304 55bf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

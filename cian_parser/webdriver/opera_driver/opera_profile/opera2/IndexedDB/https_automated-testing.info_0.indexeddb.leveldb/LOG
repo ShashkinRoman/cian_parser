@@ -1,0 +1,15 @@
+2020/06/08-18:22:02.086 6f6d Reusing MANIFEST /home/roman/.config/opera/IndexedDB/https_automated-testing.info_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/08-18:22:02.086 6f6d Recovering log #11
+2020/06/08-18:22:02.086 6f6d Reusing old log /home/roman/.config/opera/IndexedDB/https_automated-testing.info_0.indexeddb.leveldb/000011.log 
+2020/06/08-18:22:39.265 720c Level-0 table #16: started
+2020/06/08-18:22:39.277 720c Level-0 table #16: 120085 bytes OK
+2020/06/08-18:22:39.282 720c Delete type=0 #11
+2020/06/08-18:22:39.283 720c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/08-18:22:39.283 720c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xb0\x00\xf5D)wB\x00\x015\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00-\x00c\x00d\x00n\x00.\x00g\x00i\x00t\x00h\x00u\x00b\x00.\x00c\x00o\x00m\x00/\x00f\x00a\x00v\x00i\x00c\x00o\x00n\x00.\x00i\x00c\x00o' @ 7069 : 1
+2020/06/08-18:22:39.283 720c Compacting 1@1 + 1@2 files
+2020/06/08-18:22:39.292 720c Generated table #17@1: 438 keys, 59644 bytes
+2020/06/08-18:22:39.292 720c Compacted 1@1 + 1@2 files => 59644 bytes
+2020/06/08-18:22:39.294 720c compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/08-18:22:39.295 720c Delete type=2 #16
+2020/06/08-18:22:39.295 720c Delete type=2 #13
+2020/06/08-18:22:39.295 720c Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xb0\x00\xf5D)wB\x00\x015\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00-\x00c\x00d\x00n\x00.\x00g\x00i\x00t\x00h\x00u\x00b\x00.\x00c\x00o\x00m\x00/\x00f\x00a\x00v\x00i\x00c\x00o\x00n\x00.\x00i\x00c\x00o' @ 7069 : 1 .. (end); will stop at (end)

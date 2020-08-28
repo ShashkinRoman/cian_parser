@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Desktop Messenger for Telegram™</title>
+    <link rel="icon" type="image/png" href="../icons/16.png"/>
+    <link rel="stylesheet" type="text/css" href="options.css"/>
+    <link rel="stylesheet" type="text/css" href="colorpicker/mcColorPicker.css"/>
+  </head>
+  <body class="flex">
+    <div id="content" class="flex">
+      <table class="main">
+        <tr>
+          <td>Toolbar popup size</td>
+          <td>
+            <span>Popup width is </span><input data-pref="popup.width" type="number" min="570"></input><span>px</span>
+            <p class="note">Minimum popup width is 570px.</p>
+            <p class="spacer"></p>
+            <span>Popup height is </span><input data-pref="popup.height" type="number" min="400"></input><span>px</span>
+            <p class="note">Minimum popup height is 400px.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Badge icon color</td>
+          <td>
+            <span>Pick a color for badge-icon background</span>
+            <input data-pref="badge.color" class="color" readonly='true'></input>
+            <p class="note">Default badge background color is red.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script type='text/javascript' src="colorpicker/mcColorPicker.js"></script>
+    <script type='text/javascript' src="options.js"></script>
+  </body>
+</html>
