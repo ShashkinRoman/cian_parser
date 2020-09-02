@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from cian_parser.utils import header_proxy, proxy_parse, parameters_immovables, check_regions
 from cian_parser.models import UrlsAds, Regions
 from cian_parser.webdriver.opera_driver import Operadriver, path
+from cian_parser.webdriver.chrome_driver import Chromedriver
 
 
 def get_urls_from_page(url, urls_list, counter_ads, region_id, proxy_list):
@@ -74,20 +75,22 @@ def main():
     region_city_code = check_regions(reg)
     # proxy_list = proxy_parse()
     urls_list = []
-    driver_obj = Operadriver()
-    driver_start = driver_obj.start_driver()
-    driver = driver_obj.opera(driver_start, path[0])
+    # driver_obj = Operadriver()
+    # driver_start = driver_obj.start_driver()
+    chrome_driver = Chromedriver()
     for region in region_city_code:
         urls = parameters_immovables(region)
         urls_list += urls
     urls_ads_list = []
     for url in urls_list:
+        # driver = driver_obj.opera(driver_start, path[0])
+        driver = chrome_driver.start_driver()
         print(url)
         counter_repeat = 0
         for i in range(1, 55):
             if counter_repeat > 50:
                 break
-            print(counter_repeat)
+            print(f'{counter_repeat} counter repeat')
             sleep(random.randint(3, 7))
             try:
                 url_page = url[0] + str(i) + url[1]
@@ -111,6 +114,7 @@ def main():
                 #           f"status code request {test_request.status_code}")
             except:
                 print(f"can't execute cycle {i}")
+        driver.quit()
 
 
 
