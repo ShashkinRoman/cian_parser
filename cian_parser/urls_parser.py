@@ -4,9 +4,9 @@ from requests.exceptions import ProxyError, ChunkedEncodingError, ConnectionErro
 from datetime import datetime
 from time import sleep
 from bs4 import BeautifulSoup
-from cian_parser.utils import header_proxy, proxy_parse, parameters_immovables, check_regions
+from cian_parser.utils import header_proxy, parameters_immovables, check_regions
 from cian_parser.models import UrlsAds, Regions
-from cian_parser.webdriver.opera_driver import Operadriver, path
+# from cian_parser.webdriver.opera_driver import Operadriver, path
 from cian_parser.webdriver.chrome_driver import Chromedriver
 
 

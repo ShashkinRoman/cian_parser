@@ -1,4 +1,3 @@
 # Project exclude paths
 /venv/
-*.sqlite3
 .env

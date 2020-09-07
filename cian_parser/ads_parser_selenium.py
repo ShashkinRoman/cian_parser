@@ -2,9 +2,9 @@ import json
 import random
 from time import sleep
 # from datetime import datetime
-from cian_parser.utils import get_html
+# from cian_parser.utils import get_html
 from cian_parser.models import UrlsAds, InformationFromAds
-from cian_parser.webdriver.opera_driver import Operadriver, path
+# from cian_parser.webdriver.opera_driver import Operadriver, path
 from cian_parser.webdriver.chrome_driver import Chromedriver
 
 def price_func(driver):
