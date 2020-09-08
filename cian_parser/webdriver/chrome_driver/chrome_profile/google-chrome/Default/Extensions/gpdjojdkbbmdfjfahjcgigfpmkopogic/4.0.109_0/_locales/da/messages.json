@@ -1,0 +1,186 @@
+{
+   "create_addFormSecretLabel": {
+      "description": "label over secret/not-secret switch",
+      "message": "Hemmelig"
+   },
+   "create_addSection": {
+      "description": "label to add section",
+      "message": "Tilføj sektion"
+   },
+   "create_allBoards": {
+      "description": "interstitial header in board list",
+      "message": "Alle opslagstavler"
+   },
+   "create_chooseBoard": {
+      "description": "main header in Save form",
+      "message": "Vælg opslagstavle"
+   },
+   "create_chooseSection": {
+      "description": "label for board sections",
+      "message": "Vælg sektion"
+   },
+   "create_closeAddForm": {
+      "description": "cancel create",
+      "message": "Annuller"
+   },
+   "create_filter": {
+      "description": "placeholder text in Search input",
+      "message": "Søg"
+   },
+   "create_followButton": {
+      "description": "press this button to follow a user on Pinterest",
+      "message": "Følg"
+   },
+   "create_msgBoardFail": {
+      "description": "board create fail",
+      "message": "Opslagstavlen kunne ikke oprettes"
+   },
+   "create_msgClose": {
+      "description": "pin create success close",
+      "message": "Luk"
+   },
+   "create_msgHelp": {
+      "description": "get help button",
+      "message": "Få hjælp"
+   },
+   "create_msgLoginFail": {
+      "description": "Message shown when someone's login changes while the board picker is open",
+      "message": "Der er noget galt her. Tjek, at du er logget på Pinterest, og prøv igen."
+   },
+   "create_msgPinFail": {
+      "description": "pin create fail",
+      "message": "Siden kunne ikke gemmes"
+   },
+   "create_msgPinSavedTo": {
+      "description": "board identifier",
+      "message": "Gemt på %"
+   },
+   "create_msgPromoteYourPin": {
+      "description": "Message seen by partners after they've created a new Pin, inviting them over to Pinterest to promote it.",
+      "message": "Promover din pin"
+   },
+   "create_msgSeeItNow": {
+      "description": "pin / board create success button",
+      "message": "Se nu"
+   },
+   "create_msgSeeOnPinterest": {
+      "description": "pin / board create success button when multiple images are selected",
+      "message": "Se på Pinterest"
+   },
+   "create_msgSendAfterSave": {
+      "description": "pin create success button to send pin to other users",
+      "message": "Send"
+   },
+   "create_optNo": {
+      "description": "switch option no",
+      "message": "Nej"
+   },
+   "create_optYes": {
+      "description": "switch option yes",
+      "message": "Ja"
+   },
+   "create_outerAddFormOpener": {
+      "description": "header in Create form",
+      "message": "Opret opslagstavle"
+   },
+   "create_placeholderDescription": {
+      "description": "placeholder text in Pin description",
+      "message": "Fortæl os om pinnen ..."
+   },
+   "create_placeholderFilterAddBoard": {
+      "description": "placeholder text in Create Board input",
+      "message": "F.eks. “Spændende rejsemål“"
+   },
+   "create_placeholderFilterAddSection": {
+      "description": "placeholder text in Create Section input",
+      "message": "F.eks. “Belysning“"
+   },
+   "create_submitAddForm": {
+      "description": "create new board",
+      "message": "Opret"
+   },
+   "create_topChoices": {
+      "description": "interstitial header in board list",
+      "message": "Topvalg"
+   },
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Billedet kan ikke gemmes."
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Gem de ting, du finder på nettet"
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Pinterests Gem-knap"
+   },
+   "grid_choosePin": {
+      "description": "Header message in the image picker overlay",
+      "message": "Vælg den pin, du vil gemme"
+   },
+   "grid_choosePinMultiSelectHeader": {
+      "description": "New header message in the image picker overlay",
+      "message": "Gem en idé på Pinterest"
+   },
+   "grid_choosePinMultiSelectSubHeader": {
+      "description": "Subheader in the image picker overlay",
+      "message": "Vælg op til ti billeder"
+   },
+   "grid_loadingMessage": {
+      "description": "Loading message while scraping images for the user",
+      "message": "Indlæser billeder ..."
+   },
+   "grid_nextAction": {
+      "description": "Press this button to go to the Create view when multiple images are selected",
+      "message": "Næste"
+   },
+   "logic_noPinDomain": {
+      "description": "The default message we alert when someone tries to use the browser button on a forbidden domain",
+      "message": "Det er ikke muligt at tilføje pins fra domænet. Kontakt websitets ejer, hvis du har spørgsmål."
+   },
+   "msgOops": {
+      "description": "error header",
+      "message": "Ups!"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Skjul svævende Gem-knapper"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Indstillinger for Gem-knappen"
+   },
+   "saveAction": {
+      "description": "Appears wherever we show a Save button or menu prompt",
+      "message": "Gem"
+   },
+   "save_boardPickerOpenerLabel": {
+      "description": "Label in inline board picker",
+      "message": "Gem på opslagstavle"
+   },
+   "save_boardPickerSuccessLabel": {
+      "description": "Label in inline board picker after pin creation",
+      "message": "Gemt på"
+   },
+   "save_help": {
+      "description": "Get help after a Pin create failure",
+      "message": "Hjælp"
+   },
+   "save_visitButton": {
+      "description": "Pin create success button to visit pin",
+      "message": "Gå til"
+   },
+   "searchAction": {
+      "description": "Appears in the right-click-to-search menu item",
+      "message": "Søg"
+   },
+   "search_failHeaderMsg": {
+      "description": "Header shown when search fails to return results",
+      "message": "Ups"
+   },
+   "search_headerMessage": {
+      "description": "Header shown when search succeeds",
+      "message": "Mere som dette fra Pinterest"
+   }
+}

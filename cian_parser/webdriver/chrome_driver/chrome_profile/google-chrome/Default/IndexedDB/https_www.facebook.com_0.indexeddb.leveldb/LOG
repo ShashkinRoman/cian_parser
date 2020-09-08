@@ -1,0 +1,5 @@
+2020/09/02-11:33:43.544 1bb8 Reusing MANIFEST /home/roman/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/02-11:34:15.600 4405 Level-0 table #5: started
+2020/09/02-11:34:15.604 4405 Level-0 table #5: 1233 bytes OK
+2020/09/02-11:34:15.606 4405 Delete type=0 #3
+2020/09/02-11:34:15.607 4405 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

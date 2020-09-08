@@ -1,0 +1,16 @@
+2020/09/01-17:00:44.223 44c4 Reusing MANIFEST /home/roman/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/01-17:06:13.464 4405 Level-0 table #5: started
+2020/09/01-17:06:13.515 4405 Level-0 table #5: 1847183 bytes OK
+2020/09/01-17:06:13.522 4405 Delete type=0 #3
+2020/09/02-11:36:53.276 4405 Level-0 table #7: started
+2020/09/02-11:36:53.352 4405 Level-0 table #7: 743946 bytes OK
+2020/09/02-11:36:53.358 4405 Delete type=0 #4
+2020/09/02-11:36:53.368 4405 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/02-11:36:53.368 4405 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x00\x00\xc8\x12\x00O\x00f\x00f\x00l\x00i\x00n\x00e\x00I\x00m\x00p\x00r\x00e\x00s\x00s\x00i\x00o\x00n\x00s' @ 19303 : 1
+2020/09/02-11:36:53.368 4405 Compacting 1@1 + 1@2 files
+2020/09/02-11:36:53.613 4405 Generated table #8@1: 3877 keys, 2049087 bytes
+2020/09/02-11:36:53.613 4405 Compacted 1@1 + 1@2 files => 2049087 bytes
+2020/09/02-11:36:53.616 4405 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/02-11:36:53.616 4405 Delete type=2 #5
+2020/09/02-11:36:53.616 4405 Delete type=2 #7
+2020/09/02-11:36:53.618 4405 Manual compaction at level-1 from '\x00\x04\x00\x00\xc8\x12\x00O\x00f\x00f\x00l\x00i\x00n\x00e\x00I\x00m\x00p\x00r\x00e\x00s\x00s\x00i\x00o\x00n\x00s' @ 19303 : 1 .. (end); will stop at (end)

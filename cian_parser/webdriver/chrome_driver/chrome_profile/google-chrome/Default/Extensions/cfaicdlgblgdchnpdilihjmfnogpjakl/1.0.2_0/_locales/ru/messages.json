@@ -1,0 +1,197 @@
+{
+   "add_tags": {
+      "message": "#тегировать"
+   },
+   "appDesc": {
+      "message": "Расширение для парсинга сайтов и получения лидов в ваш аккаунт amoCRM"
+   },
+   "appName": {
+      "message": "amoCRM Парсер"
+   },
+   "choose": {
+      "message": "Выберите"
+   },
+   "clicks_are_configured": {
+      "message": "Клики по элементам перед парсингом #NOT#настроены"
+   },
+   "clicks_count": {
+      "message": "Кликов"
+   },
+   "clicks_recording": {
+      "message": "Запись кликов"
+   },
+   "clicks_welcome_message": {
+      "message": "Запишите клики, требующиеся для отображения скрытой информации"
+   },
+   "company_multiple": {
+      "message": "Компании"
+   },
+   "company_name": {
+      "message": "Название"
+   },
+   "company_single": {
+      "message": "Компания"
+   },
+   "configure": {
+      "message": "Настроить"
+   },
+   "contact_multiple": {
+      "message": "Контакты"
+   },
+   "contact_name": {
+      "message": "Имя контакта"
+   },
+   "contact_single": {
+      "message": "Контакт"
+   },
+   "create_new_lead": {
+      "message": "Создать сделкy"
+   },
+   "done": {
+      "message": "Готово"
+   },
+   "error_while_creating": {
+      "message": "Ошибка при создании"
+   },
+   "error_while_parsing": {
+      "message": "При парсинге произошла ошибка"
+   },
+   "field_configured_found_1": {
+      "message": "Значение настроенного поля найдено, можно создать сделку"
+   },
+   "field_configured_found_for": {
+      "message": "Найдены значения для"
+   },
+   "field_configured_found_for_all": {
+      "message": "Найдены значения для всех"
+   },
+   "field_configured_found_from": {
+      "message": "из"
+   },
+   "field_configured_not_found_1": {
+      "message": "Значение настроенного поля не найдено"
+   },
+   "field_configured_pluralized_genitive": {
+      "message": "настроенного поля,настроенных полей,настроенных поле"
+   },
+   "field_matching": {
+      "message": "Соответствие полей"
+   },
+   "field_matching_not_configured": {
+      "message": "Соответствие полей не настроено"
+   },
+   "field_matching_not_configured_descr": {
+      "message": "Нажмите кнопку «Настроить» и следуйте указаниям мастера"
+   },
+   "fields_genitive": {
+      "message": "Полей"
+   },
+   "keep_current": {
+      "message": "Оставить текущие"
+   },
+   "lead_creation_in_progress": {
+      "message": "Создаем..."
+   },
+   "lead_multiple": {
+      "message": "Сделки"
+   },
+   "lead_settings_caption": {
+      "message": "Свойства сделки"
+   },
+   "lead_settings_descr": {
+      "message": "Укажите теги и этап создаваемой сделки"
+   },
+   "lead_single": {
+      "message": "Сделка"
+   },
+   "lead_succesfully_created": {
+      "message": "Сделка успешно создана"
+   },
+   "load_preset": {
+      "message": "Загрузить пресет"
+   },
+   "login": {
+      "message": "Войти"
+   },
+   "logout": {
+      "message": "Выйти"
+   },
+   "name": {
+      "message": "Название"
+   },
+   "not": {
+      "message": "не"
+   },
+   "not_found": {
+      "message": "Не найдено"
+   },
+   "note": {
+      "message": "Примечание"
+   },
+   "open_lead_card": {
+      "message": "Перейти в карточку"
+   },
+   "parsing_in_progress": {
+      "message": "Парсинг в процессе"
+   },
+   "preset": {
+      "message": "Пресет"
+   },
+   "preset_error": {
+      "message": "Ошибка пресета"
+   },
+   "preset_no_fields_error": {
+      "message": "Отсутствует массив fields"
+   },
+   "preset_parse_error": {
+      "message": "Загруженный файл не является пресетом парсера"
+   },
+   "preset_version_not_supported": {
+      "message": "Версия, указанная в файле пресета не поддерживается"
+   },
+   "reconfigure": {
+      "message": "Перенастроить"
+   },
+   "record": {
+      "message": "Записать"
+   },
+   "remove_preset": {
+      "message": "Удалить пресет"
+   },
+   "replace": {
+      "message": "Заменить"
+   },
+   "rewrite": {
+      "message": "Перезаписать"
+   },
+   "sale": {
+      "message": "Бюджет"
+   },
+   "save": {
+      "message": "Сохранить"
+   },
+   "serialized_finish_setup": {
+      "message": "Нажмите кнопку «Готово» как только все поля будут определены"
+   },
+   "serialized_select_data_and_match": {
+      "message": "Выделите нужную информацию на странице и установите соответствие с полями amoCRM"
+   },
+   "serialized_to_add_new_field": {
+      "message": "Для добавления нового поля выделите нужную информацию"
+   },
+   "skip": {
+      "message": "Пропустить"
+   },
+   "stop": {
+      "message": "Остановить"
+   },
+   "try_again": {
+      "message": "Попробовать снова"
+   },
+   "waiting_for_clicks": {
+      "message": "Ждем отработки всех кликов..."
+   },
+   "welcome_message": {
+      "message": "Для продолжения работы необходимо войти под учетной записью amoCRM"
+   }
+}

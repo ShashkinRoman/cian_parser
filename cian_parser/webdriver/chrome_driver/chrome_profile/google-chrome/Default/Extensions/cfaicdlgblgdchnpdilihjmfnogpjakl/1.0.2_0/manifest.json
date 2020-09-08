@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/128x128.png",
+         "16": "images/16x16.png",
+         "32": "images/32x32.png",
+         "48": "images/48x48.png",
+         "64": "images/64x64.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "images/128x128.png",
+      "16": "images/16x16.png",
+      "32": "images/32x32.png",
+      "48": "images/48x48.png",
+      "64": "images/64x64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhAbM37OqrXFLv4EyWa9T3RLXHkZwBhxqBe/1uInhbVEhKmrtUrUBrg/DhYEuwPrdMsO1nhcdCnvOQsow1hHyQKv2DEcUDr7dDB0xE6x1ceVPCTJoMk/VX3NGhSaVtxmxUR67OqNJDmmW05oSK01E6BYSfp++4xesvonjHK+Nd537BCfdnd5WHTQ/OWX2tmuL7PbjFFtY7D7+1pWz7jaJEQcGDlPSqGlRnFO/toJYdsWMTEMMMEaS6Pc4298HmkjqPwo1K7suqppZC9hHSUATDqmrNhJ0ESJ//z8/rrTOwDjwxp9M7NpQtLEKt3iPsszGoho6onmb6XPtp3AQwH71VQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "activeTab", "tabs", "https://*.amocrm.ru/*/*", "https://*.amocrm.com/*/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2",
+   "web_accessible_resources": [ "preset_docs.html" ]
+}

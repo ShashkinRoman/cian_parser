@@ -72,6 +72,7 @@ def get_url_with_driver(driver, url_page, region_id, counter_repeat):
 
 def main():
     reg = ["Балаково"]
+    print('urls_parser start')
     region_city_code = check_regions(reg)
     # proxy_list = proxy_parse()
     urls_list = []
@@ -115,6 +116,7 @@ def main():
             except:
                 print(f"can't execute cycle {i}")
         driver.quit()
+        print('urls_parser start')
 
 
 

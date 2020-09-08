@@ -1,0 +1,186 @@
+{
+   "create_addFormSecretLabel": {
+      "description": "label over secret/not-secret switch",
+      "message": "Secret"
+   },
+   "create_addSection": {
+      "description": "label to add section",
+      "message": "Adaugă o secțiune de panou"
+   },
+   "create_allBoards": {
+      "description": "interstitial header in board list",
+      "message": "Toate panourile"
+   },
+   "create_chooseBoard": {
+      "description": "main header in Save form",
+      "message": "Alege panoul"
+   },
+   "create_chooseSection": {
+      "description": "label for board sections",
+      "message": "Alege secțiunea de panou"
+   },
+   "create_closeAddForm": {
+      "description": "cancel create",
+      "message": "Anulează"
+   },
+   "create_filter": {
+      "description": "placeholder text in Search input",
+      "message": "Caută"
+   },
+   "create_followButton": {
+      "description": "press this button to follow a user on Pinterest",
+      "message": "Abonare"
+   },
+   "create_msgBoardFail": {
+      "description": "board create fail",
+      "message": "Noul panou nu a putut fi creat"
+   },
+   "create_msgClose": {
+      "description": "pin create success close",
+      "message": "Închide"
+   },
+   "create_msgHelp": {
+      "description": "get help button",
+      "message": "Obține ajutor"
+   },
+   "create_msgLoginFail": {
+      "description": "Message shown when someone's login changes while the board picker is open",
+      "message": "Ne pare rău, ceva nu este tocmai în regulă aici. Verifică dacă ești conectat la Pinterest și încearcă din nou."
+   },
+   "create_msgPinFail": {
+      "description": "pin create fail",
+      "message": "Pagina nu a putut fi salvată"
+   },
+   "create_msgPinSavedTo": {
+      "description": "board identifier",
+      "message": "Salvat pe %"
+   },
+   "create_msgPromoteYourPin": {
+      "description": "Message seen by partners after they've created a new Pin, inviting them over to Pinterest to promote it.",
+      "message": "Promovează Pinul"
+   },
+   "create_msgSeeItNow": {
+      "description": "pin / board create success button",
+      "message": "Vezi acum"
+   },
+   "create_msgSeeOnPinterest": {
+      "description": "pin / board create success button when multiple images are selected",
+      "message": "Vezi pe Pinterest"
+   },
+   "create_msgSendAfterSave": {
+      "description": "pin create success button to send pin to other users",
+      "message": "Trimite"
+   },
+   "create_optNo": {
+      "description": "switch option no",
+      "message": "Nu"
+   },
+   "create_optYes": {
+      "description": "switch option yes",
+      "message": "Da"
+   },
+   "create_outerAddFormOpener": {
+      "description": "header in Create form",
+      "message": "Creează panou"
+   },
+   "create_placeholderDescription": {
+      "description": "placeholder text in Pin description",
+      "message": "Spune-ne ceva despre acest Pin..."
+   },
+   "create_placeholderFilterAddBoard": {
+      "description": "placeholder text in Create Board input",
+      "message": "Cum ar fi „Locuri de vizitat”"
+   },
+   "create_placeholderFilterAddSection": {
+      "description": "placeholder text in Create Section input",
+      "message": "Cum ar fi „Corpuri de iluminat”"
+   },
+   "create_submitAddForm": {
+      "description": "create new board",
+      "message": "Creează"
+   },
+   "create_topChoices": {
+      "description": "interstitial header in board list",
+      "message": "Alegeri de top"
+   },
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Ne pare rău, această imagine nu poate fi salvată."
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Salvează lucrurile pe care le găsești pe net."
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Butonul Pinterest „Salvează”"
+   },
+   "grid_choosePin": {
+      "description": "Header message in the image picker overlay",
+      "message": "Alege un Pin pe care să-l salvezi"
+   },
+   "grid_choosePinMultiSelectHeader": {
+      "description": "New header message in the image picker overlay",
+      "message": "Salvează o idee pe Pinterest"
+   },
+   "grid_choosePinMultiSelectSubHeader": {
+      "description": "Subheader in the image picker overlay",
+      "message": "Selectează până la zece imagini"
+   },
+   "grid_loadingMessage": {
+      "description": "Loading message while scraping images for the user",
+      "message": "Se încarcă imaginile..."
+   },
+   "grid_nextAction": {
+      "description": "Press this button to go to the Create view when multiple images are selected",
+      "message": "Continuă"
+   },
+   "logic_noPinDomain": {
+      "description": "The default message we alert when someone tries to use the browser button on a forbidden domain",
+      "message": "Ne pare rău, nu se pot adăuga Pinuri de pe acest site. Dacă ai întrebări, contactează operatorul site-ului."
+   },
+   "msgOops": {
+      "description": "error header",
+      "message": "Ups!"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Ascunde butoanele Pinterest „Salvează” suprapuse peste imagini"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Opțiuni pentru butonul „Salvează”"
+   },
+   "saveAction": {
+      "description": "Appears wherever we show a Save button or menu prompt",
+      "message": "Salvează"
+   },
+   "save_boardPickerOpenerLabel": {
+      "description": "Label in inline board picker",
+      "message": "Salvează pe panou"
+   },
+   "save_boardPickerSuccessLabel": {
+      "description": "Label in inline board picker after pin creation",
+      "message": "Salvat pe"
+   },
+   "save_help": {
+      "description": "Get help after a Pin create failure",
+      "message": "Asistență"
+   },
+   "save_visitButton": {
+      "description": "Pin create success button to visit pin",
+      "message": "Vezi site"
+   },
+   "searchAction": {
+      "description": "Appears in the right-click-to-search menu item",
+      "message": "Caută"
+   },
+   "search_failHeaderMsg": {
+      "description": "Header shown when search fails to return results",
+      "message": "Ups"
+   },
+   "search_headerMessage": {
+      "description": "Header shown when search succeeds",
+      "message": "Mai multe asemănătoare de pe Pinterest"
+   }
+}

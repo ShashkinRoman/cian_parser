@@ -1,0 +1,186 @@
+{
+   "create_addFormSecretLabel": {
+      "description": "label over secret/not-secret switch",
+      "message": "Secret"
+   },
+   "create_addSection": {
+      "description": "label to add section",
+      "message": "Add Section"
+   },
+   "create_allBoards": {
+      "description": "interstitial header in board list",
+      "message": "All boards"
+   },
+   "create_chooseBoard": {
+      "description": "main header in Save form",
+      "message": "Choose board"
+   },
+   "create_chooseSection": {
+      "description": "label for board sections",
+      "message": "Choose section"
+   },
+   "create_closeAddForm": {
+      "description": "cancel create",
+      "message": "Cancel"
+   },
+   "create_filter": {
+      "description": "placeholder text in Search input",
+      "message": "Search"
+   },
+   "create_followButton": {
+      "description": "press this button to follow a user on Pinterest",
+      "message": "Follow"
+   },
+   "create_msgBoardFail": {
+      "description": "board create fail",
+      "message": "Could not create new board"
+   },
+   "create_msgClose": {
+      "description": "pin create success close",
+      "message": "Close"
+   },
+   "create_msgHelp": {
+      "description": "get help button",
+      "message": "Get Help"
+   },
+   "create_msgLoginFail": {
+      "description": "Message shown when someone's login changes while the board picker is open",
+      "message": "Sorry, something's not quite right here. Please check that you are logged into Pinterest and try again."
+   },
+   "create_msgPinFail": {
+      "description": "pin create fail",
+      "message": "Could not save this page"
+   },
+   "create_msgPinSavedTo": {
+      "description": "board identifier",
+      "message": "Saved to %"
+   },
+   "create_msgPromoteYourPin": {
+      "description": "Message seen by partners after they've created a new Pin, inviting them over to Pinterest to promote it.",
+      "message": "Promote your Pin"
+   },
+   "create_msgSeeItNow": {
+      "description": "pin / board create success button",
+      "message": "See it now"
+   },
+   "create_msgSeeOnPinterest": {
+      "description": "pin / board create success button when multiple images are selected",
+      "message": "See on Pinterest"
+   },
+   "create_msgSendAfterSave": {
+      "description": "pin create success button to send pin to other users",
+      "message": "Send"
+   },
+   "create_optNo": {
+      "description": "switch option no",
+      "message": "No"
+   },
+   "create_optYes": {
+      "description": "switch option yes",
+      "message": "Yes"
+   },
+   "create_outerAddFormOpener": {
+      "description": "header in Create form",
+      "message": "Create board"
+   },
+   "create_placeholderDescription": {
+      "description": "placeholder text in Pin description",
+      "message": "Tell us about this Pin..."
+   },
+   "create_placeholderFilterAddBoard": {
+      "description": "placeholder text in Create Board input",
+      "message": "Such as \"Places to Go\""
+   },
+   "create_placeholderFilterAddSection": {
+      "description": "placeholder text in Create Section input",
+      "message": "Like \"Lighting\""
+   },
+   "create_submitAddForm": {
+      "description": "create new board",
+      "message": "Create"
+   },
+   "create_topChoices": {
+      "description": "interstitial header in board list",
+      "message": "Top choices"
+   },
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Sorry, this image can't be saved."
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Save the things you find on the Web."
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Pinterest Save Button"
+   },
+   "grid_choosePin": {
+      "description": "Header message in the image picker overlay",
+      "message": "Choose a Pin to save"
+   },
+   "grid_choosePinMultiSelectHeader": {
+      "description": "New header message in the image picker overlay",
+      "message": "Save an idea to Pinterest"
+   },
+   "grid_choosePinMultiSelectSubHeader": {
+      "description": "Subheader in the image picker overlay",
+      "message": "Select up to ten images"
+   },
+   "grid_loadingMessage": {
+      "description": "Loading message while scraping images for the user",
+      "message": "Loading images..."
+   },
+   "grid_nextAction": {
+      "description": "Press this button to go to the Create view when multiple images are selected",
+      "message": "Next"
+   },
+   "logic_noPinDomain": {
+      "description": "The default message we alert when someone tries to use the browser button on a forbidden domain",
+      "message": "Sorry, pinning is not allowed from this domain. Please contact the site operator if you have any questions."
+   },
+   "msgOops": {
+      "description": "error header",
+      "message": "Oops!"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Hide hovering Save buttons"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Save button options"
+   },
+   "saveAction": {
+      "description": "Appears wherever we show a Save button or menu prompt",
+      "message": "Save"
+   },
+   "save_boardPickerOpenerLabel": {
+      "description": "Label in inline board picker",
+      "message": "Save to board"
+   },
+   "save_boardPickerSuccessLabel": {
+      "description": "Label in inline board picker after pin creation",
+      "message": "Saved to"
+   },
+   "save_help": {
+      "description": "Get help after a Pin create failure",
+      "message": "Help"
+   },
+   "save_visitButton": {
+      "description": "Pin create success button to visit pin",
+      "message": "Visit"
+   },
+   "searchAction": {
+      "description": "Appears in the right-click-to-search menu item",
+      "message": "Search"
+   },
+   "search_failHeaderMsg": {
+      "description": "Header shown when search fails to return results",
+      "message": "Oops"
+   },
+   "search_headerMessage": {
+      "description": "Header shown when search succeeds",
+      "message": "More like this from Pinterest"
+   }
+}

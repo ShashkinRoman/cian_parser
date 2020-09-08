@@ -1,0 +1,186 @@
+{
+   "create_addFormSecretLabel": {
+      "description": "label over secret/not-secret switch",
+      "message": "सीक्रेट"
+   },
+   "create_addSection": {
+      "description": "label to add section",
+      "message": "अनुभाग जोड़ें"
+   },
+   "create_allBoards": {
+      "description": "interstitial header in board list",
+      "message": "सभी बोर्ड"
+   },
+   "create_chooseBoard": {
+      "description": "main header in Save form",
+      "message": "बोर्ड चुनें"
+   },
+   "create_chooseSection": {
+      "description": "label for board sections",
+      "message": "अनुभाग चुनें"
+   },
+   "create_closeAddForm": {
+      "description": "cancel create",
+      "message": "रद्द कर दें"
+   },
+   "create_filter": {
+      "description": "placeholder text in Search input",
+      "message": "खोजें"
+   },
+   "create_followButton": {
+      "description": "press this button to follow a user on Pinterest",
+      "message": "फॉलो करें"
+   },
+   "create_msgBoardFail": {
+      "description": "board create fail",
+      "message": "नया बोर्ड नहीं बनाया जा सका"
+   },
+   "create_msgClose": {
+      "description": "pin create success close",
+      "message": "बंद करें"
+   },
+   "create_msgHelp": {
+      "description": "get help button",
+      "message": "मदद प्राप्त करें"
+   },
+   "create_msgLoginFail": {
+      "description": "Message shown when someone's login changes while the board picker is open",
+      "message": "क्षमा करें, यहाँ कुछ ऐसा है जो ठीक नहीं है। कृपया जाँच कर लें कि आप Pinterest में लॉग इन हैं और फिर से कोशिश करें।"
+   },
+   "create_msgPinFail": {
+      "description": "pin create fail",
+      "message": "यह पेज सेव नहीं किया जा सका"
+   },
+   "create_msgPinSavedTo": {
+      "description": "board identifier",
+      "message": "% पर सेव कर लिया"
+   },
+   "create_msgPromoteYourPin": {
+      "description": "Message seen by partners after they've created a new Pin, inviting them over to Pinterest to promote it.",
+      "message": "अपनी पिन का प्रचार करें"
+   },
+   "create_msgSeeItNow": {
+      "description": "pin / board create success button",
+      "message": "इसे अब देखें"
+   },
+   "create_msgSeeOnPinterest": {
+      "description": "pin / board create success button when multiple images are selected",
+      "message": "Pinterest पर देखें"
+   },
+   "create_msgSendAfterSave": {
+      "description": "pin create success button to send pin to other users",
+      "message": "भेज दें"
+   },
+   "create_optNo": {
+      "description": "switch option no",
+      "message": "नहीं"
+   },
+   "create_optYes": {
+      "description": "switch option yes",
+      "message": "हाँ"
+   },
+   "create_outerAddFormOpener": {
+      "description": "header in Create form",
+      "message": "बोर्ड बनाएँ"
+   },
+   "create_placeholderDescription": {
+      "description": "placeholder text in Pin description",
+      "message": "हमें इस पिन के बारे में बताएँ"
+   },
+   "create_placeholderFilterAddBoard": {
+      "description": "placeholder text in Create Board input",
+      "message": "जैसे \"जाने के लिए स्थान\""
+   },
+   "create_placeholderFilterAddSection": {
+      "description": "placeholder text in Create Section input",
+      "message": "जैसे \"लाइटिंग\""
+   },
+   "create_submitAddForm": {
+      "description": "create new board",
+      "message": "बनाएँ"
+   },
+   "create_topChoices": {
+      "description": "interstitial header in board list",
+      "message": "मुख्य पसंद"
+   },
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "क्षमा करेंं, यह तस्वीर सेव नहीं की जा सकती है।"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "वेब पर मिलने वाली चीज़ें सेव करें।"
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Pinterest सेव करें बटन"
+   },
+   "grid_choosePin": {
+      "description": "Header message in the image picker overlay",
+      "message": "सेव करने के लिए एक पिन को चुनें"
+   },
+   "grid_choosePinMultiSelectHeader": {
+      "description": "New header message in the image picker overlay",
+      "message": "Pinterest पर कोई सुझाव सेव करें"
+   },
+   "grid_choosePinMultiSelectSubHeader": {
+      "description": "Subheader in the image picker overlay",
+      "message": "अधिकतम दस छवियाँ चुनें"
+   },
+   "grid_loadingMessage": {
+      "description": "Loading message while scraping images for the user",
+      "message": "छवियाँ लोड हो रही हैं..."
+   },
+   "grid_nextAction": {
+      "description": "Press this button to go to the Create view when multiple images are selected",
+      "message": "आगे"
+   },
+   "logic_noPinDomain": {
+      "description": "The default message we alert when someone tries to use the browser button on a forbidden domain",
+      "message": "क्षमा करें, इस डोमेन से पिन लगाने की अनुमति नहीं है। अगर आपका कोई प्रश्न हैं, तो कृपया साइट ऑपरेटर से संपर्क करें।"
+   },
+   "msgOops": {
+      "description": "error header",
+      "message": "ओह!"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "सेव करें बटन को होवर करना छुपाएँ"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "सेव करें बटन के विकल्प"
+   },
+   "saveAction": {
+      "description": "Appears wherever we show a Save button or menu prompt",
+      "message": "सेव करें"
+   },
+   "save_boardPickerOpenerLabel": {
+      "description": "Label in inline board picker",
+      "message": "बोर्ड पर सेव करें"
+   },
+   "save_boardPickerSuccessLabel": {
+      "description": "Label in inline board picker after pin creation",
+      "message": "इस पर सेव किया गया"
+   },
+   "save_help": {
+      "description": "Get help after a Pin create failure",
+      "message": "मदद"
+   },
+   "save_visitButton": {
+      "description": "Pin create success button to visit pin",
+      "message": "विज़िट करें"
+   },
+   "searchAction": {
+      "description": "Appears in the right-click-to-search menu item",
+      "message": "खोजें"
+   },
+   "search_failHeaderMsg": {
+      "description": "Header shown when search fails to return results",
+      "message": "ओह"
+   },
+   "search_headerMessage": {
+      "description": "Header shown when search succeeds",
+      "message": "Pinterest की ओर से इसके जैसी और अधिक सामग्री"
+   }
+}

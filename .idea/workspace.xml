@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;add headless and vpn in chrome_driver&quot;">
+      <change afterPath="$PROJECT_DIR$/cian_parser/management/commands/ads_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/urls_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/urls_parser.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="69e833db-6778-497b-9a6c-9866c4b44bc3" />
+  <component name="ProjectId" id="1gYSggGt0Qr0UMVz7LestJsYTWE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.cian_parser">
+    <configuration name="urls_parser" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="cian_parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cian_parser" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cian_parser/urls_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cian_parser" type="Python.DjangoServer" factoryName="Django server">
+      <module name="cian_parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cian_parser.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.cian_parser" />
+      <item itemvalue="Python.urls_parser" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="" />
+      <created>1598290146114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598290146114</updated>
+      <workItem from="1598290156137" duration="475000" />
+      <workItem from="1598350931975" duration="7414000" />
+      <workItem from="1598372378474" duration="1383000" />
+      <workItem from="1598421145490" duration="16075000" />
+      <workItem from="1598522023387" duration="3207000" />
+      <workItem from="1598525694073" duration="6211000" />
+      <workItem from="1598597359564" duration="22350000" />
+      <workItem from="1598622946303" duration="149000" />
+      <workItem from="1598624465092" duration="1251000" />
+      <workItem from="1598638444998" duration="464000" />
+      <workItem from="1598695473432" duration="4560000" />
+      <workItem from="1598853330786" duration="11653000" />
+      <workItem from="1598944585760" duration="13114000" />
+      <workItem from="1599030275593" duration="7483000" />
+      <workItem from="1599202416439" duration="3542000" />
+      <workItem from="1599474212314" duration="1956000" />
+      <workItem from="1599548732226" duration="1312000" />
+      <workItem from="1599563266456" duration="380000" />
+      <workItem from="1599564003298" duration="2951000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;firs&quot;">
+      <created>1598623048948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598623048948</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;add headless and vpn in chrome_driver&quot;">
+      <created>1599044363657</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599044363657</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;add headless and vpn in chrome_driver&quot;">
+      <created>1599044747997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599044747997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;firs&quot;" />
+    <MESSAGE value="&quot;add headless and vpn in chrome_driver&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add headless and vpn in chrome_driver&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="262" y="26" width="1076" height="850" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598608905761">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="262" y="26" width="1076" height="850" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868@0.32.1600.868" timestamp="1598608905761" />
+    <state x="586" y="172" width="424" height="488" key="FileChooserDialogImpl" timestamp="1599474626400">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="586" y="172" width="424" height="488" key="FileChooserDialogImpl/0.32.1600.868@0.32.1600.868" timestamp="1599474626400" />
+    <state x="651" y="362" width="601" height="204" key="Github.ShareDialog" timestamp="1598620692636">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="651" y="362" width="601" height="204" key="Github.ShareDialog/0.32.1600.868@0.32.1600.868" timestamp="1598620692636" />
+    <state x="559" y="149" width="477" height="630" key="Github.UntrackedFilesDialog" timestamp="1598620715449">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="559" y="149" width="477" height="630" key="Github.UntrackedFilesDialog/0.32.1600.868@0.32.1600.868" timestamp="1598620715449" />
+    <state width="1554" height="270" key="GridCell.Tab.0.bottom" timestamp="1598622154352">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1554" height="270" key="GridCell.Tab.0.bottom/0.32.1600.868@0.32.1600.868" timestamp="1598622154352" />
+    <state width="1554" height="270" key="GridCell.Tab.0.center" timestamp="1598622154352">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1554" height="270" key="GridCell.Tab.0.center/0.32.1600.868@0.32.1600.868" timestamp="1598622154352" />
+    <state width="1554" height="270" key="GridCell.Tab.0.left" timestamp="1598622154352">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1554" height="270" key="GridCell.Tab.0.left/0.32.1600.868@0.32.1600.868" timestamp="1598622154352" />
+    <state width="1554" height="270" key="GridCell.Tab.0.right" timestamp="1598622154352">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1554" height="270" key="GridCell.Tab.0.right/0.32.1600.868@0.32.1600.868" timestamp="1598622154352" />
+    <state width="1554" height="270" key="GridCell.Tab.1.bottom" timestamp="1598622154353">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1554" height="270" key="GridCell.Tab.1.bottom/0.32.1600.868@0.32.1600.868" timestamp="1598622154353" />
+    <state width="1554" height="270" key="GridCell.Tab.1.center" timestamp="1598622154353">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1554" height="270" key="GridCell.Tab.1.center/0.32.1600.868@0.32.1600.868" timestamp="1598622154353" />
+    <state width="1554" height="270" key="GridCell.Tab.1.left" timestamp="1598622154353">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1554" height="270" key="GridCell.Tab.1.left/0.32.1600.868@0.32.1600.868" timestamp="1598622154353" />
+    <state width="1554" height="270" key="GridCell.Tab.1.right" timestamp="1598622154353">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1554" height="270" key="GridCell.Tab.1.right/0.32.1600.868@0.32.1600.868" timestamp="1598622154353" />
+    <state x="292" y="73" width="1016" height="734" key="SettingsEditor" timestamp="1598954204378">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="292" y="73" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1598954204378" />
+    <state x="398" y="134" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1599567980691">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="398" y="134" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1599567980691" />
+    <state width="775" height="441" key="XDebugger.FullValuePopup" timestamp="1598954755807">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="775" height="441" key="XDebugger.FullValuePopup/0.32.1600.868@0.32.1600.868" timestamp="1598954755807" />
+    <state x="417" y="135" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598870418232">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="417" y="135" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.32.1600.868@0.32.1600.868" timestamp="1598870418232" />
+    <state x="489" y="201" width="621" height="580" key="find.popup" timestamp="1598422361719">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="489" y="201" width="621" height="580" key="find.popup/0.32.1600.868@0.32.1600.868" timestamp="1598422361719" />
+    <state x="463" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1599564586687">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="463" y="212" width="672" height="678" key="search.everywhere.popup/0.32.1600.868@0.32.1600.868" timestamp="1599564586687" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cian_parser$urls_parser.coverage" NAME="urls_parser Coverage Results" MODIFIED="1598608827976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
+  </component>
+</project>

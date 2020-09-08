@@ -1,0 +1,59 @@
+body, html{
+    font-family: verdana;
+	font-size: 12px;
+	line-height:20px;
+	color: #333;
+	background-color: #FEFEFE;
+	margin: 0;
+	text-rendering: optimizeLegibility;
+}
+#content{
+    position: relative;
+    background: #FEFEFE;
+    max-width: 728px;
+    padding: 20px;
+}
+.block{
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+}
+.share-text{
+    text-align: center;
+}
+#vk{
+    width: 32px;
+    height: 32px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('./img/vk.png');
+	margin-right: 10px;
+}
+#ok{
+    width: 32px;
+    height: 32px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('./img/ok.png');
+	margin-right: 10px;
+}
+#fb{
+    width: 32px;
+    height: 32px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('./img/fb.png');
+}
+.logo{
+    border-bottom: solid #CACACA 1px;
+    text-align: center;
+    width: 239px;
+    display: block;
+    margin: 0 auto;
+}

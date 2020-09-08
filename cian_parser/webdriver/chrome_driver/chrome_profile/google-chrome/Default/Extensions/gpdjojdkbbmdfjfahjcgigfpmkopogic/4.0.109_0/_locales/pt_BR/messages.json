@@ -1,0 +1,186 @@
+{
+   "create_addFormSecretLabel": {
+      "description": "label over secret/not-secret switch",
+      "message": "Secreta"
+   },
+   "create_addSection": {
+      "description": "label to add section",
+      "message": "Adicionar subpasta"
+   },
+   "create_allBoards": {
+      "description": "interstitial header in board list",
+      "message": "Todas as pastas"
+   },
+   "create_chooseBoard": {
+      "description": "main header in Save form",
+      "message": "Escolher pasta"
+   },
+   "create_chooseSection": {
+      "description": "label for board sections",
+      "message": "Escolher subpasta"
+   },
+   "create_closeAddForm": {
+      "description": "cancel create",
+      "message": "Cancelar"
+   },
+   "create_filter": {
+      "description": "placeholder text in Search input",
+      "message": "Pesquisar"
+   },
+   "create_followButton": {
+      "description": "press this button to follow a user on Pinterest",
+      "message": "Seguir"
+   },
+   "create_msgBoardFail": {
+      "description": "board create fail",
+      "message": "Não foi possível criar a nova pasta"
+   },
+   "create_msgClose": {
+      "description": "pin create success close",
+      "message": "Fechar"
+   },
+   "create_msgHelp": {
+      "description": "get help button",
+      "message": "Obter ajuda"
+   },
+   "create_msgLoginFail": {
+      "description": "Message shown when someone's login changes while the board picker is open",
+      "message": "Desculpe, algo não está certo aqui. Verifique se você está conectado ao Pinterest e tente novamente."
+   },
+   "create_msgPinFail": {
+      "description": "pin create fail",
+      "message": "Não foi possível salvar esta página"
+   },
+   "create_msgPinSavedTo": {
+      "description": "board identifier",
+      "message": "Salvo em %"
+   },
+   "create_msgPromoteYourPin": {
+      "description": "Message seen by partners after they've created a new Pin, inviting them over to Pinterest to promote it.",
+      "message": "Patrocine o seu Pin"
+   },
+   "create_msgSeeItNow": {
+      "description": "pin / board create success button",
+      "message": "Ver agora"
+   },
+   "create_msgSeeOnPinterest": {
+      "description": "pin / board create success button when multiple images are selected",
+      "message": "Ver no Pinterest"
+   },
+   "create_msgSendAfterSave": {
+      "description": "pin create success button to send pin to other users",
+      "message": "Enviar"
+   },
+   "create_optNo": {
+      "description": "switch option no",
+      "message": "Não"
+   },
+   "create_optYes": {
+      "description": "switch option yes",
+      "message": "Sim"
+   },
+   "create_outerAddFormOpener": {
+      "description": "header in Create form",
+      "message": "Criar pasta"
+   },
+   "create_placeholderDescription": {
+      "description": "placeholder text in Pin description",
+      "message": "Diga algo sobre este Pin..."
+   },
+   "create_placeholderFilterAddBoard": {
+      "description": "placeholder text in Create Board input",
+      "message": "Como \"Locais para ir\""
+   },
+   "create_placeholderFilterAddSection": {
+      "description": "placeholder text in Create Section input",
+      "message": "Como \"Iluminação\""
+   },
+   "create_submitAddForm": {
+      "description": "create new board",
+      "message": "Criar"
+   },
+   "create_topChoices": {
+      "description": "interstitial header in board list",
+      "message": "Principais escolhas"
+   },
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Não é possível salvar essa imagem."
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Salve conteúdo que você encontrar na Web."
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Botão Salvar do Pinterest"
+   },
+   "grid_choosePin": {
+      "description": "Header message in the image picker overlay",
+      "message": "Escolha um Pin para salvar"
+   },
+   "grid_choosePinMultiSelectHeader": {
+      "description": "New header message in the image picker overlay",
+      "message": "Salvar uma ideia no Pinterest"
+   },
+   "grid_choosePinMultiSelectSubHeader": {
+      "description": "Subheader in the image picker overlay",
+      "message": "Selecione até 10 imagens"
+   },
+   "grid_loadingMessage": {
+      "description": "Loading message while scraping images for the user",
+      "message": "Carregando imagens..."
+   },
+   "grid_nextAction": {
+      "description": "Press this button to go to the Create view when multiple images are selected",
+      "message": "Avançar"
+   },
+   "logic_noPinDomain": {
+      "description": "The default message we alert when someone tries to use the browser button on a forbidden domain",
+      "message": "Não é permitido salvar Pins deste domínio. Em caso de dúvida, entre em contato com o administrador do site."
+   },
+   "msgOops": {
+      "description": "error header",
+      "message": "Opa!"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Ocultar botões Salvar em sobreposição"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Opções do botão Salvar"
+   },
+   "saveAction": {
+      "description": "Appears wherever we show a Save button or menu prompt",
+      "message": "Salvar"
+   },
+   "save_boardPickerOpenerLabel": {
+      "description": "Label in inline board picker",
+      "message": "Salvar na pasta"
+   },
+   "save_boardPickerSuccessLabel": {
+      "description": "Label in inline board picker after pin creation",
+      "message": "Salvo em"
+   },
+   "save_help": {
+      "description": "Get help after a Pin create failure",
+      "message": "Ajuda"
+   },
+   "save_visitButton": {
+      "description": "Pin create success button to visit pin",
+      "message": "Acessar"
+   },
+   "searchAction": {
+      "description": "Appears in the right-click-to-search menu item",
+      "message": "Pesquisar"
+   },
+   "search_failHeaderMsg": {
+      "description": "Header shown when search fails to return results",
+      "message": "Opa"
+   },
+   "search_headerMessage": {
+      "description": "Header shown when search succeeds",
+      "message": "Mais ideias como esta no Pinterest"
+   }
+}
