@@ -1,15 +1,8 @@
-2020/09/02-12:05:52.356 29fd Reusing MANIFEST /home/roman/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/02-12:05:52.356 29fd Recovering log #110
-2020/09/02-12:05:52.356 29fd Reusing old log /home/roman/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000110.log 
-2020/09/02-12:06:09.738 4405 Level-0 table #114: started
-2020/09/02-12:06:09.740 4405 Level-0 table #114: 190 bytes OK
-2020/09/02-12:06:09.743 4405 Delete type=0 #110
-2020/09/02-12:06:09.743 4405 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/02-12:06:09.743 4405 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 95118 : 1
-2020/09/02-12:06:09.743 4405 Compacting 1@1 + 1@2 files
-2020/09/02-12:06:09.787 4405 Generated table #115@1: 2020 keys, 2138675 bytes
-2020/09/02-12:06:09.787 4405 Compacted 1@1 + 1@2 files => 2138675 bytes
-2020/09/02-12:06:09.789 4405 compacted to: files[ 0 0 7 0 0 0 0 ]
-2020/09/02-12:06:09.790 4405 Delete type=2 #102
-2020/09/02-12:06:09.790 4405 Delete type=2 #114
-2020/09/02-12:06:09.790 4405 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 95118 : 1 .. (end); will stop at (end)
+2020/09/09-12:10:52.543 7637 Reusing MANIFEST /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/chrome_driver/chrome_profile/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/09-12:10:52.544 7637 Recovering log #133
+2020/09/09-12:10:52.544 7637 Reusing old log /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/chrome_driver/chrome_profile/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000133.log 
+2020/09/09-12:11:19.624 7771 Level-0 table #137: started
+2020/09/09-12:11:19.624 7771 Level-0 table #137: 0 bytes OK
+2020/09/09-12:11:19.631 7771 Delete type=0 #133
+2020/09/09-12:11:19.631 7771 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/09-12:11:19.631 7771 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

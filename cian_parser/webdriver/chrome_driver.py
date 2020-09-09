@@ -23,10 +23,10 @@ class Chromedriver():
                      chrome_profile= str(bd) + os.getenv('chrome_profile_one')):
         options = Options()
         prefs = {"profile.managed_default_content_settings.images": 2}
+        options.binary_location = '/opt/google/chrome/google-chrome'
         options.add_experimental_option("prefs", prefs)
         options.add_argument('--headless')
-        # options.add_extension('/home/roman/.config/google-chrome/Default/Extensions/bibjcjfmgapbfoljiojpipaooddpkpai/1.5_0')
-        # options.add_argument("load-extension=" )
+        options.add_argument('-no-sandbox')
         options.add_argument('user-data-dir=' + chrome_profile)
         self.driver = webdriver.Chrome(executable_path=path, options=options)
         return self.driver
