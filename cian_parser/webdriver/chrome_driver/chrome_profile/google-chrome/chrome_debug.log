@@ -1,17 +1,10 @@
-[405:442:0909/121820.660266:ERROR:token_service_table.cc(140)] Failed to decrypt token for service AccountId-115263091873618818575
-[405:446:0909/121820.672206:INFO:login_database.cc(1427)] Password decryption failed, encryption_result is 2
-[441:441:0909/121820.691671:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
-[405:405:0909/121821.104755:INFO:CONSOLE(1185)] "@env.mode production", source: chrome-extension://hipncndjamdcmphkgngojegjblibadbe/scripts/background.js (1185)
-[444:462:0909/121823.016598:WARNING:spdy_session.cc(3299)] Received WINDOW_UPDATE for invalid stream 1
-[444:462:0909/121823.017485:WARNING:spdy_session.cc(3299)] Received WINDOW_UPDATE for invalid stream 3
-[444:462:0909/121828.003129:WARNING:spdy_session.cc(3299)] Received WINDOW_UPDATE for invalid stream 1
-[444:462:0909/121828.033550:WARNING:spdy_session.cc(3299)] Received WINDOW_UPDATE for invalid stream 3
-[444:462:0909/121832.423999:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
-[405:405:0909/121839.220763:INFO:CONSOLE(1)] "Speedmeter loaded.", source: https://2ip.ru/js/speed-2017.min.js?v=1 (1)
-[405:432:0909/121840.668353:INFO:login_database.cc(1427)] Password decryption failed, encryption_result is 2
-[444:462:0909/121845.480185:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
-[444:462:0909/121848.293466:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
-[444:462:0909/121850.854187:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
-[444:462:0909/121858.791645:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
-[444:462:0909/121859.045438:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
-[405:420:0909/121919.204206:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -111
+[16565:16598:0911/094706.464561:ERROR:token_service_table.cc(140)] Failed to decrypt token for service AccountId-115263091873618818575
+[16565:16589:0911/094706.480142:INFO:login_database.cc(1427)] Password decryption failed, encryption_result is 2
+[16597:16597:0911/094706.510460:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[16565:16580:0911/094708.462877:ERROR:service_worker_storage.cc(1599)] Failed to delete the database: Database IO error
+[16565:16565:0911/094714.423559:INFO:CONSOLE(1)] "Speedmeter loaded.", source: https://2ip.ru/js/speed-2017.min.js?v=1 (1)
+[16565:16605:0911/094726.476968:INFO:login_database.cc(1427)] Password decryption failed, encryption_result is 2
+[16565:16580:0911/100154.708032:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[16565:16580:0911/100217.007871:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -111
+[16565:16580:0911/101749.389561:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[16565:16580:0911/102403.842723:ERROR:socket_stream.cc(219)] Closing stream with result -2
