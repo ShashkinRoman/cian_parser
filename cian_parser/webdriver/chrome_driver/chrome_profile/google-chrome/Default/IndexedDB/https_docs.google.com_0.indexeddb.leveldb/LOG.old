@@ -1,8 +1,0 @@
-2020/09/09-12:10:52.543 7637 Reusing MANIFEST /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/chrome_driver/chrome_profile/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/09-12:10:52.544 7637 Recovering log #133
-2020/09/09-12:10:52.544 7637 Reusing old log /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/chrome_driver/chrome_profile/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000133.log 
-2020/09/09-12:11:19.624 7771 Level-0 table #137: started
-2020/09/09-12:11:19.624 7771 Level-0 table #137: 0 bytes OK
-2020/09/09-12:11:19.631 7771 Delete type=0 #133
-2020/09/09-12:11:19.631 7771 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/09-12:11:19.631 7771 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

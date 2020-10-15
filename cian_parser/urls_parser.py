@@ -46,13 +46,14 @@ def get_urls_from_page(url, urls_list, counter_ads, region_id, proxy_list):
 def get_url_with_driver(driver, url_page, region_id, counter_repeat):
     driver.get(url_page)
     urls = driver.find_elements_by_class_name('c6e8ba5398--offer-container--2sOFx')
+    counter = 0
     for u in urls:
         try:
             url_obj = u.find_element_by_class_name('c6e8ba5398--header--1fV2A')
             url = url_obj.get_attribute('href')
             try:
                 UrlsAds.objects.get(url=url)
-                counter_repeat += 1
+                counter += 1
                 # if counter_repeat > 20:
                 #     break
                 # print(f"repeat {counter_repeat}")
@@ -68,10 +69,12 @@ def get_url_with_driver(driver, url_page, region_id, counter_repeat):
                 print(f"{phone}, {url} added")
         except:
             print(f"for {u} urls not parsed")
+    if counter > 25:
+        counter_repeat += 1
     return counter_repeat
 
 def main():
-    reg = ["Балаково"]
+    reg = ["Энгельс"]
     print('urls_parser start')
     region_city_code = check_regions(reg)
     # proxy_list = proxy_parse()
@@ -89,11 +92,12 @@ def main():
         print(url)
         counter_repeat = 0
         for i in range(1, 55):
-            if counter_repeat > 50:
+            if counter_repeat > 5:
                 break
             print(f'{counter_repeat} counter repeat')
             sleep(random.randint(3, 7))
             try:
+                # start = UrlsAds.objects.all()
                 url_page = url[0] + str(i) + url[1]
                 region_id = url[2]
                 # start = len(urls_ads_list)
@@ -116,7 +120,7 @@ def main():
             except:
                 print(f"can't execute cycle {i}")
         driver.quit()
-        print('urls_parser start')
+        print('urls_parser end')
 
 
 

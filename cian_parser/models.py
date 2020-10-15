@@ -24,6 +24,10 @@ class UrlsAds(models.Model):
     def __str__(self):
         return f"{self.phone}, {Regions.region}, {self.date}, {self.url}"
 
+
+#
+# class Rieltors(models.Model):
+
 #
 # class InformationFromAds(models.Model):
 #     phone = models.CharField(verbose_name="Телефон", max_length=255)
@@ -46,6 +50,7 @@ class UrlsAds(models.Model):
 
 class InformationFromAds(models.Model):
     phone = models.CharField(verbose_name="Телефон", max_length=255, default='None')
+    region = models.ForeignKey("Regions", on_delete=models.CASCADE)
     price = models.CharField(verbose_name="Цена", max_length=255, default="None")
     url = models.OneToOneField("UrlsAds", related_name="url_ads", on_delete=models.CASCADE)
     house_info = models.CharField(verbose_name="Информация о доме", max_length=255, default='None')
@@ -54,6 +59,7 @@ class InformationFromAds(models.Model):
     description = models.CharField(verbose_name="Описание", max_length=255, default='None')
     offer_tittle = models.CharField(verbose_name="Заголовок объявления", max_length=255, default='None')
     geo = models.CharField(verbose_name="Адрес", max_length=255, default='None')
+    seller_info = models.CharField(verbose_name="Информация о продавце", max_length=255, default='None')
 
     def __str__(self):
         return f"{self.phone}, {self.price}, {self.house_info}, " \

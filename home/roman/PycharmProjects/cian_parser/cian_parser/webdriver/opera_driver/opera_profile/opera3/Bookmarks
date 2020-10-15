@@ -1,0 +1,82 @@
+{
+   "checksum": "393e9932db5daf0e9e9b855e3d6171da",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13247231630341135",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Панель закладок",
+         "type": "folder"
+      },
+      "custom_root": {
+         "speedDial": {
+            "children": [ {
+               "children": [  ],
+               "date_added": "13247231630563008",
+               "date_modified": "13247231630563008",
+               "guid": "7e4fadcb-6595-4e5f-903a-aca1698621c5",
+               "id": "8",
+               "meta_info": {
+                  "speed_dial_root_folder_guid": "6120f9a6-de3d-4b27-adbd-77081f09bc54"
+               },
+               "name": "hp-envy360",
+               "type": "folder"
+            } ],
+            "date_added": "13247231630418089",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000904",
+            "id": "6",
+            "name": "Speed Dials",
+            "type": "folder"
+         },
+         "trash": {
+            "children": [  ],
+            "date_added": "13247231630418091",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000905",
+            "id": "7",
+            "name": "Корзина",
+            "type": "folder"
+         },
+         "unsorted": {
+            "children": [  ],
+            "date_added": "13247231630418079",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000901",
+            "id": "4",
+            "name": "Несортированные закладки",
+            "type": "folder"
+         },
+         "userRoot": {
+            "children": [  ],
+            "date_added": "13247231630418086",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000902",
+            "id": "5",
+            "name": "Другие закладки",
+            "type": "folder"
+         }
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13247231630341143",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Импортированные закладки",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13247231630341145",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Моб. закладки",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

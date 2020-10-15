@@ -1,8 +1,0 @@
-2020/09/11-08:20:09.325 71a5 Reusing MANIFEST /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/chrome_driver/chrome_profile/google-chrome/Default/IndexedDB/https_rusvpn.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/11-08:20:09.325 71a5 Recovering log #4
-2020/09/11-08:20:09.325 71a5 Reusing old log /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/chrome_driver/chrome_profile/google-chrome/Default/IndexedDB/https_rusvpn.com_0.indexeddb.leveldb/000004.log 
-2020/09/11-08:24:22.236 76eb Level-0 table #8: started
-2020/09/11-08:24:22.236 76eb Level-0 table #8: 0 bytes OK
-2020/09/11-08:24:22.239 76eb Delete type=0 #4
-2020/09/11-08:24:22.240 76eb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/11-08:24:22.240 76eb Manual compaction at level-1 from (begin) .. (end); will stop at (end)

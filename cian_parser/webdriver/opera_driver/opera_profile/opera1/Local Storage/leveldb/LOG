@@ -1,18 +1,42 @@
-2020/09/02-07:21:54.515 1486 Reusing MANIFEST /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/MANIFEST-000001
-2020/09/02-07:21:54.515 1486 Recovering log #77
-2020/09/02-07:21:54.516 1486 Reusing old log /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/000077.log 
-2020/09/02-07:22:08.410 15f1 Level-0 table #80: started
-2020/09/02-07:22:08.416 15f1 Level-0 table #80: 9059 bytes OK
-2020/09/02-07:22:08.420 15f1 Delete type=0 #77
-2020/09/02-07:22:08.420 15f1 Compacting 4@0 + 1@1 files
-2020/09/02-07:22:08.429 15f1 Generated table #81@0: 308 keys, 21607 bytes
-2020/09/02-07:22:08.429 15f1 Compacted 4@0 + 1@1 files => 21607 bytes
-2020/09/02-07:22:08.434 15f1 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/09/02-07:22:08.435 15f1 Delete type=2 #70
-2020/09/02-07:22:08.435 15f1 Delete type=2 #80
-2020/09/02-07:22:08.435 15f1 Delete type=2 #72
-2020/09/02-07:22:08.435 15f1 Delete type=2 #76
-2020/09/02-07:22:08.435 15f1 Delete type=2 #74
-2020/09/02-07:34:59.519 15f1 Level-0 table #83: started
-2020/09/02-07:34:59.528 15f1 Level-0 table #83: 12085 bytes OK
-2020/09/02-07:34:59.532 15f1 Delete type=0 #79
+2020/10/05-10:44:11.068 1e3b Reusing MANIFEST /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/MANIFEST-000001
+2020/10/05-10:44:11.068 1e3b Recovering log #368
+2020/10/05-10:44:11.068 1e3b Reusing old log /home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/000368.log 
+2020/10/05-10:45:13.364 1f8e Level-0 table #372: started
+2020/10/05-10:45:13.374 1f8e Level-0 table #372: 20030 bytes OK
+2020/10/05-10:45:13.380 1f8e Delete type=0 #368
+2020/10/05-10:45:13.380 1f8e Compacting 4@0 + 1@1 files
+2020/10/05-10:45:13.390 1f8e Generated table #373@0: 311 keys, 31037 bytes
+2020/10/05-10:45:13.390 1f8e Compacted 4@0 + 1@1 files => 31037 bytes
+2020/10/05-10:45:13.399 1f8e compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/10/05-10:45:13.400 1f8e Delete type=2 #372
+2020/10/05-10:45:13.400 1f8e Delete type=2 #363
+2020/10/05-10:45:13.401 1f8e Delete type=2 #367
+2020/10/05-10:45:13.401 1f8e Delete type=2 #369
+2020/10/05-10:45:13.401 1f8e Delete type=2 #365
+2020/10/05-10:47:13.364 1f8e Level-0 table #375: started
+2020/10/05-10:47:13.368 1f8e Level-0 table #375: 20117 bytes OK
+2020/10/05-10:47:13.371 1f8e Delete type=0 #371
+2020/10/05-10:49:13.364 1f8e Level-0 table #377: started
+2020/10/05-10:49:13.368 1f8e Level-0 table #377: 20308 bytes OK
+2020/10/05-10:49:13.372 1f8e Delete type=0 #374
+2020/10/05-10:51:13.364 1f8e Level-0 table #379: started
+2020/10/05-10:51:13.368 1f8e Level-0 table #379: 20588 bytes OK
+2020/10/05-10:51:13.372 1f8e Delete type=0 #376
+2020/10/05-10:53:13.364 1f8e Level-0 table #381: started
+2020/10/05-10:53:13.370 1f8e Level-0 table #381: 20861 bytes OK
+2020/10/05-10:53:13.374 1f8e Delete type=0 #378
+2020/10/05-10:53:13.374 1f8e Compacting 4@0 + 1@1 files
+2020/10/05-10:53:13.379 1f8e Generated table #382@0: 311 keys, 31528 bytes
+2020/10/05-10:53:13.379 1f8e Compacted 4@0 + 1@1 files => 31528 bytes
+2020/10/05-10:53:13.382 1f8e compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/10/05-10:53:13.382 1f8e Delete type=2 #381
+2020/10/05-10:53:13.382 1f8e Delete type=2 #373
+2020/10/05-10:53:13.382 1f8e Delete type=2 #379
+2020/10/05-10:53:13.382 1f8e Delete type=2 #377
+2020/10/05-10:53:13.382 1f8e Delete type=2 #375
+2020/10/05-10:54:57.374 1f8e Level-0 table #384: started
+2020/10/05-10:54:57.378 1f8e Level-0 table #384: 21113 bytes OK
+2020/10/05-10:54:57.381 1f8e Delete type=0 #380
+2020/10/05-10:57:13.363 1f8e Level-0 table #386: started
+2020/10/05-10:57:13.367 1f8e Level-0 table #386: 21722 bytes OK
+2020/10/05-10:57:13.370 1f8e Delete type=0 #383

@@ -1,16 +1,16 @@
 from django.contrib.auth.models import User, Group
-from rest_framework import serializers
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import serializers, filters
 from cian_parser.models import InformationFromAds, UrlsAds
 
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
+class InformationFromAdsSerializer(serializers.ModelSerializer):
     class Meta:
         model = InformationFromAds
-        fields = ['phone', 'price', 'url', 'house_info', 'general_information',
-                  'description_info', 'description', 'offer_tittle', 'geo']
+        exclude = ()
 
 
-class GroupSerializer(serializers.HyperlinkedModelSerializer):
+class UrlsAdsSerializer(serializers.ModelSerializer):
     class Meta:
         model = UrlsAds
         fields = ['region', 'request', 'date', 'url', 'status', 'phone']

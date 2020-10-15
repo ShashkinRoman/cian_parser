@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="db" uuid="1a979dd0-d404-40df-b827-774393cbc2e5">
-      <driver-ref>sqlite.xerial</driver-ref>
+      <driver-ref>8a99504c-d420-4586-b2c4-4c68affd7b10</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
@@ -11,6 +11,30 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="engels" uuid="509d661e-9a68-4096-bad5-1ad36bb04af9">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/engels.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL_copy_prod_beautybox" uuid="e8c6787a-56ea-4ed9-ab0d-1c486554884d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/copy_prod_beautybox</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="bb_prod" uuid="29fc47b2-89ba-4735-8ace-be58ad8a46db">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/beautybox_crm</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cian_parser@localhost" uuid="59e0f154-b5a5-49aa-ab7e-ea676f9ff865">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/cian_parser</jdbc-url>
     </data-source>
   </component>
 </project>

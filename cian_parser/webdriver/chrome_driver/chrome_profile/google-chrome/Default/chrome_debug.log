@@ -1,3 +1,0 @@
-[0911/102750.607492:ERROR:service_worker_storage.cc(1599)] Failed to delete the database: Database IO error
-[0911/102755.776523:INFO:CONSOLE(1)] "Speedmeter loaded.", source: https://2ip.ru/js/speed-2017.min.js?v=1 (1)
-[0911/102755.816699:INFO:CONSOLE(64)] "Uncaught TagError: adsbygoogle.push() error: No slot size for availableWidth=0", source: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js (64)

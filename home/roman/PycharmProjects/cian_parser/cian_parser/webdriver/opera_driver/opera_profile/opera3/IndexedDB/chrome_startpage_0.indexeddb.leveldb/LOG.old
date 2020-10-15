@@ -1,0 +1,8 @@
+2020/10/15-14:14:30.113 5978 Reusing MANIFEST /home/roman/PycharmProjects/cian_parser/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/IndexedDB/chrome_startpage_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/15-14:14:30.113 5978 Recovering log #13
+2020/10/15-14:14:30.114 5978 Reusing old log /home/roman/PycharmProjects/cian_parser/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/IndexedDB/chrome_startpage_0.indexeddb.leveldb/000013.log 
+2020/10/15-14:14:35.626 5bf6 Level-0 table #17: started
+2020/10/15-14:14:35.626 5bf6 Level-0 table #17: 0 bytes OK
+2020/10/15-14:14:35.634 5bf6 Delete type=0 #13
+2020/10/15-14:14:35.635 5bf6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/15-14:14:35.635 5bf6 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

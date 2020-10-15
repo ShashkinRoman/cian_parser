@@ -1,5 +1,0 @@
-[2869:2869:0901/121045.721062:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
-[2871:2881:0901/121051.873723:WARNING:spdy_session.cc(3352)] Received HEADERS for invalid stream 1
-[2833:2833:0901/121058.662267:INFO:CONSOLE(1)] "Speedmeter loaded.", source: https://2ip.ru/js/speed-2017.min.js?v=1 (1)
-[2833:2833:0901/121058.845084:INFO:CONSOLE(64)] "Uncaught TagError: adsbygoogle.push() error: No slot size for availableWidth=0", source: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js (64)
-[2833:2833:0901/121453.003200:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

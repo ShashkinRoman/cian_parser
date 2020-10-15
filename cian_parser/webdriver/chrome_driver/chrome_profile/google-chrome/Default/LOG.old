@@ -1,6 +1,0 @@
-2020/09/11-09:32:30.664 37ef Recovering log #36
-2020/09/11-09:32:30.664 37ef Level-0 table #38: started
-2020/09/11-09:32:30.669 37ef Level-0 table #38: 3424 bytes OK
-2020/09/11-09:32:30.680 37ef Delete type=3 #35
-2020/09/11-09:32:30.680 37ef Delete type=0 #36
-2020/09/11-09:32:30.684 383e Moved #30 to level-1 3447 bytes OK: files[ 3 3 0 0 0 0 0 ]
