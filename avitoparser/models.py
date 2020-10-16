@@ -1,6 +1,7 @@
 from django.db import models
 from datetime import datetime
 
+
 class RegionsAvito(models.Model):
     city = models.CharField(verbose_name="Город", max_length=255, default="Null")
     domen = models.CharField(verbose_name="Город в URL", max_length=255, default="Null")
@@ -11,16 +12,16 @@ class RegionsAvito(models.Model):
 class InfoAboutAdsAvito(models.Model):
     price = models.IntegerField(verbose_name="Цена")
     date = models.DateTimeField(verbose_name="Дата парсинга информации", default=datetime.now())
-    city = models.CharField(verbose_name="Город из заголовка", max_length=253)
-    type_object = models.CharField(verbose_name="Тип объекта", max_length=254)
-    type_ads = models.CharField(verbose_name="Тип сделки", max_length=261)
-    type_flat = models.CharField(verbose_name="Количество комнат", max_length=260)
-    type_house = models.CharField(verbose_name="Тип дома", max_length=259)
+    city = models.CharField(verbose_name="Город из заголовка", max_length=255)
+    type_object = models.CharField(verbose_name="Тип объекта", max_length=255)
+    type_ads = models.CharField(verbose_name="Тип сделки", max_length=255)
+    type_flat = models.CharField(verbose_name="Количество комнат", max_length=255)
+    type_house = models.CharField(verbose_name="Тип дома", max_length=255)
     title = models.CharField(verbose_name="Заголовок", max_length=1000)
-    phone = models.CharField(verbose_name='Телефон', max_length=258)
-    created = models.CharField(verbose_name="Дата создания", max_length=257)
+    phone = models.CharField(verbose_name='Телефон', max_length=255)
+    created = models.CharField(verbose_name="Дата создания", max_length=255)
     owner_info = models.CharField(verbose_name="Информация о владельце", max_length=1000)
-    contact_name = models.CharField(verbose_name="Контактное лицо", max_length=256)
+    contact_name = models.CharField(verbose_name="Контактное лицо", max_length=255)
     param_info = models.CharField(verbose_name="Параметры квартиры", max_length=3000)
     # todo сделать gis поле
     address = models.CharField(verbose_name="Адрес", max_length=1000)

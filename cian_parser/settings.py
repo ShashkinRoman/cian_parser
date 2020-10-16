@@ -96,11 +96,11 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cian_parser',
-        'USER': 'roman',
-        'PASSWORD': 'bymars212',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': os.getenv('DATEBASE'),
+        'USER': os.getenv('USER'),
+        'PASSWORD': os.getenv('PASSWORD'),
+        'HOST': os.getenv('HOST'),
+        'PORT': os.getenv('PORT'),
     }
     # 'default': {
     #     'ENGINE': 'django.db.backends.sqlite3',

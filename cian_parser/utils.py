@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from cian_parser.models import UrlsAds, Regions
-from fp.fp import FreeProxy
 
 
 def proxy_parse():

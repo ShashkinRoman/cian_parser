@@ -12,4 +12,4 @@ def find_all_unique_phone():
     return phones
 
 
-def rieltor_reports(phones):
+# def rieltor_reports(phones):

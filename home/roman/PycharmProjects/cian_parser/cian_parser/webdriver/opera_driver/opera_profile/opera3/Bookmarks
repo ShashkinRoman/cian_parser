@@ -1,5 +1,5 @@
 {
-   "checksum": "393e9932db5daf0e9e9b855e3d6171da",
+   "checksum": "aab3b15b0658550d45edd061469508e8",
    "roots": {
       "bookmark_bar": {
          "children": [  ],
@@ -13,9 +13,199 @@
       "custom_root": {
          "speedDial": {
             "children": [ {
-               "children": [  ],
+               "children": [ {
+                  "date_added": "13247326697606390",
+                  "guid": "4b0e803a-4145-4739-93e0-bb748f62c867",
+                  "id": "9",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/3b744670f988de6098cb299066f49272713f30c0.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/7be02a113b7a8e69f97b3c09427a26771afcf7be.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "yandex_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/7be02a113b7a8e69f97b3c09427a26771afcf7be.png",
+                     "partner_url": "http://www.yandex.ru/?clid=9403",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/yandex_ru",
+                     "revision": "20200327",
+                     "server_position": "1"
+                  },
+                  "name": "Яндекс",
+                  "type": "url",
+                  "url": "http://www.yandex.ru/"
+               }, {
+                  "date_added": "13247326697614067",
+                  "guid": "e66e6ba9-72fa-4541-8058-2f8f1e82b262",
+                  "id": "10",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/8229c597dc4b76d9614dc52198ac4e298eeb78e5.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/9e1db663a202ef887cac2ddaf874f6650533f069.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "google_search_ru_en",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/9e1db663a202ef887cac2ddaf874f6650533f069.png",
+                     "partner_url": "https://www.google.ru/search?client=opera&sourceid=opera",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/google_search_ru_en",
+                     "revision": "20171003",
+                     "server_position": "2"
+                  },
+                  "name": "Google Search",
+                  "type": "url",
+                  "url": "https://www.google.ru/"
+               }, {
+                  "date_added": "13247326697621858",
+                  "guid": "9c54d065-976b-43fc-83c7-b4544442d34e",
+                  "id": "11",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/609fa7dfdac6e13e43d220628faf73eb0bc67ff2.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/599423f462d2b4441842d9855493917934da2cf9.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "aliexpress_com_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/599423f462d2b4441842d9855493917934da2cf9.png",
+                     "partner_url": "https://alitems.com/g/1e8d114494a47a83735c16525dc3e8/?subid=SD_ru&ulp=https%3A%2F%2Fbest.aliexpress.ru%2F%3Flan%3Dpl%26aff_platform%3Dlink-c-tool%26sk%3De1nGdFoc%26aff_trace_key%3D674ea68621724843851002c09979ee46-1602759268406-08778-e1nGdFoc%26terminal_id%3D79ea4dc1593a48779c511401e7a80ff3",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/aliexpress_com_ru",
+                     "revision": "20191110",
+                     "server_position": "3"
+                  },
+                  "name": "AliExpress",
+                  "type": "url",
+                  "url": "http://aliexpress.com/"
+               }, {
+                  "date_added": "13247326697627900",
+                  "guid": "a145e2d1-eb49-48bd-8697-6c8355783094",
+                  "id": "12",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/4ae9f19cdba6ae3eb01ce93721cb065c2e4d1e50.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/be52714a9d908855b605aa7091e0b98b9be3e253.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "auto_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/be52714a9d908855b605aa7091e0b98b9be3e253.png",
+                     "partner_url": "https://auto.ru/?from=opera_speeddial&utm_source=opera_speeddial",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/auto_ru",
+                     "revision": "20171003",
+                     "server_position": "4"
+                  },
+                  "name": "Авто.ру",
+                  "type": "url",
+                  "url": "https://auto.ru/"
+               }, {
+                  "date_added": "13247326697633192",
+                  "guid": "c4a8e48e-7cb4-4c5b-b029-a9fe2e5608c4",
+                  "id": "13",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/0ce91ae15c76d85e88cf41849a6365b965798086.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/99a0c08c0d76ff286ba1a16c6325304ebc359bac.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "rambler_ru_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/99a0c08c0d76ff286ba1a16c6325304ebc359bac.png",
+                     "partner_url": "http://www.rambler.ru/?utm_source=r10&utm_medium=distribution&utm_content=e01&utm_campaign=a13&_openstat=b3BlcmE7OztzcGVlZGRpYWw",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/rambler_ru_ru",
+                     "revision": "20171003",
+                     "server_position": "5"
+                  },
+                  "name": "Рамблер",
+                  "type": "url",
+                  "url": "http://www.rambler.ru/"
+               }, {
+                  "date_added": "13247326697638738",
+                  "guid": "dff717e5-75dd-4f54-980a-59ffcac10900",
+                  "id": "14",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/a07ea74aa0b3aae5b7dc37789a2e834b1e883060.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/bd1ec98a8b358bc0cf68cad5a59c192b56d12dfc.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "booking_com_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/bd1ec98a8b358bc0cf68cad5a59c192b56d12dfc.png",
+                     "partner_url": "https://www.booking.com/index.html?aid=343337&label=operasoft-sdO15-343337&utm_source=Opera&utm_medium=web&utm_campaign=sdO15",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/booking_com_ru",
+                     "revision": "20200710",
+                     "server_position": "6"
+                  },
+                  "name": "Бронирование отелей",
+                  "type": "url",
+                  "url": "https://www.booking.com/"
+               }, {
+                  "date_added": "13247326697643503",
+                  "guid": "67750903-09e4-4993-869a-c22d03940e48",
+                  "id": "15",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/de3e9b85ef56ebbf7ce7deae71794230471dcbfa.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/8080a5f6d9858c7b395873d4f865edb276475247.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "bonprix_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/8080a5f6d9858c7b395873d4f865edb276475247.png",
+                     "partner_url": "https://pafutos.com/g/cdibpcgxqea47a83735c88443d9e35/?subid=RU_SD",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/bonprix_ru",
+                     "revision": "20171003",
+                     "server_position": "9"
+                  },
+                  "name": "Bonprix",
+                  "type": "url",
+                  "url": "https://www.bonprix.ru/"
+               }, {
+                  "date_added": "13247326697645303",
+                  "guid": "460f4b6a-1118-4f15-abff-0d93babd9bb3",
+                  "id": "16",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/9cfc0f0655ef1c6b98a58e595fdce6ac02e97a8a.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/858c848c6ce2255c851c7d32291c860b3ff257e9.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "mvideo_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/858c848c6ce2255c851c7d32291c860b3ff257e9.png",
+                     "partner_url": "https://ad.admitad.com/g/c9f1ad68bca47a83735c3a3184f61a/",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/mvideo_ru",
+                     "revision": "20200424",
+                     "server_position": "14"
+                  },
+                  "name": "М.Видео",
+                  "type": "url",
+                  "url": "https://www.mvideo.ru/"
+               }, {
+                  "date_added": "13247326697647147",
+                  "guid": "a76b0c56-bf8e-464d-b50a-572a41e7963c",
+                  "id": "17",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/da60221f767462d6b402c22512f0516eca300f0d.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/cfa87232cf830b7c31f22760ed8132a4628d7b95.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "worldofwarships_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/cfa87232cf830b7c31f22760ed8132a4628d7b95.png",
+                     "partner_url": "https://redir.wargaming.net/5sd4ga86/?pub_id=SpeedDial_Ru",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/worldofwarships_ru",
+                     "revision": "20200616",
+                     "server_position": "15"
+                  },
+                  "name": "World of Warships",
+                  "type": "url",
+                  "url": "https://redir.wargaming.net/"
+               }, {
+                  "date_added": "13247326697649282",
+                  "guid": "5925f33f-7f7f-482e-a646-e13e718f4b69",
+                  "id": "18",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/8b8c6b974eba4571acec86d747c00b1c45e50d22.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/24f18a7c8215fb2d9708b4d5a7618fc77b1ca54a.png",
+                     "imageDataType": "2",
+                     "imageType": "2",
+                     "partner_id": "raidshadows_ru",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/24f18a7c8215fb2d9708b4d5a7618fc77b1ca54a.png",
+                     "partner_url": "https://plarium.com/landings/ru/desktop/raid/beginners_tips_mr_droapp?plid=340509&pxl=opera_browser&clickId={}&publisherId={}&placement={}",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/raidshadows_ru",
+                     "revision": "20200910",
+                     "server_position": "16"
+                  },
+                  "name": "Raid Shadow Legends",
+                  "type": "url",
+                  "url": "https://plarium.com/"
+               } ],
                "date_added": "13247231630563008",
-               "date_modified": "13247231630563008",
+               "date_modified": "13247326697649282",
                "guid": "7e4fadcb-6595-4e5f-903a-aca1698621c5",
                "id": "8",
                "meta_info": {
