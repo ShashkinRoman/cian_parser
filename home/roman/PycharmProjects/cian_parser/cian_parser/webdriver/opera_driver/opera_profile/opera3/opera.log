@@ -1,65 +1,33 @@
-[23885:23885:1015/141447.037227:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
-[23783:23783:1015/141447.084312:WARNING:load_error_reporter.cc(78)] Extension error: Не удалось загрузить расширение с адреса: . Файл манифеста отсутствует или недоступен для чтения
-[23783:23783:1015/141447.899108:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141447.900141:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141447.904676:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141447.905526:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.033414:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.033537:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.033618:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.036123:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.036316:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.036410:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.036736:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.036901:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.040708:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.040909:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.041092:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[23783:23783:1015/141448.041302:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24406:1:1015/141449.572907:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[23783:23783:1015/141450.316900:INFO:CONSOLE(90)] "Error while sending bulk events TypeError: Failed to fetch", source: https://desktop-static.operacdn.com/zenlib/2.448.2/opera/app.chromium.ru.bundle.js (90)
-[23996:13:1015/141451.540100:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
-[23996:13:1015/141451.540189:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 125
-[23996:13:1015/141451.540224:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 110 to 124
-[23996:13:1015/141451.540255:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 112 to 123
-[23996:13:1015/141451.540286:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 122
-[23996:13:1015/141451.540323:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 121
-[23996:13:1015/141451.540364:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 120
-[23996:13:1015/141451.540409:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 111 to 119
-[23996:13:1015/141451.540441:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 118
-[24428:1:1015/141451.743336:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[23996:13:1015/141451.912457:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
-[23996:13:1015/141451.912589:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 125
-[23996:13:1015/141451.912673:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 110 to 124
-[23996:13:1015/141451.912723:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 112 to 123
-[23996:13:1015/141451.912777:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 122
-[23996:13:1015/141451.912842:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 121
-[23996:13:1015/141451.912896:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 120
-[23996:13:1015/141451.912972:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 111 to 119
-[23996:13:1015/141451.913018:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 118
-[23996:13:1015/141452.216155:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
-[23996:13:1015/141452.216273:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 125
-[23996:13:1015/141452.216329:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 110 to 124
-[23996:13:1015/141452.216372:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 112 to 123
-[23996:13:1015/141452.216422:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 122
-[23996:13:1015/141452.216477:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 121
-[23996:13:1015/141452.216523:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 120
-[23996:13:1015/141452.216578:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 111 to 119
-[23996:13:1015/141452.216623:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 118
-[24478:1:1015/141452.444807:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[23783:23783:1015/141452.460597:INFO:CONSOLE(7)] "R-A-419506-55", source:  (7)
-[23783:23783:1015/141452.695775:INFO:CONSOLE(420)] "Powered by AMP ⚡ HTML – Version 2009282107000 https://www.avito.ru/syzran/kvartiry/2-k_kvartira_57_m_1316_et._1940327354", source: https://cdn.ampproject.org/rtv/012009282107000/amp4ads-v0.js (420)
-[23783:23783:1015/141452.731902:INFO:CONSOLE(7)] "R-A-419506-15", source:  (7)
-[24494:1:1015/141453.303629:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[23783:23783:1015/141453.462642:INFO:CONSOLE(1)] "chrome.loadTimes() is deprecated, instead use standardized API: Paint Timing. https://www.chromestatus.com/features/5637885046816768.", source: https://static.avito.ru/s/cc/bundles/eae18ca0ebaf027a64b8.js (1)
-[24428:12:1015/141455.101851:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
-[24428:12:1015/141455.115329:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 125
-[24428:12:1015/141455.115406:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 110 to 124
-[24428:12:1015/141455.115468:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 112 to 123
-[24428:12:1015/141455.115530:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 122
-[24428:12:1015/141455.115610:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 121
-[24428:12:1015/141455.115774:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 120
-[24428:12:1015/141455.115971:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 111 to 119
-[24428:12:1015/141455.116295:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 118
-[24526:1:1015/141455.159941:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[23783:23783:1015/141547.007083:WARNING:protocol_impl.cc(277)] Couldn't add the installation info.
+[28433:28433:1016/145817.076371:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[28330:28330:1016/145817.105998:WARNING:load_error_reporter.cc(78)] Extension error: Не удалось загрузить расширение с адреса: . Файл манифеста отсутствует или недоступен для чтения
+[28330:28330:1016/145817.969837:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145817.969946:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145817.970137:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145817.970192:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.124219:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.124447:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.124660:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.124832:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.126241:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.126688:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.136748:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.139320:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.145162:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.145521:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.145750:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28330:1016/145818.146025:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28330:28414:1016/145908.182365:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28330:1016/145917.071664:WARNING:protocol_impl.cc(277)] Couldn't add the installation info.
+[28330:28414:1016/145953.588935:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150039.007068:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150124.786096:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150210.189443:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150255.563531:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150340.932745:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150426.346019:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150511.818048:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150557.219266:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150642.644173:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150728.108502:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150813.530802:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28330:28414:1016/150858.939004:ERROR:socket_stream.cc(219)] Closing stream with result -2

@@ -25,41 +25,18 @@ class UrlsAds(models.Model):
         return f"{self.phone}, {Regions.region}, {self.date}, {self.url}"
 
 
-#
-# class Rieltors(models.Model):
-
-#
-# class InformationFromAds(models.Model):
-#     phone = models.CharField(verbose_name="Телефон", max_length=255)
-#     request = models.OneToOneField("UrlsAds", verbose_name="Запрос",
-#                                    related_name="request_ads", on_delete=models.CASCADE)
-#     name = models.CharField(verbose_name="Имя", max_length=255)
-#     title = models.CharField(verbose_name="Заголовок", max_length=255)
-#     price = models.CharField(verbose_name="Цена", max_length=255)
-#     place = models.CharField(verbose_name="Место", max_length=255)
-#     description = models.CharField(verbose_name="Описание", max_length=255)
-#     type_ads = models.CharField(verbose_name="Продавец", max_length=255)
-#     region = models.ForeignKey("Regions", on_delete=models.CASCADE)
-#     url = models.OneToOneField("UrlsAds", related_name="url_ads", on_delete=models.CASCADE)
-#
-    # def __str__(self):
-    #     return f"{self.phone}, {self.request}, {self.title}, " \
-    #            f"{self.price}, {self.description}, {self.type_ads}," \
-    #            f"{self.region}, {self.url}"
-
-
 class InformationFromAds(models.Model):
     phone = models.CharField(verbose_name="Телефон", max_length=255, default='None')
     region = models.ForeignKey("Regions", on_delete=models.CASCADE)
     price = models.CharField(verbose_name="Цена", max_length=255, default="None")
     url = models.OneToOneField("UrlsAds", related_name="url_ads", on_delete=models.CASCADE)
-    house_info = models.CharField(verbose_name="Информация о доме", max_length=255, default='None')
-    general_information = models.CharField(verbose_name="Общая информация", max_length=255, default='None')
-    description_info = models.CharField(verbose_name="Инфо о кваритире из заголовка", max_length=255, default='None')
-    description = models.CharField(verbose_name="Описание", max_length=255, default='None')
-    offer_tittle = models.CharField(verbose_name="Заголовок объявления", max_length=255, default='None')
-    geo = models.CharField(verbose_name="Адрес", max_length=255, default='None')
-    seller_info = models.CharField(verbose_name="Информация о продавце", max_length=255, default='None')
+    house_info = models.CharField(verbose_name="Информация о доме", max_length=2500, default='None')
+    general_information = models.CharField(verbose_name="Общая информация", max_length=2500, default='None')
+    description_info = models.CharField(verbose_name="Инфо о кваритире из заголовка", max_length=2500, default='None')
+    description = models.CharField(verbose_name="Описание", max_length=5000, default='None')
+    offer_tittle = models.CharField(verbose_name="Заголовок объявления", max_length=1000, default='None')
+    geo = models.CharField(verbose_name="Адрес", max_length=1000, default='None')
+    seller_info = models.CharField(verbose_name="Информация о продавце", max_length=1000, default='None')
 
     def __str__(self):
         return f"{self.phone}, {self.price}, {self.house_info}, " \

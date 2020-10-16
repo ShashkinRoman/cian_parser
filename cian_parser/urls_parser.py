@@ -6,8 +6,7 @@ from time import sleep
 from bs4 import BeautifulSoup
 from cian_parser.utils import header_proxy, parameters_immovables, check_regions
 from cian_parser.models import UrlsAds, Regions
-# from cian_parser.webdriver.opera_driver import Operadriver, path
-from cian_parser.webdriver.chrome_driver import Chromedriver
+from cian_parser.webdriver.opera_driver import Operadriver, path
 
 
 def get_urls_from_page(url, urls_list, counter_ads, region_id, proxy_list):
@@ -45,12 +44,11 @@ def get_urls_from_page(url, urls_list, counter_ads, region_id, proxy_list):
 
 def get_url_with_driver(driver, url_page, region_id, counter_repeat):
     driver.get(url_page)
-    urls = driver.find_elements_by_class_name('c6e8ba5398--offer-container--2sOFx')
+    urls = driver.find_elements_by_class_name('_93444fe79c--card--2umme')
     counter = 0
     for u in urls:
         try:
-            url_obj = u.find_element_by_class_name('c6e8ba5398--header--1fV2A')
-            url = url_obj.get_attribute('href')
+            url = u.find_element_by_class_name('_93444fe79c--link--39cNw').get_attribute('href')
             try:
                 UrlsAds.objects.get(url=url)
                 counter += 1
@@ -58,10 +56,10 @@ def get_url_with_driver(driver, url_page, region_id, counter_repeat):
                 #     break
                 # print(f"repeat {counter_repeat}")
             except UrlsAds.DoesNotExist:
-                button = u.find_element_by_class_name('c6e8ba5398--phone--1202f')
+                button = u.find_element_by_class_name('_93444fe79c--text--2P6bT')
                 button.click()
                 sleep(0.5)
-                phone = u.find_element_by_class_name('c6e8ba5398--text--38oi6').text
+                phone = u.find_element_by_class_name('_93444fe79c--phone-button--3RYRY').find_element_by_tag_name('span').text
                 UrlsAds.objects.create(date=datetime.now(),
                                        url=url,
                                        region=Regions.objects.get(id=region_id),
@@ -73,22 +71,21 @@ def get_url_with_driver(driver, url_page, region_id, counter_repeat):
         counter_repeat += 1
     return counter_repeat
 
+
 def main():
-    reg = ["Энгельс"]
+    reg = ["Балаково"]
     print('urls_parser start')
     region_city_code = check_regions(reg)
     # proxy_list = proxy_parse()
     urls_list = []
-    # driver_obj = Operadriver()
-    # driver_start = driver_obj.start_driver()
-    chrome_driver = Chromedriver()
+    driver_obj = Operadriver().start_driver()
+    # chrome_driver = Chromedriver()
     for region in region_city_code:
         urls = parameters_immovables(region)
         urls_list += urls
     urls_ads_list = []
     for url in urls_list:
-        # driver = driver_obj.opera(driver_start, path[0])
-        driver = chrome_driver.start_driver()
+        driver = Operadriver().opera(driver_obj, path[2])
         print(url)
         counter_repeat = 0
         for i in range(1, 55):
@@ -121,7 +118,6 @@ def main():
                 print(f"can't execute cycle {i}")
         driver.quit()
         print('urls_parser end')
-
 
 
 if __name__ == '__main__':
