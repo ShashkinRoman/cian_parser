@@ -12,20 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;correct cian&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Bookmarks" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Bookmarks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Favicons" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Favicons" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GPUCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GrShaderCache/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GrShaderCache/GPUCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/History" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/History" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/History-journal" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/History-journal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Local State" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Local State" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Current Session" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Current Session" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/ShaderCache/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/ShaderCache/GPUCache/data_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/TransportSecurity" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/TransportSecurity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/opera.log" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/opera.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,6 +255,7 @@
       <workItem from="1602841131361" duration="1554000" />
       <workItem from="1602842710405" duration="5871000" />
       <workItem from="1602849465981" duration="6264000" />
+      <workItem from="1603008017607" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
