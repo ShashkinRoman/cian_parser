@@ -11,10 +11,444 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;correct cian&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/cian_parser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cian_parser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Current Session" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Current Session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/TransportSecurity" beforeDir="false" afterPath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/TransportSecurity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/ads_parser_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/ads_parser_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/urls_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/urls_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/000007.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/000024.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/001194.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/001322.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/001325.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/001462.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/AutofillStrikeDatabase/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/AutofillStrikeDatabase/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/AutofillStrikeDatabase/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/AutofillStrikeDatabase/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/BudgetDatabase/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/BudgetDatabase/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/BudgetDatabase/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/BudgetDatabase/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/CURRENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/01211bb8cef9793f_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/01211bb8cef9793f_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/0159aa93113f6d7e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/0159aa93113f6d7e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/02652c1c294f46c2_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/02652c1c294f46c2_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/05b50c4a193dc4d5_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/05b50c4a193dc4d5_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/08761598cd9c2b60_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/08761598cd9c2b60_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/08ab6c526bcfec75_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/08ab6c526bcfec75_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/0947c7f366798b26_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/0947c7f366798b26_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/0d825172a61cd36d_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/11325458a34cbea6_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/127138fea60a1f2a_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/127138fea60a1f2a_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/14d3d8640ceadab1_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/15abca0610a76388_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/15abca0610a76388_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1689c63904caee32_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1931f94961f079eb_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/193da8b6a88d1d29_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/193da8b6a88d1d29_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/19f187098af49382_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1a0f58eca24b2645_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1c5e143b8afe6d53_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1c5e143b8afe6d53_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1cb520c5f5a8895d_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1cb520c5f5a8895d_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1d87726da23800dd_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1fc2c619a2846f33_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/1fc2c619a2846f33_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/2259d02465b19037_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/2259d02465b19037_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/241ec8d67ad13bae_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/241ec8d67ad13bae_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/24da0f282b0f969c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/24da0f282b0f969c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/251792016e2f98d7_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/251792016e2f98d7_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/2834223c677e7aea_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/2834223c677e7aea_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/287d7778d9e733b1_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/2940195bd9870d6e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/2940195bd9870d6e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/2bd7636961adb635_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/2bd7636961adb635_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/370431729f9cb1d8_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/37345e435ace2fe8_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/37345e435ace2fe8_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/379c27842f47948a_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/379c27842f47948a_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/3eb35d205de08f15_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/3f0c51b1a6fdf753_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/3f0c51b1a6fdf753_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/43996b99a4812f36_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/43ecbaa302e178e3_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/43ecbaa302e178e3_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/44fde18ea5f4a4c0_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/44fde18ea5f4a4c0_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/47101df87e63a359_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/47101df87e63a359_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/471a232cc6b470ae_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4904342e9a58539f_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4904342e9a58539f_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4abcc16ab9f5975c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4abcc16ab9f5975c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4ac63eff24c12e34_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4ac63eff24c12e34_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4c4d0c4fa4a89fb0_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4c4d0c4fa4a89fb0_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4dadb2c060625b3e_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4df3e5f104657ff0_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/4df3e5f104657ff0_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/5091b5b9ad9bbab4_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/5091b5b9ad9bbab4_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/51d7dc2675f0590c_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/537f14d672fd4c31_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/537f14d672fd4c31_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/53c150aeb47a8ded_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/53c150aeb47a8ded_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/53c3322b3361f5c0_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/53c3322b3361f5c0_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/54e5c9cb71b5ae91_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/5af5a6dbbf230138_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/5d24823a515d8b8d_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/5d24823a515d8b8d_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/5fe40a9206cac067_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/5fe40a9206cac067_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/620e2250035de695_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/620e2250035de695_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6286500f4a5a7db5_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/63b88e049eb327f0_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/63b88e049eb327f0_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6424c30f20c17b22_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6424c30f20c17b22_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/67510b025edcbab4_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/67510b025edcbab4_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/685892e1e9291911_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/685892e1e9291911_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/68bef0da588fdb3b_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6915e16c9f380e3d_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6915e16c9f380e3d_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6c0f76390e6007a3_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6c65dbc9657e7525_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6c65dbc9657e7525_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6ce24ca728f31b63_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6ce24ca728f31b63_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6e55c0eb8285db0b_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6e55c0eb8285db0b_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6f057f3ecebeaab3_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/6f057f3ecebeaab3_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/71da925abd1a4c7e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/71da925abd1a4c7e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/724883bbe1326ffa_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/724883bbe1326ffa_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/73c77990df4e8f50_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/73c77990df4e8f50_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7480a6f1d08495b7_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7480a6f1d08495b7_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/751e1b64e219e399_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/751e1b64e219e399_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7665fe9545bfdd1b_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7665fe9545bfdd1b_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/76f31e8b7aa1aa6f_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/76f31e8b7aa1aa6f_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/774b8ada2353244b_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/774b8ada2353244b_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7946fa420ec687c8_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7946fa420ec687c8_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7a58126fc654caa9_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7b9903e7b4b73365_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7b9903e7b4b73365_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7c63afdb302e82f3_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7c63afdb302e82f3_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7e535973f8601876_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7f123f3a2eb85bbd_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7f123f3a2eb85bbd_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/7f75fb2df64bc8f7_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8002df1d16f4d138_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8002df1d16f4d138_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/81b13ccbf2c60860_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/81b13ccbf2c60860_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/82d8ed247c2c82db_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/82d8ed247c2c82db_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/83e17de57afd9856_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/83e17de57afd9856_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/84310cfa5f812eb4_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/84310cfa5f812eb4_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/867b7e5cf28b246e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/867b7e5cf28b246e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8752d99c07d74ba5_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8752d99c07d74ba5_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/885f98efe81567e6_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/885f98efe81567e6_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8a6b922960848fa2_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8a6b922960848fa2_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8bc901bb5bee8883_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8bc901bb5bee8883_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8cbc8d57d823cd1c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8cbc8d57d823cd1c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8e0b539df323f4d5_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8e0b539df323f4d5_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/8e0db4dfb7d06c69_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/91d54eea0c44f91d_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/91e4cf0406ee4292_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/91e4cf0406ee4292_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/923f605dc7bb0b57_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/923f605dc7bb0b57_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/93409cfae6fa39fc_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9469afde1d18e195_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9469afde1d18e195_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/94a48ae3af28c5da_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/94a48ae3af28c5da_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9531a098fe06fb00_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/96c179c33c827762_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/96c179c33c827762_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9b66ef683f1e43c6_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9dabb83333678f9b_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9dabb83333678f9b_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9e14154666ab65e7_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9e14154666ab65e7_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9f6c2a8eeb3203ac_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9f6c2a8eeb3203ac_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9fcc3450ed10d0b9_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9fcc3450ed10d0b9_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9ff2d0f82c9ed69d_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/9ff2d0f82c9ed69d_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a34f96aa338863d2_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a34f96aa338863d2_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a3d85119ee9cec1e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a3d85119ee9cec1e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a5996357c28594c6_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a5996357c28594c6_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a5f008e2b51126fa_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a5f008e2b51126fa_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a65723b48e1828f6_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a65723b48e1828f6_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a8d1f7c28a708f4c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a8d1f7c28a708f4c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a9a753fc1a27cf43_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/a9a753fc1a27cf43_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/aa7b58a1e1156280_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/aa7b58a1e1156280_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ab87b3fa76bec9ea_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ab87b3fa76bec9ea_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ac4680a332e35b7c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ac4680a332e35b7c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/af4fad0b26aaa894_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/af4fad0b26aaa894_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/b01f7082d5203ef0_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/b01f7082d5203ef0_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/b47dc5651a359576_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/b47dc5651a359576_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/b6146dda8a6acb8f_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/b6146dda8a6acb8f_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/b7922c0de7419733_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/b7922c0de7419733_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/bb6ce7885f0da6cd_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/bb6ce7885f0da6cd_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/bc7ee06dc7bd7a5c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/bc7ee06dc7bd7a5c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/bf6041b4d4df2e61_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/bf6041b4d4df2e61_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c0ef3984a570ac75_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c279f26a2918bf9d_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c279f26a2918bf9d_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c287ec47263c843b_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c287ec47263c843b_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c3a7809eda69fcd1_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c3a7809eda69fcd1_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c3ca42c5fc33a24c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c3ca42c5fc33a24c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c55362625d2bc34e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c55362625d2bc34e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c6f82061e5ae1837_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c6f82061e5ae1837_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c6fac3e34e9ffe33_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c7331d8b8ec22d65_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c7331d8b8ec22d65_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c75f5ec476ca6ed8_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/c75f5ec476ca6ed8_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cc9197e185859e06_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cc9197e185859e06_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cd048bb8c85650ea_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cd6b69bf4b6b0212_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cd6b69bf4b6b0212_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ceb3052501a80d97_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cf2414653713d659_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cf2414653713d659_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cffcd9cc396e6bf5_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/cffcd9cc396e6bf5_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d0aa3bab910776eb_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d0aa3bab910776eb_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d0deac7a3f1801f6_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d0deac7a3f1801f6_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d151c21fbf9309da_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d151c21fbf9309da_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d22c1a46515b5ae5_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d22c1a46515b5ae5_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d259a64ad92b5433_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d42f758c3b23937c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d42f758c3b23937c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d5830c852631098c_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d68140096f5147a1_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/d68140096f5147a1_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/db21d2efa97331ef_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/db21d2efa97331ef_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/db986d52df0d71e9_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/dbb108310be0207f_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/dbb108310be0207f_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ddefda205a67d434_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/e03f21777e12f259_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/e03f21777e12f259_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/e2edb6ef6e5a7142_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/e2edb6ef6e5a7142_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/e308ece45b89c09e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/e308ece45b89c09e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/e4f8844aa430a81e_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/e8ddc7d38573773b_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ea3d43ea2b923b92_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ea687173aedecf1d_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ea687173aedecf1d_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/eb6379f4ebb5cb72_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/eb6379f4ebb5cb72_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ecef7476ab9eb42f_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ecef7476ab9eb42f_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/edb4f2c0014f935b_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/edcfcd64932f61e7_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/edcfcd64932f61e7_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ef1e3859e559a65a_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ef1e3859e559a65a_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ef9778dfd4ad5da2_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ef9778dfd4ad5da2_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/f0f70f97ce612125_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/f0f70f97ce612125_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/f2c9c1418389b38b_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/f8c43459ec0548a4_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/f9660ed5bfd27b30_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/fa2c2bc1b6eb93a7_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/fa2c2bc1b6eb93a7_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/fa7dcac69cacd3e4_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/fe96ff4d84431aa9_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/fe96ff4d84431aa9_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ff697f563c0ba4e2_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/ff697f563c0ba4e2_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cache/index-dir/the-real-index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/03f709f345a92625_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/03f709f345a92625_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/0a11c18365ebd66e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/0a11c18365ebd66e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/2847e6f6ca6cb0df_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/2847e6f6ca6cb0df_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/3386143ecfa5de98_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/3386143ecfa5de98_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/39af64b39fbf668c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/39af64b39fbf668c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/50dfaa9d60496629_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/50dfaa9d60496629_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/51305af23a2f3c3e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/51305af23a2f3c3e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/543cc53f3600a1b3_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/543cc53f3600a1b3_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/7bb1ac57bff675e0_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/7bb1ac57bff675e0_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/8a5bb04f50b1c036_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/8a5bb04f50b1c036_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/8ad80f85aea40ce2_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/8ad80f85aea40ce2_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/8e54ebdfa0c69df6_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/8e54ebdfa0c69df6_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/90cb26bdd7fcfe99_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/90cb26bdd7fcfe99_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/94cc6c9b1408643f_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/94cc6c9b1408643f_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/983eeda8fef33dff_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/983eeda8fef33dff_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/a3887b4f5bfcfd59_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/a3887b4f5bfcfd59_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/a40a0058e0d01a41_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/a40a0058e0d01a41_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/ae276f63f5a595de_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/ae276f63f5a595de_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/b469b0fd4ee1eea9_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/b469b0fd4ee1eea9_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/b84196c484f74eb8_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/b84196c484f74eb8_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/be3dbb4d10f27c5e_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/be3dbb4d10f27c5e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/c28d067d4c780369_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/c28d067d4c780369_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/edc6e29774c3ff4b_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/edc6e29774c3ff4b_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/f427aae59c4fb596_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/f427aae59c4fb596_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/f536a270a6227f5c_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/f536a270a6227f5c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/fb791c50ee81e2b0_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/fb791c50ee81e2b0_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/fb793b5125146870_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/fb793b5125146870_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/js/index-dir/the-real-index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/wasm/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Current Session" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Current Session" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/DevToolsActivePort" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/DevToolsActivePort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension Rules/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension Rules/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension Rules/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension Rules/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension Rules/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension Rules/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension State/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension State/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension State/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension State/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension State/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Extension State/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Favicons" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Favicons" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/data_0" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/data_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/data_2" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/data_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/data_3" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/data_3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GPUCache/f_000006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GrShaderCache/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/GrShaderCache/GPUCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/History" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/History" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/History Provider Cache" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/History Provider Cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/History-journal" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/History-journal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Last Session" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Last Session" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local State" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local State" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/000005.ldb" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/000005.ldb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Network Action Predictor" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Network Action Predictor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Network Persistent State" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Network Persistent State" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Network Persistent State.backup" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Network Persistent State.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Platform Notifications/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Platform Notifications/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Platform Notifications/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Platform Notifications/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Preferences" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Preferences.backup" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Preferences.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Reporting and NEL" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Reporting and NEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Service Worker/Database/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Service Worker/Database/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Service Worker/Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Service Worker/Database/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Service Worker/Database/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Service Worker/Database/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/000007.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/000011.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Session Storage/MANIFEST-000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/ShaderCache/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/ShaderCache/GPUCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Site Characteristics Database/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Site Characteristics Database/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Site Characteristics Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Site Characteristics Database/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Site Characteristics Database/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Site Characteristics Database/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Sync Data/LevelDB/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Sync Data/LevelDB/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Sync Data/LevelDB/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Sync Data/LevelDB/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Sync Data/LevelDB/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Sync Data/LevelDB/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/TransportSecurity" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/TransportSecurity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Visited Links" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Visited Links" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Web Data" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/Web Data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/autoupdate_checker.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/autoupdate_checker.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/crash_count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/crash_count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/opera.log" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/opera.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/rhs.dat" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/rhs.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/shared_proto_db/metadata/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/shared_proto_db/metadata/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/shared_proto_db/metadata/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/webdriver/opera_driver/opera_profile/opera1/shared_proto_db/metadata/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/AutofillStrikeDatabase/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/AutofillStrikeDatabase/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/AutofillStrikeDatabase/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/AutofillStrikeDatabase/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/AutofillStrikeDatabase/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/AutofillStrikeDatabase/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Bookmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/BookmarksExtras" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/BudgetDatabase/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/BudgetDatabase/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/BudgetDatabase/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/BudgetDatabase/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/BudgetDatabase/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/BudgetDatabase/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Cookies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Cookies-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Current Session" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Current Tabs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Default/Preferences" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/DevToolsActivePort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Extension State/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Extension State/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Extension State/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Extension State/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Extension State/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Extension State/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Favicons" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Favicons-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/File System/Origins/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/First Run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GCM Store/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GCM Store/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GCM Store/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GCM Store/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GCM Store/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GCM Store/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GPUCache/data_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GPUCache/data_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GPUCache/data_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GPUCache/data_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GPUCache/index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GrShaderCache/GPUCache/data_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GrShaderCache/GPUCache/data_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GrShaderCache/GPUCache/data_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GrShaderCache/GPUCache/data_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/GrShaderCache/GPUCache/index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/History" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/History Provider Cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/History-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/IndexedDB/chrome_startpage_0.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/IndexedDB/chrome_startpage_0.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/IndexedDB/chrome_startpage_0.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/IndexedDB/chrome_startpage_0.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/IndexedDB/chrome_startpage_0.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Last Session" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Last Tabs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Local State" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Local Storage/leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Local Storage/leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Local Storage/leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Local Storage/leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Local Storage/leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Login Data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Login Data-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/MEIPreload/1.0.5.0/_metadata/verified_contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/MEIPreload/1.0.5.0/manifest.fingerprint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/MEIPreload/1.0.5.0/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/MEIPreload/1.0.5.0/preloaded_data.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Network Action Predictor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Network Action Predictor-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Network Persistent State" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Network Persistent State.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/PartnerRules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Platform Notifications/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Platform Notifications/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Platform Notifications/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Platform Notifications/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Platform Notifications/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Preferences" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Preferences.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/QuotaManager" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/QuotaManager-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Reporting and NEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Reporting and NEL-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Secure Preferences" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Secure Preferences.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Session Storage/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Session Storage/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Session Storage/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Session Storage/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Session Storage/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Session Storage/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/ShaderCache/GPUCache/data_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/ShaderCache/GPUCache/data_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/ShaderCache/GPUCache/data_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/ShaderCache/GPUCache/data_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/ShaderCache/GPUCache/index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Shortcuts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Shortcuts-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/SingletonCookie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/SingletonLock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/SingletonSocket" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Site Characteristics Database/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Site Characteristics Database/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Site Characteristics Database/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Site Characteristics Database/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Site Characteristics Database/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Site Characteristics Database/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Sync Data/LevelDB/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Sync Data/LevelDB/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Sync Data/LevelDB/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Sync Data/LevelDB/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Sync Data/LevelDB/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Sync Data/LevelDB/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/TransportSecurity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Visited Links" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Web Data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/Web Data-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/WidevineCdm/4.10.1610.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/WidevineCdm/4.10.1610.0/_metadata/verified_contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/WidevineCdm/4.10.1610.0/_platform_specific/linux_x64/libwidevinecdm.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/WidevineCdm/4.10.1610.0/_platform_specific/linux_x64/libwidevinecdm.so.sig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/WidevineCdm/4.10.1610.0/imgs/icon-128x128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/WidevineCdm/4.10.1610.0/manifest.fingerprint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/WidevineCdm/4.10.1610.0/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/autoupdate_checker.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/autoupdate_checker.sqlite-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/default_partner_content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/opera.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/rhs.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/metadata/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/metadata/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/metadata/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/metadata/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/metadata/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/shared_proto_db/metadata/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/siteprefs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/roman/PycharmProjects/cian_parser/cian_parser/webdriver/opera_driver/opera_profile/opera3/suggestions_cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +456,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="useSoftWraps" value="true" />
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -54,7 +489,7 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="69e833db-6778-497b-9a6c-9866c4b44bc3" />
+  <component name="JupyterTrust" id="492ad498-ef25-4190-ae85-28efd1e6cd50" />
   <component name="ProjectId" id="1gYSggGt0Qr0UMVz7LestJsYTWE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -66,8 +501,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/avitoparser" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -177,9 +612,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.cian_parser" />
       <item itemvalue="Python.ads_parser_selenium" />
       <item itemvalue="Python.urls_parser" />
+      <item itemvalue="Django Server.cian_parser" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -256,6 +691,12 @@
       <workItem from="1602842710405" duration="5871000" />
       <workItem from="1602849465981" duration="6264000" />
       <workItem from="1603008017607" duration="339000" />
+      <workItem from="1603114709709" duration="1108000" />
+      <workItem from="1603115876748" duration="640000" />
+      <workItem from="1603131712324" duration="9243000" />
+      <workItem from="1603201796174" duration="1875000" />
+      <workItem from="1603206338994" duration="2138000" />
+      <workItem from="1603208765635" duration="33898000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -342,13 +783,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;correct cian&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="8" y="24" width="1076" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602849438620">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603456389417">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603456389417" />
     <state x="8" y="24" width="1076" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868@0.32.1600.868" timestamp="1602849438620" />
-    <state x="483" y="264" width="629" height="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600667718158">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="580" y="308" width="653" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603456799351">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="580" y="308" width="653" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1603456799351" />
     <state x="483" y="264" width="629" height="400" key="#com.intellij.fileTypes.FileTypeChooser/0.32.1600.868@0.32.1600.868" timestamp="1600667718158" />
     <state x="586" y="24" width="424" height="488" key="FileChooserDialogImpl" timestamp="1602659685470">
       <screen x="0" y="32" width="1600" height="868" />
@@ -398,9 +841,14 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state width="265" height="500" key="HiddenNamespacesPopup/0.32.1600.868@0.32.1600.868" timestamp="1602158619388" />
-    <state x="288" y="118" width="1016" height="734" key="SettingsEditor" timestamp="1601289419597">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="187" y="116" width="1536" height="872" key="MergeDialog" timestamp="1603456804799">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="187" y="116" width="1536" height="872" key="MergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603456804799" />
+    <state x="346" y="131" width="1016" height="734" key="SettingsEditor" timestamp="1603114904058">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="346" y="131" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603114904058" />
     <state x="288" y="118" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1601289419597" />
     <state x="398" y="78" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1602850179413">
       <screen x="0" y="32" width="1600" height="868" />
@@ -426,6 +874,10 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="417" y="31" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.32.1600.868@0.32.1600.868" timestamp="1602844766881" />
+    <state x="741" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603456784737">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="741" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603456784737" />
     <state x="489" y="201" width="621" height="580" key="find.popup" timestamp="1598422361719">
       <screen x="0" y="32" width="1600" height="868" />
     </state>
@@ -447,7 +899,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cian_parser$ads_parser_selenium.coverage" NAME="ads_parser_selenium Coverage Results" MODIFIED="1600862230359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
     <SUITE FILE_PATH="coverage/cian_parser$urls_parser.coverage" NAME="urls_parser Coverage Results" MODIFIED="1598608827976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
+    <SUITE FILE_PATH="coverage/cian_parser$ads_parser_selenium.coverage" NAME="ads_parser_selenium Coverage Results" MODIFIED="1600862230359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
   </component>
 </project>

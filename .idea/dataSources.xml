@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="db" uuid="1a979dd0-d404-40df-b827-774393cbc2e5">
-      <driver-ref>8a99504c-d420-4586-b2c4-4c68affd7b10</driver-ref>
+      <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
@@ -30,11 +30,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/beautybox_crm</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="cian_parser@localhost" uuid="59e0f154-b5a5-49aa-ab7e-ea676f9ff865">
+    <data-source source="LOCAL" name="cian_parser_prod" uuid="59e0f154-b5a5-49aa-ab7e-ea676f9ff865">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/cian_parser</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:3335/parser</jdbc-url>
     </data-source>
   </component>
 </project>

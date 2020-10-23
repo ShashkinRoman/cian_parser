@@ -44,11 +44,12 @@ def get_urls_from_page(url, urls_list, counter_ads, region_id, proxy_list):
 
 def get_url_with_driver(driver, url_page, region_id, counter_repeat):
     driver.get(url_page)
-    urls = driver.find_elements_by_class_name('_93444fe79c--card--2umme')
+    urls = driver.find_elements_by_class_name('c6e8ba5398--main--1NDwp')
     counter = 0
+    counter_null = 0
     for u in urls:
         try:
-            url = u.find_element_by_class_name('_93444fe79c--link--39cNw').get_attribute('href')
+            url = u.find_element_by_class_name('c6e8ba5398--header--1fV2A').get_attribute('href')
             try:
                 UrlsAds.objects.get(url=url)
                 counter += 1
@@ -56,18 +57,21 @@ def get_url_with_driver(driver, url_page, region_id, counter_repeat):
                 #     break
                 # print(f"repeat {counter_repeat}")
             except UrlsAds.DoesNotExist:
-                button = u.find_element_by_class_name('_93444fe79c--text--2P6bT')
+                button = u.find_element_by_class_name('c6e8ba5398--phone--1202f')
                 button.click()
                 sleep(0.5)
-                phone = u.find_element_by_class_name('_93444fe79c--phone-button--3RYRY').find_element_by_tag_name('span').text
+                phone = u.find_element_by_class_name('c6e8ba5398--text--38oi6').find_element_by_tag_name('span').text
                 UrlsAds.objects.create(date=datetime.now(),
                                        url=url,
                                        region=Regions.objects.get(id=region_id),
                                        phone=phone)
                 print(f"{phone}, {url} added")
+                counter_null += 1
         except:
             print(f"for {u} urls not parsed")
     if counter > 25:
+        counter_repeat += 1
+    if counter_null == 0:
         counter_repeat += 1
     return counter_repeat
 

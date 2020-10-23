@@ -78,7 +78,7 @@ def seller_info(driver):
 
 
 def main():
-    urls = UrlsAds.objects.filter(status=0).filter(region_id=3).order_by('-date')
+    urls = UrlsAds.objects.filter(status=0).filter(region_id=1).order_by('-date')
     driver_obj = Operadriver()
     driver_start = driver_obj.start_driver()
     driver = driver_obj.opera(driver_start, path[0])
@@ -130,6 +130,12 @@ def main():
                     driver = driver_obj.opera(driver_start, path[0])
                     counter_error = 0
                     print('driver reboot')
+            if logs_counter > 300:
+                driver.quit()
+                # driver = driver_chrome_obj.start_driver()
+                driver = driver_obj.opera(driver_start, path[0])
+                logs_counter = 0
+                print('driver reboot')
             # ad = {"creation_date": creation_date(driver),
             #       "phone": phone,
             #       "price": price(driver),

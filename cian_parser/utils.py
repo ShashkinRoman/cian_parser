@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
-from cian_parser.models import UrlsAds, Regions
-
+from cian_parser.models import UrlsAds, Regions, SerializerInfo
+import json
 
 def proxy_parse():
     url_proxy = 'http://foxtools.ru/proxy'
@@ -84,3 +84,54 @@ def get_html(url):
     html = requests.get(url, headers=header, proxies=proxies).text
     soup = BeautifulSoup(html, 'html.parser')
     return soup
+
+
+def find_all_value(queryset_ads):
+    """find all keys in info for serialaizer"""
+    list_generar_info = []
+    list_geo = []
+    list_house_info = []
+    list_description_info = []
+    list_seller_info = []
+    for ad in queryset_ads:
+        for i in list(json.loads(ad.general_information).keys()):
+            if i not in list_generar_info:
+                list_generar_info.append(i)
+        for i in list(json.loads(ad.geo).keys()):
+            if i not in list_geo:
+                list_geo.append(i)
+        for i in list(json.loads(ad.house_info).keys()):
+            if i not in list_house_info:
+                list_house_info.append(i)
+        for i in list(json.loads(ad.description_info).keys()):
+            if i not in list_description_info:
+                list_description_info.append(i)
+    return list_generar_info, list_geo, list_house_info, \
+           list_description_info
+
+
+def lists_values():
+    list_general_info = ['Тип жилья', 'Комнат в продажу', 'Площадь комнаты', 'Высота потолков',
+                         'Санузел', 'Балкон/лоджия', 'Ремонт', 'Планировка', 'Вид из окон',
+                         'Площадь комнат', 'Отделка', 'Всего комнат в квартире']
+    list_geo = ['region', 'locality-name', 'address', 'house']
+    list_house_info = ['Тип дома', 'Год постройки', 'Тип перекрытий', 'Подъезды', 'Лифты', 'Отопление',
+                'Аварийность', 'Газоснабжение', 'Парковка', 'Строительная серия', 'Мусоропровод']
+    list_description_info = ['Комната', 'Этаж', 'Общая', 'Кухня', 'Построен', 'Жилая', 'Срок сдачи']
+    return list_general_info, list_geo, list_house_info, list_description_info
+
+
+def serializer_ads(queryset_ads):
+    for ad in queryset_ads:
+        dict_with_info = {**json.loads(ad.description_info),
+                          **json.loads(ad.general_information),
+                          **json.loads(ad.house_info),
+                          **json.loads(ad.geo)}
+
+        SerializerInfo.objects.create(
+            type=dict_with_info['Тип сделки'] or 'Продажа',
+            property_type=dict_with_info['Тип недвижимости'] or 'жилая',
+            type_of_housing=
+
+
+        )
