@@ -1,36 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-from fake_useragent import UserAgent
 from cian_parser.models import UrlsAds, Regions, SerializerInfo
 import json
-
-def proxy_parse():
-    url_proxy = 'http://foxtools.ru/proxy'
-    html = requests.get(url_proxy).text
-    soup = BeautifulSoup(html, 'html.parser')
-    ip_list = soup.find_all("input", class_="ch")
-    for i in range(0, len(ip_list)):
-        ip_list[i] = ip_list[i]['value']
-    return ip_list
-
-
-def reserved_proxy():
-    url = 'https://spys.one/en/http-proxy-list/'
-    html = requests.get(url).text
-    soup = BeautifulSoup(html, "html.parser")
-    ip_list = soup.find_all("input", class_='spy1xx')
-
-
-def header_proxy(proxy_list):
-    proxy = proxy_list.pop(0)
-    proxy_list.append(proxy)
-    # proxy = FreeProxy().get()
-    ua = UserAgent()
-    header = {'User-Agent': str(ua.chrome)}
-    proxies = {"http": "http://{}".format(proxy),
-               # "https": "http://{}".format(proxy)
-               }
-    return header, proxies
 
 
 def parameters_immovables_first_page(domen, region, city):
@@ -86,13 +57,18 @@ def get_html(url):
     return soup
 
 
+def serializer_info(queryset_ads):
+    for ad in queryset_ads:
+
+        pass  # todo write serializer
+
+
 def find_all_value(queryset_ads):
     """find all keys in info for serialaizer"""
     list_generar_info = []
     list_geo = []
     list_house_info = []
     list_description_info = []
-    list_seller_info = []
     for ad in queryset_ads:
         for i in list(json.loads(ad.general_information).keys()):
             if i not in list_generar_info:
@@ -118,20 +94,65 @@ def lists_values():
     list_house_info = ['Тип дома', 'Год постройки', 'Тип перекрытий', 'Подъезды', 'Лифты', 'Отопление',
                 'Аварийность', 'Газоснабжение', 'Парковка', 'Строительная серия', 'Мусоропровод']
     list_description_info = ['Комната', 'Этаж', 'Общая', 'Кухня', 'Построен', 'Жилая', 'Срок сдачи']
-    return list_general_info, list_geo, list_house_info, list_description_info
+    all_value = list_general_info + list_geo + list_house_info + list_description_info
+    return list_general_info, list_geo, list_house_info, list_description_info, all_value
 
 
 def serializer_ads(queryset_ads):
+    _, _, _, _, list_with_info = lists_values()
+    dict_with_info = {}
+    for i in list_with_info:
+        dict_with_info[i] = 'None'
     for ad in queryset_ads:
-        dict_with_info = {**json.loads(ad.description_info),
-                          **json.loads(ad.general_information),
-                          **json.loads(ad.house_info),
-                          **json.loads(ad.geo)}
-
+        dict_with_info.update({**json.loads(ad.description_info),
+                               **json.loads(ad.general_information),
+                               **json.loads(ad.house_info),
+                               **json.loads(ad.geo)})
+        try:
+            dict_with_info['Комнат в продажу']
+            category_ = 'комната'
+        except KeyError:
+            category_ = 'квартира'
+        price_ = str.replace(' ', '')
         SerializerInfo.objects.create(
             type=dict_with_info['Тип сделки'] or 'Продажа',
             property_type=dict_with_info['Тип недвижимости'] or 'жилая',
-            type_of_housing=
-
-
+            type_of_housing =dict_with_info['Тип жилья'],
+            category=category_,
+            url=ad.url,
+            #creation_date=ad. # todo add func pars creation date
+            region=dict_with_info['region'],
+            district=dict_with_info['locality-name'],
+            disrtict_area=dict_with_info['address'],
+            address=dict_with_info['house'],
+            price=price_,
+            sales_agent=ad.sales_agent,
+            rooms_offered=dict_with_info['Комнат в продажу'],
+            room_space=dict_with_info['Площадь комнаты'],
+            rooms_space=dict_with_info['Площадь комнат'],
+            ceiling_height=dict_with_info['Высота потолков'],
+            bathroom_unit=dict_with_info['Санузел'],
+            balcony=dict_with_info['Балкон/лоджия'],
+            renovation=dict_with_info['Ремонт'],
+            flat_plan=dict_with_info['Планировка'],
+            window_view=dict_with_info['Вид из окон'],
+            finishing=dict_with_info['Отделка'],
+            rooms=dict_with_info['Всего комнат в квартире'],
+            building_type=dict_with_info['Тип дома'],
+            built_year=dict_with_info['Год постройки'],
+            floor_type=dict_with_info['Тип перекрытий'],
+            porch=dict_with_info['Подъезды'],
+            lift=dict_with_info['Лифты'],
+            heating_supply=dict_with_info['Отопление'],
+            accident_rate=dict_with_info['Аварийность'],
+            gas_supply=dict_with_info['Газоснабжение'],
+            parking=dict_with_info['Парковка'],
+            series_construct=dict_with_info['Строительная серия'],
+            rubbish_chute=dict_with_info['Мусоропровод'],
+            room=dict_with_info['Комната'],
+            floor=dict_with_info['Этаж'],
+            area=dict_with_info['Общая'],
+            kitchen_space=dict_with_info['Кухня'],
+            living_space=dict_with_info['Жилая'],
+            deadline=dict_with_info['Срок сдачи']
         )

@@ -46,6 +46,22 @@ class InformationFromAds(models.Model):
 
 
 class SerializerInfo(models.Model):
+    type = models.CharField(verbose_name="Тип сделки", max_length=255, default='None')# «продажа» «аренда»
+    property_type = models.CharField(verbose_name="Тип недвижимости", max_length=255, default='None') # «жилая»/«living».
+    category =  models.CharField(verbose_name="Категория объекта", max_length=255, default='None') # . «квартира»/«flat» «комната»/«room», «таунхаус»/«townhouse»
+    url = models.CharField(verbose_name="Ссылка", max_length=255, default='None')
+    creation_date = models.CharField(verbose_name="Дата размещения", default='None')# YYYY-MM-DDTHH:mm:ss+00:00.
+    location = models.CharField(verbose_name="Местоположение", default='None') # {country: 'страна', region: 'область', district: 'населенный пункт', address: 'улица и дом' apartment: 'номер квартиры'}
+    price = models.CharField(verbose_name="Информация о стоимомти", default='None')#  {value: '3000000', currency: 'RUB', period: 'месяц'}
+    sales_agent = models.CharField(verbose_name="Информация об агенте", default='None')# {name: '', phone: '', category: '«агентство»/«agency», «застройщик»/«developer»', organization: 'имя организации', url: 'ссылка на профиль циан'}
+
+    def __str__(self):
+        return f"{self.type}, {self.property_type}, {self.category}, " \
+               f"{self.url}, {self.creation_date}," \
+               f"{self.location}, {self.price}, {self.sales_agent}"
+
+
+class SerializerInfo(models.Model):
     type = models.CharField(verbose_name="Тип сделки", max_length=255, default='Продажа')# «продажа» «аренда»
     property_type = models.CharField(verbose_name="Тип недвижимости", max_length=255, default='None') # «жилая»/«living».
     type_of_housing = models.CharField(verbose_name="Вторичка/новостройка", max_length=255, default='None')
@@ -53,7 +69,7 @@ class SerializerInfo(models.Model):
     url = models.CharField(verbose_name="Ссылка", max_length=255, default='None')
     creation_date = models.CharField(verbose_name="Дата размещения", default='None')  # YYYY-MM-DDTHH:mm:ss+00:00.
     # location = models.CharField(verbose_name="Местоположение", default='None')  # {country: 'страна', region: 'область', district: 'населенный пункт', address: 'улица и дом' apartment: 'номер квартиры'}
-    country = models.CharField(verbose_name="Страна", default='None')
+    country = models.CharField(verbose_name="Страна", default='Россия')
     region = models.CharField(verbose_name="Субъект", default='None')
     district = models.CharField(verbose_name="Населенный пункт", default='None')
     address = models.CharField(verbose_name="Номер дома", default='None')
@@ -70,7 +86,7 @@ class SerializerInfo(models.Model):
     window_view = models.CharField(verbose_name="Вид из окон", default='None')
     finishing = models.CharField(verbose_name="Отделка", default='None')
     rooms = models.CharField(verbose_name="Всего комнат в квартире", default='None')
-    building_type = models.CharField(verbose_name="Год постройки", default='None')
+    building_type = models.CharField(verbose_name="Тип дома", default='None')
     built_year = models.CharField(verbose_name="Год постройки", default='None')
     floor_type = models.CharField(verbose_name="Тип перекрытий", default='None')
     porch = models.CharField(verbose_name="Подъезды", default='None')
