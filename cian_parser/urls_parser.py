@@ -4,42 +4,9 @@ from requests.exceptions import ProxyError, ChunkedEncodingError, ConnectionErro
 from datetime import datetime
 from time import sleep
 from bs4 import BeautifulSoup
-from cian_parser.utils import header_proxy, parameters_immovables, check_regions
+from cian_parser.utils import parameters_immovables, check_regions
 from cian_parser.models import UrlsAds, Regions
 from cian_parser.webdriver.opera_driver import Operadriver, path
-
-
-def get_urls_from_page(url, urls_list, counter_ads, region_id, proxy_list):
-    try:
-        header, proxies = header_proxy(proxy_list)
-        html = requests.get(url, headers=header,
-                            proxies=proxies).text
-        soup = BeautifulSoup(html, 'html.parser')
-        if soup.find('title').text == 'Captcha - база объявлений ЦИАН':
-            print(proxies, "changed")
-            get_urls_from_page(url, urls_list, counter_ads, region_id, proxy_list)
-        pages = soup.find_all(attrs={"class": "c6e8ba5398--header--1fV2A"})
-        counter = 0
-        for page in pages:
-            link = page.attrs['href']
-            try:
-                UrlsAds.objects.get(url=link)
-                counter += 1
-            # except :
-            #     counter += 1
-            except UrlsAds.DoesNotExist:
-                UrlsAds.objects.create(date=datetime.now(),
-                                       url=link,
-                                       region=Regions.objects.get(id=region_id))
-                counter_ads += 1
-            if counter >= 20:
-                break
-    except ProxyError or ChunkedEncodingError or ConnectionError:
-        get_urls_from_page(url, urls_list, counter_ads, region_id, proxy_list)
-        print('change proxy')
-        # counter_proxy +=1
-        # if counter_proxy == len(proxy_list):
-        #     print("all proxy used and don't work")
 
 
 def get_url_with_driver(driver, url_page, region_id, counter_repeat):

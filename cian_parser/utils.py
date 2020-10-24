@@ -1,5 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
 from cian_parser.models import UrlsAds, Regions, SerializerInfo
 import json
 
@@ -49,14 +47,6 @@ def check_regions(regions):
     return list_with_dicts
 
 
-def get_html(url):
-    proxy_list = proxy_parse()
-    header, proxies = header_proxy(proxy_list)
-    html = requests.get(url, headers=header, proxies=proxies).text
-    soup = BeautifulSoup(html, 'html.parser')
-    return soup
-
-
 def serializer_info(queryset_ads):
     for ad in queryset_ads:
 
@@ -94,39 +84,39 @@ def lists_values():
     list_house_info = ['Тип дома', 'Год постройки', 'Тип перекрытий', 'Подъезды', 'Лифты', 'Отопление',
                 'Аварийность', 'Газоснабжение', 'Парковка', 'Строительная серия', 'Мусоропровод']
     list_description_info = ['Комната', 'Этаж', 'Общая', 'Кухня', 'Построен', 'Жилая', 'Срок сдачи']
-    all_value = list_general_info + list_geo + list_house_info + list_description_info
+    other = ['Тип сделки', 'Тип недвижимости']
+    all_value = list_general_info + list_geo + list_house_info + list_description_info + other
     return list_general_info, list_geo, list_house_info, list_description_info, all_value
 
 
 def serializer_ads(queryset_ads):
     _, _, _, _, list_with_info = lists_values()
-    dict_with_info = {}
-    for i in list_with_info:
-        dict_with_info[i] = 'None'
     for ad in queryset_ads:
+        dict_with_info = {}
+        for i in list_with_info:
+            dict_with_info[i] = 'None'
         dict_with_info.update({**json.loads(ad.description_info),
                                **json.loads(ad.general_information),
                                **json.loads(ad.house_info),
                                **json.loads(ad.geo)})
-        try:
-            dict_with_info['Комнат в продажу']
-            category_ = 'комната'
-        except KeyError:
-            category_ = 'квартира'
-        price_ = str.replace(' ', '')
+        if dict_with_info['Комнат в продажу'] != 'None':
+           category_ = 'комната'
+        else:
+           category_ = 'квартира'
+        price_ = ad.price.replace(' ', '')
         SerializerInfo.objects.create(
-            type=dict_with_info['Тип сделки'] or 'Продажа',
-            property_type=dict_with_info['Тип недвижимости'] or 'жилая',
-            type_of_housing =dict_with_info['Тип жилья'],
+            type=dict_with_info['Тип сделки'],
+            property_type=dict_with_info['Тип недвижимости'],
+            type_of_housing=dict_with_info['Тип жилья'],
             category=category_,
             url=ad.url,
             #creation_date=ad. # todo add func pars creation date
             region=dict_with_info['region'],
             district=dict_with_info['locality-name'],
-            disrtict_area=dict_with_info['address'],
+            district_area=dict_with_info['address'],
             address=dict_with_info['house'],
             price=price_,
-            sales_agent=ad.sales_agent,
+            sales_agent=ad.seller_info,
             rooms_offered=dict_with_info['Комнат в продажу'],
             room_space=dict_with_info['Площадь комнаты'],
             rooms_space=dict_with_info['Площадь комнат'],

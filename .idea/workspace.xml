@@ -11,11 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;correct cian&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/cian_parser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cian_parser.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a979dd0-d404-40df-b827-774393cbc2e5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a979dd0-d404-40df-b827-774393cbc2e5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/urls_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/urls_parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="69e833db-6778-497b-9a6c-9866c4b44bc3" />
+  <component name="JupyterTrust" id="492ad498-ef25-4190-ae85-28efd1e6cd50" />
   <component name="ProjectId" id="1gYSggGt0Qr0UMVz7LestJsYTWE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -180,9 +182,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django Server.cian_parser" />
       <item itemvalue="Python.ads_parser_selenium" />
       <item itemvalue="Python.urls_parser" />
-      <item itemvalue="Django Server.cian_parser" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -265,6 +267,7 @@
       <workItem from="1603201796174" duration="1875000" />
       <workItem from="1603206338994" duration="2138000" />
       <workItem from="1603208765635" duration="33898000" />
+      <workItem from="1603530617798" duration="4579000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -351,10 +354,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;correct cian&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="8" y="24" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603469959287">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603532888200">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603456389417" />
+    <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603532888200" />
     <state x="8" y="24" width="1076" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868@0.32.1600.868" timestamp="1603469959287" />
     <state x="580" y="308" width="653" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603456799351">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -405,9 +408,10 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state width="777" height="270" key="GridCell.Tab.1.right/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="265" height="500" key="HiddenNamespacesPopup" timestamp="1602158619388">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state width="318" height="607" key="HiddenNamespacesPopup" timestamp="1603530882730">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="318" height="607" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1603530882730" />
     <state width="265" height="500" key="HiddenNamespacesPopup/0.32.1600.868@0.32.1600.868" timestamp="1602158619388" />
     <state x="187" y="116" width="1536" height="872" key="MergeDialog" timestamp="1603456804799">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -438,9 +442,10 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="100" y="116" width="1400" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.32.1600.868@0.32.1600.868" timestamp="1600667884196" />
-    <state x="417" y="31" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602844766881">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="500" y="27" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603533637599">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="500" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1603533637599" />
     <state x="417" y="31" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.32.1600.868@0.32.1600.868" timestamp="1602844766881" />
     <state x="741" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603456784737">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -450,9 +455,10 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="489" y="201" width="621" height="580" key="find.popup/0.32.1600.868@0.32.1600.868" timestamp="1598422361719" />
-    <state x="463" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1601403291680">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="556" y="245" width="807" height="823" key="search.everywhere.popup" timestamp="1603529813158">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="556" y="245" width="807" height="823" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1603529813157" />
     <state x="463" y="212" width="672" height="678" key="search.everywhere.popup/0.32.1600.868@0.32.1600.868" timestamp="1601403291680" />
   </component>
   <component name="XDebuggerManager">
@@ -467,7 +473,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cian_parser$ads_parser_selenium.coverage" NAME="ads_parser_selenium Coverage Results" MODIFIED="1600862230359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
     <SUITE FILE_PATH="coverage/cian_parser$urls_parser.coverage" NAME="urls_parser Coverage Results" MODIFIED="1598608827976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
+    <SUITE FILE_PATH="coverage/cian_parser$ads_parser_selenium.coverage" NAME="ads_parser_selenium Coverage Results" MODIFIED="1600862230359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
   </component>
 </project>
