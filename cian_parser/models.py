@@ -47,11 +47,11 @@ class InformationFromAds(models.Model):
 
 
 class SerializerInfo(models.Model):
-    type = models.CharField(verbose_name="Тип сделки", max_length=255, default='Продажа')# «продажа» «аренда»
+    type_sale = models.CharField(verbose_name="Тип сделки", max_length=255, default='Продажа')# «продажа» «аренда»
     property_type = models.CharField(verbose_name="Тип недвижимости", max_length=255, default='None') # «жилая»/«living».
     type_of_housing = models.CharField(verbose_name="Вторичка/новостройка", max_length=255, default='None')
-    category = models.CharField(verbose_name="Категория объекта", max_length=255, default='None') # . «квартира»/«flat» «комната»/«room», «таунхаус»/«townhouse»
-    url = models.CharField(verbose_name="Ссылка", max_length=255, default='None')
+    category_obj = models.CharField(verbose_name="Категория объекта", max_length=255, default='None') # . «квартира»/«flat» «комната»/«room», «таунхаус»/«townhouse»
+    url = models.CharField(verbose_name="Ссылка", max_length=1000, default='None')
     creation_date = models.DateTimeField(verbose_name="Дата размещения",  auto_now_add=True)  # YYYY-MM-DDTHH:mm:ss+00:00.
     # location = models.CharField(verbose_name="Местоположение", default='None')  # {country: 'страна', region: 'область', district: 'населенный пункт', address: 'улица и дом' apartment: 'номер квартиры'}
     country = models.CharField(verbose_name="Страна", max_length=255, default='Россия')
@@ -89,8 +89,10 @@ class SerializerInfo(models.Model):
     kitchen_space = models.CharField(verbose_name="Кухня", max_length=255, default='None')
     living_space = models.CharField(verbose_name="Жилая", max_length=255, default='None')
     deadline = models.CharField(verbose_name="Срок сдачи", max_length=255, default='None')
+    description = models.CharField(verbose_name="Описание", max_length=5000, default='None')
+
 
     def __str__(self):
-        return f"{self.type}, {self.property_type}, {self.category}, " \
+        return f"{self.type_sale}, {self.property_type}, " \
                f"{self.url}, {self.creation_date}," \
                f"{self.price}, {self.sales_agent}"

@@ -105,18 +105,18 @@ def serializer_ads(queryset_ads):
            category_ = 'квартира'
         price_ = ad.price.replace(' ', '')
         SerializerInfo.objects.create(
-            type=dict_with_info['Тип сделки'],
+            type_sale=dict_with_info['Тип сделки'],
             property_type=dict_with_info['Тип недвижимости'],
             type_of_housing=dict_with_info['Тип жилья'],
-            category=category_,
-            url=ad.url,
+            category_obj=category_,
+            url=ad.url.url,
             #creation_date=ad. # todo add func pars creation date
             region=dict_with_info['region'],
             district=dict_with_info['locality-name'],
             district_area=dict_with_info['address'],
             address=dict_with_info['house'],
             price=price_,
-            sales_agent=ad.seller_info,
+            sales_agent=json.loads(ad.seller_info),
             rooms_offered=dict_with_info['Комнат в продажу'],
             room_space=dict_with_info['Площадь комнаты'],
             rooms_space=dict_with_info['Площадь комнат'],
@@ -144,5 +144,6 @@ def serializer_ads(queryset_ads):
             area=dict_with_info['Общая'],
             kitchen_space=dict_with_info['Кухня'],
             living_space=dict_with_info['Жилая'],
-            deadline=dict_with_info['Срок сдачи']
+            deadline=dict_with_info['Срок сдачи'],
+            description=ad.description
         )

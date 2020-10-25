@@ -2,8 +2,8 @@ from django.contrib.auth.models import User, Group
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets, filters
 from rest_framework import permissions
-from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSerializer
-from cian_parser.models import InformationFromAds, UrlsAds
+from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSerializer, SerializerInfoSerializer
+from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo
 
 
 class InformationFromAdsViewSet(viewsets.ModelViewSet):
@@ -16,6 +16,18 @@ class InformationFromAdsViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
     search_fields = ('$phone', '$house_info', '$description', '$general_information', '$description_info')
     filterset_fields = ('phone',)
+
+
+class SerializerInfoViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = SerializerInfo.objects.all()
+    serializer_class = SerializerInfoSerializer
+    permission_classes = [permissions.IsAuthenticated]
+    filter_backends = [DjangoFilterBackend, filters.SearchFilter]
+    # search_fields = ('$phone', '$house_info', '$description', '$general_information', '$description_info')
+    # filterset_fields = ('phone',)
 
 
 class UrlsAdsViewSet(viewsets.ModelViewSet):

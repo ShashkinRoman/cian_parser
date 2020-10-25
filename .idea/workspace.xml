@@ -10,15 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;correct cian&quot;">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;add serializer for ads&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a979dd0-d404-40df-b827-774393cbc2e5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a979dd0-d404-40df-b827-774393cbc2e5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cian_parser/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cian_parser/urls_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/urls_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="492ad498-ef25-4190-ae85-28efd1e6cd50" />
+  <component name="JupyterTrust" id="69e833db-6778-497b-9a6c-9866c4b44bc3" />
   <component name="ProjectId" id="1gYSggGt0Qr0UMVz7LestJsYTWE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -268,6 +268,8 @@
       <workItem from="1603206338994" duration="2138000" />
       <workItem from="1603208765635" duration="33898000" />
       <workItem from="1603530617798" duration="4579000" />
+      <workItem from="1603611868103" duration="1549000" />
+      <workItem from="1603614097781" duration="4363000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -354,11 +356,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;correct cian&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603532888200">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="8" y="24" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603614060585">
+      <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603532888200" />
-    <state x="8" y="24" width="1076" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868@0.32.1600.868" timestamp="1603469959287" />
+    <state x="8" y="24" width="1076" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868@0.32.1600.868" timestamp="1603614060585" />
     <state x="580" y="308" width="653" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603456799351">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -408,11 +410,11 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state width="777" height="270" key="GridCell.Tab.1.right/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="318" height="607" key="HiddenNamespacesPopup" timestamp="1603530882730">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="265" height="500" key="HiddenNamespacesPopup" timestamp="1603537462403">
+      <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state width="318" height="607" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1603530882730" />
-    <state width="265" height="500" key="HiddenNamespacesPopup/0.32.1600.868@0.32.1600.868" timestamp="1602158619388" />
+    <state width="265" height="500" key="HiddenNamespacesPopup/0.32.1600.868@0.32.1600.868" timestamp="1603537462403" />
     <state x="187" y="116" width="1536" height="872" key="MergeDialog" timestamp="1603456804799">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -434,10 +436,14 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="536" y="270" width="524" height="388" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.32.1600.868@0.32.1600.868" timestamp="1600691238732" />
-    <state x="629" y="161" width="693" height="607" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602847851425">
+    <state x="556" y="279" width="484" height="369" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1603614144242">
       <screen x="0" y="32" width="1600" height="868" />
     </state>
-    <state x="629" y="161" width="693" height="607" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.32.1600.868@0.32.1600.868" timestamp="1602847851425" />
+    <state x="556" y="279" width="484" height="369" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.32.1600.868@0.32.1600.868" timestamp="1603614144242" />
+    <state x="629" y="73" width="693" height="607" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603614156365">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="629" y="73" width="693" height="607" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.32.1600.868@0.32.1600.868" timestamp="1603614156365" />
     <state x="100" y="116" width="1400" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600667884196">
       <screen x="0" y="32" width="1600" height="868" />
     </state>
@@ -473,7 +479,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cian_parser$urls_parser.coverage" NAME="urls_parser Coverage Results" MODIFIED="1598608827976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
     <SUITE FILE_PATH="coverage/cian_parser$ads_parser_selenium.coverage" NAME="ads_parser_selenium Coverage Results" MODIFIED="1600862230359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
+    <SUITE FILE_PATH="coverage/cian_parser$urls_parser.coverage" NAME="urls_parser Coverage Results" MODIFIED="1598608827976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
   </component>
 </project>
