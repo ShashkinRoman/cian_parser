@@ -12,7 +12,7 @@ class InformationFromAdsViewSet(viewsets.ModelViewSet):
     """
     queryset = InformationFromAds.objects.all()
     serializer_class = InformationFromAdsSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    # permission_classes = [permissions.IsAuthenticated]
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
     search_fields = ('$phone', '$house_info', '$description', '$general_information', '$description_info')
     filterset_fields = ('phone',)
@@ -24,7 +24,7 @@ class SerializerInfoViewSet(viewsets.ModelViewSet):
     """
     queryset = SerializerInfo.objects.all()
     serializer_class = SerializerInfoSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    # permission_classes = [permissions.IsAuthenticated]
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
     # search_fields = ('$phone', '$house_info', '$description', '$general_information', '$description_info')
     # filterset_fields = ('phone',)
@@ -36,4 +36,4 @@ class UrlsAdsViewSet(viewsets.ModelViewSet):
     """
     queryset = UrlsAds.objects.all()
     serializer_class = UrlsAdsSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    # permission_classes = [permissions.IsAuthenticated]
