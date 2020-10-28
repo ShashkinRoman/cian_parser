@@ -98,11 +98,11 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.getenv('DATABASE'),
-        'USER': os.getenv('USER_DB'),
-        'PASSWORD': os.getenv('PASSWORD'),
-        'HOST': os.getenv('HOST'),
-        'PORT': os.getenv('PORT'),
+        'NAME': os.getenv('CIAN_PARSER_DATABASE'),
+        'USER': os.getenv('CIAN_PARSER_USER_DB'),
+        'PASSWORD': os.getenv('CIAN_PARSER_PASSWORD_DB'),
+        'HOST': os.getenv('CIAN_PARSER_HOST'),
+        'PORT': os.getenv('CIAN_PARSER_PORT'),
     }
     # 'default': {
     #     'ENGINE': 'django.db.backends.sqlite3',

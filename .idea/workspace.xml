@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;add serializer for ads&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +267,9 @@
       <workItem from="1603648232428" duration="1435000" />
       <workItem from="1603805440585" duration="992000" />
       <workItem from="1603807699596" duration="4225000" />
-      <workItem from="1603813385674" duration="1686000" />
+      <workItem from="1603813385674" duration="3187000" />
+      <workItem from="1603875930586" duration="617000" />
+      <workItem from="1603887695916" duration="938000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -334,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603640061735</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;add serializer for ads&quot;">
+      <created>1603815240707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603815240707</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,9 +371,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;add serializer for ads&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="8" y="24" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603813037956">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="8" y="-8" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603888090377">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
+    <state x="8" y="-8" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1603888090377" />
     <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603532888200" />
     <state x="8" y="24" width="1076" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868@0.32.1600.868" timestamp="1603813037956" />
     <state x="580" y="308" width="653" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603456799351">
@@ -422,9 +430,10 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state width="777" height="270" key="GridCell.Tab.1.right/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="265" height="500" key="HiddenNamespacesPopup" timestamp="1603537462403">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state width="265" height="519" key="HiddenNamespacesPopup" timestamp="1603888184266">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
+    <state width="265" height="519" key="HiddenNamespacesPopup/0.0.1600.900@0.0.1600.900" timestamp="1603888184266" />
     <state width="318" height="607" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1603530882730" />
     <state width="265" height="500" key="HiddenNamespacesPopup/0.32.1600.868@0.32.1600.868" timestamp="1603537462403" />
     <state x="187" y="116" width="1536" height="872" key="MergeDialog" timestamp="1603456804799">
@@ -436,17 +445,18 @@
     </state>
     <state x="346" y="131" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603114904058" />
     <state x="288" y="118" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1601289419597" />
-    <state x="398" y="70" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1603640063656">
+    <state x="398" y="54" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1603815251170">
       <screen x="0" y="32" width="1600" height="868" />
     </state>
-    <state x="398" y="70" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1603640063656" />
+    <state x="398" y="54" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1603815251170" />
     <state width="775" height="441" key="XDebugger.FullValuePopup" timestamp="1600691493538">
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state width="775" height="441" key="XDebugger.FullValuePopup/0.32.1600.868@0.32.1600.868" timestamp="1600691493538" />
-    <state x="684" y="343" width="367" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603806074742">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="684" y="314" width="367" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603888227326">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
+    <state x="684" y="314" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1600.900@0.0.1600.900" timestamp="1603888227326" />
     <state x="684" y="343" width="367" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.32.1600.868@0.32.1600.868" timestamp="1603806074742" />
     <state x="146" y="94" width="824" height="688" key="com.intellij.database.dbimport.ImportDialog" timestamp="1603811654229">
       <screen x="0" y="32" width="1600" height="868" />
