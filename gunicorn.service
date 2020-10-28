@@ -1,0 +1,14 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+[Service]
+User=root
+Group=root
+UMask=0002
+WorkingDirectory=/root/cian_parser
+ExecStart=/root/cian_parser/venv/bin/gunicorn --reload --workers 10 --bind unix:/root/cian_parser/cian_parser.sock cian_parser.wsgi:application
+
