@@ -132,9 +132,9 @@ def serializer_ads(queryset_ads):
             finishing=dict_with_info['Отделка'],
             rooms=dict_with_info['Всего комнат в квартире'],
             building_type=dict_with_info['Тип дома'],
-            built_year=dict_with_info['Год постройки'],
+            built_year=int(dict_with_info['Год постройки']) if dict_with_info['Год постройки'] != None else None,
             floor_type=dict_with_info['Тип перекрытий'],
-            porch=dict_with_info['Подъезды'],
+            porch=int(dict_with_info['Подъезды']) if dict_with_info['Подъезды'] != None else None,
             lift=dict_with_info['Лифты'],
             heating_supply=dict_with_info['Отопление'],
             accident_rate=dict_with_info['Аварийность'],
@@ -144,10 +144,10 @@ def serializer_ads(queryset_ads):
             rubbish_chute=dict_with_info['Мусоропровод'],
             floor=int(dict_with_info['Этаж'][0]) if dict_with_info['Этаж'] != None else None,
             floors_total=int(dict_with_info['Этаж'][-1]) if dict_with_info['Этаж'] != None else None,
-            area=dict_with_info['Общая'],
-            kitchen_space=dict_with_info['Кухня'],
-            living_space=dict_with_info['Жилая'],
-            deadline=dict_with_info['Срок сдачи'],
+            area=float(dict_with_info['Общая'][:-3].replace(',', '.')) if dict_with_info['Общая'] != None else None,
+            kitchen_space=float(dict_with_info['Кухня'][:-3].replace(',', '.')) if dict_with_info['Кухня'] != None else None,
+            living_space=float(dict_with_info['Жилая'][:-3].replace(',', '.')) if dict_with_info['Жилая'] != None else None,
+            # deadline=dict_with_info['Срок сдачи'],
             description=ad.description
         )
         ad.serialize_status = 1
