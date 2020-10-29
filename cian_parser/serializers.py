@@ -17,6 +17,7 @@ class SerializerInfoSerializer(serializers.ModelSerializer):
 
 
 class UrlsAdsSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = UrlsAds
         fields = ['region', 'request', 'date', 'url', 'status', 'phone']

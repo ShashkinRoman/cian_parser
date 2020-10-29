@@ -94,35 +94,36 @@ def serializer_ads(queryset_ads):
     for ad in queryset_ads:
         dict_with_info = {}
         for i in list_with_info:
-            dict_with_info[i] = 'None'
+            dict_with_info[i] = None
         dict_with_info.update({**json.loads(ad.description_info),
                                **json.loads(ad.general_information),
                                **json.loads(ad.house_info),
                                **json.loads(ad.geo)})
-        if dict_with_info['Комнат в продажу'] != 'None':
-           category_ = 'комната'
-        else:
-           category_ = 'квартира'
+
+        category_ = 'комната' if dict_with_info['Комнат в продажу'] != 'None' else 'квартира'
+        balcony_ = True if dict_with_info['Балкон/лоджия'] != 'None' else False
+        dict_with_info['Тип сделки'] = 'Продажа'
         price_ = ad.price.replace(' ', '')
+        
         SerializerInfo.objects.create(
             type_sale=dict_with_info['Тип сделки'],
             property_type=dict_with_info['Тип недвижимости'],
             type_of_housing=dict_with_info['Тип жилья'],
             category_obj=category_,
-            url=ad.url.url,
+            url=ad.url,
             #creation_date=ad. # todo add func pars creation date
             region=dict_with_info['region'],
             district=dict_with_info['locality-name'],
             district_area=dict_with_info['address'],
             address=dict_with_info['house'],
             price=price_,
-            sales_agent=json.loads(ad.seller_info),
+            sales_agent=json.loads(ad.seller_info)[0].split('\n'),
             rooms_offered=dict_with_info['Комнат в продажу'],
-            room_space=dict_with_info['Площадь комнаты'],
-            rooms_space=dict_with_info['Площадь комнат'],
-            ceiling_height=dict_with_info['Высота потолков'],
+            room_space=float(dict_with_info['Площадь комнаты'][:-3].replace(',', '.')) if dict_with_info['Площадь комнаты'] != None else None,
+            rooms_space=float(dict_with_info['Площадь комнат'][:-3].replace(',', '.')) if dict_with_info['Площадь комнат'] != None else None,
+            ceiling_height=float(dict_with_info['Высота потолков'][:-2].replace(',', '.')) if dict_with_info['Высота потолков'] != None else None,
             bathroom_unit=dict_with_info['Санузел'],
-            balcony=dict_with_info['Балкон/лоджия'],
+            balcony=balcony_,
             renovation=dict_with_info['Ремонт'],
             flat_plan=dict_with_info['Планировка'],
             window_view=dict_with_info['Вид из окон'],
@@ -139,8 +140,8 @@ def serializer_ads(queryset_ads):
             parking=dict_with_info['Парковка'],
             series_construct=dict_with_info['Строительная серия'],
             rubbish_chute=dict_with_info['Мусоропровод'],
-            room=dict_with_info['Комната'],
-            floor=dict_with_info['Этаж'],
+            floor=int(dict_with_info['Этаж'][0]) if dict_with_info['Этаж'] != None else None,
+            floors_total=int(dict_with_info['Этаж'][-1]) if dict_with_info['Этаж'] != None else None,
             area=dict_with_info['Общая'],
             kitchen_space=dict_with_info['Кухня'],
             living_space=dict_with_info['Жилая'],

@@ -12,6 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;add serializer for ads&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$USER_HOME$/informationfromadscian_parser_prod-2020_10_27_17_37_41-dump.sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -269,7 +272,9 @@
       <workItem from="1603807699596" duration="4225000" />
       <workItem from="1603813385674" duration="3187000" />
       <workItem from="1603875930586" duration="617000" />
-      <workItem from="1603887695916" duration="1566000" />
+      <workItem from="1603887695916" duration="2818000" />
+      <workItem from="1603950565550" duration="1624000" />
+      <workItem from="1603967376070" duration="8442000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -348,7 +353,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603888694549</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;add serializer for ads&quot;">
+      <created>1603889487101</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603889487102</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&quot;add serializer for ads&quot;">
+      <created>1603889600947</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603889600947</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&quot;add serializer for ads&quot;">
+      <created>1603890326588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603890326588</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,10 +404,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;add serializer for ads&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="8" y="-8" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603888090377">
+    <state x="8" y="-8" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603969898812">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="8" y="-8" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1603888090377" />
+    <state x="8" y="-8" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1603969898812" />
     <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603532888200" />
     <state x="8" y="24" width="1076" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868@0.32.1600.868" timestamp="1603813037956" />
     <state x="580" y="308" width="653" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603456799351">
@@ -393,9 +419,10 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="486" y="164" width="624" height="488" key="DUMP_DIALOG_DIMENSION_KEY/0.32.1600.868@0.32.1600.868" timestamp="1603805901532" />
-    <state x="586" y="24" width="424" height="488" key="FileChooserDialogImpl" timestamp="1603811627026">
-      <screen x="0" y="32" width="1600" height="868" />
+    <state x="586" y="-8" width="424" height="488" key="FileChooserDialogImpl" timestamp="1603954082147">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
+    <state x="586" y="-8" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1603954082147" />
     <state x="586" y="24" width="424" height="488" key="FileChooserDialogImpl/0.32.1600.868@0.32.1600.868" timestamp="1603811627026" />
     <state x="651" y="362" width="601" height="204" key="Github.ShareDialog" timestamp="1598620692636">
       <screen x="0" y="32" width="1600" height="868" />
@@ -452,10 +479,10 @@
     </state>
     <state x="346" y="131" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603114904058" />
     <state x="288" y="118" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1601289419597" />
-    <state x="398" y="15" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1603888697075">
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1603890331917">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="398" y="15" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1603888697075" />
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1603890331917" />
     <state x="398" y="54" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1603815251170" />
     <state width="775" height="441" key="XDebugger.FullValuePopup" timestamp="1600691493538">
       <screen x="0" y="32" width="1600" height="868" />
