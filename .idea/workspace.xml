@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;add serializer for ads&quot;">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;correct serializer_ads&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
@@ -274,7 +274,7 @@
       <workItem from="1603875930586" duration="617000" />
       <workItem from="1603887695916" duration="2818000" />
       <workItem from="1603950565550" duration="1624000" />
-      <workItem from="1603967376070" duration="8442000" />
+      <workItem from="1603967376070" duration="11256000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -374,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603890326588</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&quot;correct serializer_ads&quot;">
+      <created>1603976188266</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603976188266</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +408,8 @@
     <MESSAGE value="&quot;add reboot counter for change io&quot;" />
     <MESSAGE value="&quot;correct cian&quot;" />
     <MESSAGE value="&quot;add serializer for ads&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;add serializer for ads&quot;" />
+    <MESSAGE value="&quot;correct serializer_ads&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;correct serializer_ads&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="8" y="-8" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603969898812">
@@ -479,10 +487,10 @@
     </state>
     <state x="346" y="131" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603114904058" />
     <state x="288" y="118" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1601289419597" />
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1603890331917">
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1603976194185">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1603890331917" />
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1603976194185" />
     <state x="398" y="54" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1603815251170" />
     <state width="775" height="441" key="XDebugger.FullValuePopup" timestamp="1600691493538">
       <screen x="0" y="32" width="1600" height="868" />
@@ -527,9 +535,10 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="489" y="201" width="621" height="580" key="find.popup/0.32.1600.868@0.32.1600.868" timestamp="1598422361719" />
-    <state x="556" y="245" width="807" height="823" key="search.everywhere.popup" timestamp="1603529813158">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="463" y="186" width="673" height="704" key="search.everywhere.popup" timestamp="1603978644984">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
+    <state x="463" y="186" width="673" height="704" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1603978644984" />
     <state x="556" y="245" width="807" height="823" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1603529813157" />
     <state x="463" y="212" width="672" height="678" key="search.everywhere.popup/0.32.1600.868@0.32.1600.868" timestamp="1601403291680" />
   </component>

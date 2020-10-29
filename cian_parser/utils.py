@@ -1,4 +1,4 @@
-from cian_parser.models import UrlsAds, Regions, SerializerInfo
+from cian_parser.models import InformationFromAds, Regions, SerializerInfo
 import json
 
 
@@ -102,9 +102,11 @@ def serializer_ads(queryset_ads):
 
         category_ = 'комната' if dict_with_info['Комнат в продажу'] != 'None' else 'квартира'
         balcony_ = True if dict_with_info['Балкон/лоджия'] != 'None' else False
+        room_space_ = float(dict_with_info['Площадь комнаты'][:-3].replace(',', '.')) \
+            if dict_with_info['Площадь комнаты'] != None else None
         dict_with_info['Тип сделки'] = 'Продажа'
         price_ = ad.price.replace(' ', '')
-        
+
         SerializerInfo.objects.create(
             type_sale=dict_with_info['Тип сделки'],
             property_type=dict_with_info['Тип недвижимости'],
@@ -117,10 +119,10 @@ def serializer_ads(queryset_ads):
             district_area=dict_with_info['address'],
             address=dict_with_info['house'],
             price=price_,
-            sales_agent=json.loads(ad.seller_info)[0].split('\n'),
+            sales_agent=json.loads(ad.seller_info)[0].split('\n') if json.loads(ad.seller_info) != [] else None,
             rooms_offered=dict_with_info['Комнат в продажу'],
-            room_space=float(dict_with_info['Площадь комнаты'][:-3].replace(',', '.')) if dict_with_info['Площадь комнаты'] != None else None,
-            rooms_space=float(dict_with_info['Площадь комнат'][:-3].replace(',', '.')) if dict_with_info['Площадь комнат'] != None else None,
+            room_space=room_space_,
+            # rooms_space=float(dict_with_info['Площадь комнат'][:-3].replace(',', '.')) if dict_with_info['Площадь комнат'] != None else None,
             ceiling_height=float(dict_with_info['Высота потолков'][:-2].replace(',', '.')) if dict_with_info['Высота потолков'] != None else None,
             bathroom_unit=dict_with_info['Санузел'],
             balcony=balcony_,
@@ -148,3 +150,5 @@ def serializer_ads(queryset_ads):
             deadline=dict_with_info['Срок сдачи'],
             description=ad.description
         )
+        ad.serialize_status = 1
+        ad.save()

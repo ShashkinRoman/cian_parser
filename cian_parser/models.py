@@ -58,12 +58,12 @@ class SerializerInfo(models.Model):
     region = models.CharField(verbose_name="Субъект", max_length=255, default='None', null=True)
     district = models.CharField(verbose_name="Населенный пункт", max_length=255, default='None', null=True)
     district_area = models.CharField(verbose_name="Район", max_length=255, default='None', null=True)
-    address = models.IntegerField(verbose_name="Номер дома", null=True)
+    address = models.CharField(verbose_name="Номер дома", max_length=255, null=True)
     price = models.FloatField(verbose_name="Информация о стоимомти", null=True)  # {value: '3000000', currency: 'RUB', period: 'месяц'}
     sales_agent = models.CharField(verbose_name="Информация об агенте", max_length=255, default='None', null=True)  #  {name: '', phone: '', category: '«агентство»/«agency», «застройщик»/«developer»', organization: 'имя организации', url: 'ссылка на профиль циан'}
     rooms_offered = models.IntegerField(verbose_name="Комнат в продажу", null=True)
     room_space = models.FloatField(verbose_name="Площадь комнаты", null=True)
-    rooms_space = models.FloatField(verbose_name="Площадь комнат", null=True)
+    # rooms_space = models.FloatField(verbose_name="Площадь комнат", null=True)
     ceiling_height = models.FloatField(verbose_name="Высота потолков", null=True)
     bathroom_unit = models.CharField(verbose_name="Санузел", max_length=255, default='None', null=True)
     balcony = models.BooleanField(verbose_name="Балкон/лоджия", null=True)

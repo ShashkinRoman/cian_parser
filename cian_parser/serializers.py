@@ -14,6 +14,7 @@ class SerializerInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = SerializerInfo
         exclude = ()
+        depth = 1
 
 
 class UrlsAdsSerializer(serializers.ModelSerializer):
