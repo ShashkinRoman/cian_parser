@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User, Group
+from django.shortcuts import redirect, render
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets, filters
 from rest_framework import permissions
@@ -37,3 +38,5 @@ class UrlsAdsViewSet(viewsets.ModelViewSet):
     queryset = UrlsAds.objects.all()
     serializer_class = UrlsAdsSerializer
     # permission_classes = [permissions.IsAuthenticated]
+
+

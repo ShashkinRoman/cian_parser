@@ -17,7 +17,7 @@ class UrlsAds(models.Model):
     region = models.ForeignKey("Regions", on_delete=models.CASCADE)
     request = models.CharField(verbose_name="Запрос", max_length=255, default="Null")
     date = models.DateTimeField(verbose_name="Дата парсинга информации")
-    url = models.CharField(verbose_name="Ссылка", max_length=255)
+    url = models.CharField(verbose_name="Ссылка", max_length=255, unique=True)
     status = models.SmallIntegerField(default=0)
     phone = models.CharField(verbose_name='Телефон', max_length=255, default='None')
 
@@ -25,35 +25,13 @@ class UrlsAds(models.Model):
         return f"{self.phone}, {Regions.region}, {self.date}, {self.url}"
 
 
-class InformationFromAds(models.Model):
-    phone = models.CharField(verbose_name="Телефон", max_length=255, default='None')
-    region = models.ForeignKey("Regions", on_delete=models.CASCADE)
-    price = models.CharField(verbose_name="Цена", max_length=255, default="None")
-    url = models.OneToOneField("UrlsAds", related_name="url_ads", on_delete=models.CASCADE)
-    house_info = models.CharField(verbose_name="Информация о доме", max_length=2500, default='None')
-    general_information = models.CharField(verbose_name="Общая информация", max_length=2500, default='None')
-    description_info = models.CharField(verbose_name="Инфо о кваритире из заголовка", max_length=2500, default='None')
-    description = models.CharField(verbose_name="Описание", max_length=5000, default='None')
-    offer_tittle = models.CharField(verbose_name="Заголовок объявления", max_length=1000, default='None')
-    geo = models.CharField(verbose_name="Адрес", max_length=1000, default='None')
-    seller_info = models.CharField(verbose_name="Информация о продавце", max_length=1000, default='None')
-    serialize_status = models.SmallIntegerField(default=0)
-
-    def __str__(self):
-        return f"{self.phone}, {self.price}, {self.house_info}, " \
-               f"{self.general_information}, {self.description_info}," \
-               f"{self.description}, {self.offer_tittle}, {self.geo}" \
-               f"{self.url}"
-
-
 class SerializerInfo(models.Model):
     type_sale = models.CharField(verbose_name="Тип сделки", max_length=255, default='Продажа')# «продажа» «аренда»
     property_type = models.CharField(verbose_name="Тип недвижимости", max_length=255, default='None', null=True) # «жилая»/«living».
     type_of_housing = models.CharField(verbose_name="Вторичка/новостройка", max_length=255, default='None', null=True)
     category_obj = models.CharField(verbose_name="Категория объекта", max_length=255, default='None', null=True) # . «квартира»/«flat» «комната»/«room», «таунхаус»/«townhouse»
-    url = models.ForeignKey(UrlsAds, verbose_name="Ссылка", on_delete=models.CASCADE)
+    ser_url_ads = models.ForeignKey(UrlsAds, verbose_name="Ссылка", on_delete=models.CASCADE)
     creation_date = models.DateTimeField(verbose_name="Дата размещения",  auto_now_add=True)  # YYYY-MM-DDTHH:mm:ss+00:00.
-    # location = models.CharField(verbose_name="Местоположение", default='None')  # {country: 'страна', region: 'область', district: 'населенный пункт', address: 'улица и дом' apartment: 'номер квартиры'}
     country = models.CharField(verbose_name="Страна", max_length=255, default='Россия', null=True)
     region = models.CharField(verbose_name="Субъект", max_length=255, default='None', null=True)
     district = models.CharField(verbose_name="Населенный пункт", max_length=255, default='None', null=True)
@@ -91,8 +69,48 @@ class SerializerInfo(models.Model):
     # deadline = models.CharField(verbose_name="Срок сдачи", max_length=255, default='None', null=True)
     description = models.CharField(verbose_name="Описание", max_length=5000, default='None', null=True)
 
-
     def __str__(self):
         return f"{self.type_sale}, {self.property_type}, " \
-               f"{self.url}, {self.creation_date}," \
+               f"{self.ser_url_ads.url}, {self.creation_date}," \
                f"{self.price}, {self.sales_agent}"
+
+
+class CianPhotoStatuses(models.Model):
+    status = models.CharField(verbose_name='Статус скачивания фото', max_length=255)
+
+
+class CianSerializeStatuses(models.Model):
+    status = models.CharField(verbose_name='Статус сериализации обхявления', max_length=255)
+
+
+class InformationFromAds(models.Model):
+    phone = models.CharField(verbose_name="Телефон", max_length=255, default='None')
+    region = models.ForeignKey("Regions", on_delete=models.CASCADE)
+    price = models.CharField(verbose_name="Цена", max_length=255, default="None")
+    inf_url_ads = models.OneToOneField("UrlsAds", related_name="url_ads", on_delete=models.CASCADE)
+    house_info = models.CharField(verbose_name="Информация о доме", max_length=2500, default='None')
+    general_information = models.CharField(verbose_name="Общая информация", max_length=2500, default='None')
+    description_info = models.CharField(verbose_name="Инфо о кваритире из заголовка", max_length=2500, default='None')
+    description = models.CharField(verbose_name="Описание", max_length=5000, default='None')
+    offer_tittle = models.CharField(verbose_name="Заголовок объявления", max_length=1000, default='None')
+    geo = models.CharField(verbose_name="Адрес", max_length=1000, default='None')
+    seller_info = models.CharField(verbose_name="Информация о продавце", max_length=1000, default='None')
+    serialize_status = models.ForeignKey(CianSerializeStatuses, on_delete=models.CASCADE, default=1)
+    photo_parse_status = models.ForeignKey(CianPhotoStatuses, on_delete=models.CASCADE, default=1)
+    urls_on_photo = models.CharField(verbose_name="Ссылки на фотографии", max_length=5000, default=None, null=True)
+
+    def __str__(self):
+        return f"{self.phone}, {self.price}, {self.house_info}, " \
+               f"{self.general_information}, {self.description_info}," \
+               f"{self.description}, {self.offer_tittle}, {self.geo}"
+
+
+class CianPhoto(models.Model):
+    image = models.FileField(upload_to='', null=True)
+    url_ads = models.ForeignKey(InformationFromAds, verbose_name='Ссылка на объявление', on_delete=models.CASCADE)
+
+
+
+
+
+

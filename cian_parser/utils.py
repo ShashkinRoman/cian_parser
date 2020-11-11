@@ -1,4 +1,4 @@
-from cian_parser.models import InformationFromAds, Regions, SerializerInfo
+from cian_parser.models import Regions, SerializerInfo, CianSerializeStatuses, UrlsAds
 import json
 
 
@@ -15,8 +15,6 @@ def parameters_immovables_first_page(domen, region, city):
     ads.append(studio)
     room = 'https://' + domen + '.cian.ru/kupit-' + 'komnatu' + '-' + region + '-' + city + '/'
     ads.append(room)
-    # todo add free_layout
-    # free_layout = 'https://' + region + '.cian.ru/kupit-' + '-svobodnoy-planirovki/' + '-komnatnuyu-kvartiru-saratovskaya-oblast-' + city +'/'
     return ads
 
 
@@ -45,12 +43,6 @@ def check_regions(regions):
                         "code_location": region_obj.code_location}
         list_with_dicts.append(dict_regions)
     return list_with_dicts
-
-
-def serializer_info(queryset_ads):
-    for ad in queryset_ads:
-
-        pass  # todo write serializer
 
 
 def find_all_value(queryset_ads):
@@ -112,7 +104,7 @@ def serializer_ads(queryset_ads):
             property_type=dict_with_info['Тип недвижимости'],
             type_of_housing=dict_with_info['Тип жилья'],
             category_obj=category_,
-            url=ad.url,
+            ser_url_ads=UrlsAds.objects.get(url=ad.inf_url_ads.url),
             #creation_date=ad. # todo add func pars creation date
             region=dict_with_info['region'],
             district=dict_with_info['locality-name'],
@@ -122,7 +114,6 @@ def serializer_ads(queryset_ads):
             sales_agent=json.loads(ad.seller_info)[0].split('\n') if json.loads(ad.seller_info) != [] else None,
             rooms_offered=dict_with_info['Комнат в продажу'],
             room_space=room_space_,
-            # rooms_space=float(dict_with_info['Площадь комнат'][:-3].replace(',', '.')) if dict_with_info['Площадь комнат'] != None else None,
             ceiling_height=float(dict_with_info['Высота потолков'][:-2].replace(',', '.')) if dict_with_info['Высота потолков'] != None else None,
             bathroom_unit=dict_with_info['Санузел'],
             balcony=balcony_,
@@ -150,5 +141,5 @@ def serializer_ads(queryset_ads):
             # deadline=dict_with_info['Срок сдачи'],
             description=ad.description
         )
-        ad.serialize_status = 1
+        ad.serialize_status = CianSerializeStatuses.objects.get(status='Serialize successful')
         ad.save()

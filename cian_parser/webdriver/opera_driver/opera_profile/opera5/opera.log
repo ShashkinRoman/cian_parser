@@ -1,24 +1,161 @@
-[30510:30510:0823/055430.757910:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
-[30404:30404:0823/055430.793702:WARNING:load_error_reporter.cc(78)] Extension error: Не удалось загрузить расширение с адреса: . Файл манифеста отсутствует или недоступен для чтения
-[30578:1:0823/055431.052815:ERROR:child_thread_impl.cc(800)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[30599:1:0823/055431.060742:ERROR:child_thread_impl.cc(800)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[30611:1:0823/055431.094333:ERROR:child_thread_impl.cc(800)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[30616:1:0823/055431.115507:ERROR:child_thread_impl.cc(800)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[30640:1:0823/055431.121332:ERROR:child_thread_impl.cc(800)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[30684:1:0823/055431.161249:ERROR:child_thread_impl.cc(800)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[30404:30404:0823/055431.514741:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.514980:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.515066:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.606715:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.606965:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.607090:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.608045:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.608447:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.608553:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.610634:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.610892:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30404:0823/055431.611085:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[30404:30542:0823/055432.590901:ERROR:udev_watcher.cc(97)] Failed to begin udev enumeration.
-[30510:30510:0823/055438.782309:WARNING:xproto_util.cc(49)] X error received: serial 1257, error_code 170 (GLXBadWindow), request_code 152, minor_code 32 (Unknown)
-[30510:30510:0823/055438.782509:WARNING:xproto_util.cc(49)] X error received: serial 1263, error_code 3 (BadWindow), request_code 4, minor_code 0 (Unknown)
-[30404:30404:0823/055438.849842:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[20264:20264:1108/135011.275264:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[20240:20240:1108/135012.319807:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.319919:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.319986:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.320141:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.418753:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.419084:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.419237:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.419369:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.420433:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.420585:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.420642:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.420794:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.424549:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.424650:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.424707:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20240:1108/135012.424830:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[20240:20251:1108/135017.439140:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -127
+[20240:20240:1108/135111.333004:WARNING:protocol_impl.cc(277)] Couldn't add the installation info.
+[20240:20251:1108/135133.627449:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20240:1108/135217.428035:INFO:CONSOLE(1)] "%cDownload the React DevTools for a better development experience: https://fb.me/react-devtools font-weight:bold", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135217.498229:INFO:CONSOLE(1)] "%cDownload the React DevTools for a better development experience: https://fb.me/react-devtools font-weight:bold", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135217.905470:INFO:CONSOLE(1)] "Error: Exited with code: 0", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135217.906362:INFO:CONSOLE(1)] "Error: Exited with code: 0", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135217.906576:INFO:CONSOLE(1)] "Error: Exited with code: 0", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.511978:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-offer-card.external.http.api-cian-ru.search-engine-v1-get-offers-from-history 771", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.512802:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-offer-card.external.http.api-cian-ru.search-engine-v1-get-offers-from-history.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.558323:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-offer-card.external.http.api-cian-ru.search-engine-v1-get-new-recommended-offers 820", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.558564:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-offer-card.external.http.api-cian-ru.search-engine-v1-get-new-recommended-offers.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.613862:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-offer-card.external.http.api-cian-ru.search-engine-v3-get-recommended-offers 873", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.614171:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-offer-card.external.http.api-cian-ru.search-engine-v3-get-recommended-offers.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.662286:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-offer-card.external.http.api-cian-ru.valuation-offer-history-v2-get-house-offer-history-desktop 917", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.663378:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-offer-card.external.http.api-cian-ru.valuation-offer-history-v2-get-house-offer-history-desktop.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.785477:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-offer-card.external.http.api-cian-ru.search-engine-v3-get-similar-offers 1047", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.786398:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-offer-card.external.http.api-cian-ru.search-engine-v3-get-similar-offers.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.916664:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-offer-card.external.http.widgets-fin-cian-ru.offer-fotorama-frame-stub 1227", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135218.916871:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-offer-card.external.http.widgets-fin-cian-ru.offer-fotorama-frame-stub.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135219.014289:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-offer-card.external.http.api-cian-ru.moderation-complaints-v2-get-complaint-types 1353", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135219.014724:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-offer-card.external.http.api-cian-ru.moderation-complaints-v2-get-complaint-types.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20251:1108/135219.167245:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20240:1108/135219.430488:INFO:CONSOLE(1)] "Created 'x-finance-widget-offers' custom tag", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135219.432201:INFO:CONSOLE(1)] "Connected 'x-finance-widget-offers' custom tag", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135220.115896:INFO:CONSOLE(155)] "[info] Render AppLogin [object Object]", source: https://o2.mail.ru/login?v=0.1.0&lang=ru-RU&client_id=dfd7d5b5994048b7b10c06f0fa388d9a&redirect_uri=https://saratov.cian.ru&scope=userinfo&response_type=token&embedded=Y&mode=onetap&state=%7B%22cid%22%3A1%2C%22loginState%22%3Anull%2C%22ttlLoginState%22%3A604800%7D (155)
+[20240:20240:1108/135220.118119:INFO:CONSOLE(172)] "[info] preload data [object Object]", source: https://o2.mail.ru/login?v=0.1.0&lang=ru-RU&client_id=dfd7d5b5994048b7b10c06f0fa388d9a&redirect_uri=https://saratov.cian.ru&scope=userinfo&response_type=token&embedded=Y&mode=onetap&state=%7B%22cid%22%3A1%2C%22loginState%22%3Anull%2C%22ttlLoginState%22%3A604800%7D (172)
+[20240:20240:1108/135220.118390:INFO:CONSOLE(173)] "[info] data -> state [object Object]", source: https://o2.mail.ru/login?v=0.1.0&lang=ru-RU&client_id=dfd7d5b5994048b7b10c06f0fa388d9a&redirect_uri=https://saratov.cian.ru&scope=userinfo&response_type=token&embedded=Y&mode=onetap&state=%7B%22cid%22%3A1%2C%22loginState%22%3Anull%2C%22ttlLoginState%22%3A604800%7D (173)
+[20240:20240:1108/135220.122978:INFO:CONSOLE(111)] "[o2.xray] xsplit-x2 perf_page:1252", source: https://o2.mail.ru/login?v=0.1.0&lang=ru-RU&client_id=dfd7d5b5994048b7b10c06f0fa388d9a&redirect_uri=https://saratov.cian.ru&scope=userinfo&response_type=token&embedded=Y&mode=onetap&state=%7B%22cid%22%3A1%2C%22loginState%22%3Anull%2C%22ttlLoginState%22%3A604800%7D (111)
+[20240:20240:1108/135220.124241:INFO:CONSOLE(111)] "[o2.xray] xsplit-x2 perf_dom-ready:1253", source: https://o2.mail.ru/login?v=0.1.0&lang=ru-RU&client_id=dfd7d5b5994048b7b10c06f0fa388d9a&redirect_uri=https://saratov.cian.ru&scope=userinfo&response_type=token&embedded=Y&mode=onetap&state=%7B%22cid%22%3A1%2C%22loginState%22%3Anull%2C%22ttlLoginState%22%3A604800%7D (111)
+[20240:20240:1108/135220.152700:INFO:CONSOLE(3)] "repaint: [object Object]", source: https://o2.mail.ru/media/login.js?v1.16.2 (3)
+[20240:20240:1108/135220.173478:INFO:CONSOLE(165)] "[error] render Error: 401: No active users", source: https://o2.mail.ru/login?v=0.1.0&lang=ru-RU&client_id=dfd7d5b5994048b7b10c06f0fa388d9a&redirect_uri=https://saratov.cian.ru&scope=userinfo&response_type=token&embedded=Y&mode=onetap&state=%7B%22cid%22%3A1%2C%22loginState%22%3Anull%2C%22ttlLoginState%22%3A604800%7D (165)
+[20240:20240:1108/135220.173717:INFO:CONSOLE(166)] "[error] data: null", source: https://o2.mail.ru/login?v=0.1.0&lang=ru-RU&client_id=dfd7d5b5994048b7b10c06f0fa388d9a&redirect_uri=https://saratov.cian.ru&scope=userinfo&response_type=token&embedded=Y&mode=onetap&state=%7B%22cid%22%3A1%2C%22loginState%22%3Anull%2C%22ttlLoginState%22%3A604800%7D (166)
+[20240:20240:1108/135220.185809:INFO:CONSOLE(3)] "repaint: [object Object]", source: https://o2.mail.ru/media/login.js?v1.16.2 (3)
+[20240:20240:1108/135220.230652:INFO:CONSOLE(1)] "Open api access error", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135220.255984:INFO:CONSOLE(1)] "Open api access error", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135221.698194:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-offer-card.external.http.saratov-cian-ru.ajax-map-roundabout 863", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135221.700144:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-offer-card.external.http.saratov-cian-ru.ajax-map-roundabout.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135223.439264:INFO:CONSOLE(1)] "Undefined event - card_vtorichka", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135224.883510:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-header.external.http.api-cian-ru.notification-center-v1-desktop-get-notifications-count 656", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135224.883945:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-header.external.http.api-cian-ru.notification-center-v1-desktop-get-notifications-count.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135225.407282:INFO:CONSOLE(1)] "TELEMETRY.timer: browser.microservice.frontend-header.external.http.api-cian-ru.notification-center-v1-desktop-get-notifications-count 1173", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135225.407516:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-header.external.http.api-cian-ru.notification-center-v1-desktop-get-notifications-count.success undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
+[20240:20240:1108/135226.163850:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/3768f597ab21375850b4.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.163999:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/h/header.2e5f590762a8a267cbc2.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.164656:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/0896dc14d0fa133b57b7.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.164766:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/ad5c571cb94d978c42a5.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.164845:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/5732625b559b99fb5558.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.164920:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/b046a6fc5fc54bfcd022.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.164998:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/h/header.0896dc14d0fa133b57b7.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165099:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/h/header.b046a6fc5fc54bfcd022.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165178:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/4acbb2189f2a5c3c97e2.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165276:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/h/mobile.00069ba5b77d65fc36fe.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165358:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/f54450e69d643930e6db.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165439:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/2e5f590762a8a267cbc2.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165522:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/0287a885df771c103cc6.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165606:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/h/header.f54450e69d643930e6db.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165695:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/mobile.00069ba5b77d65fc36fe.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165781:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/h/header.5732625b559b99fb5558.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20240:1108/135226.165862:INFO:CONSOLE(0)] "The resource https://cdn.cian.site/frontend/frontend-header/17312f7b76ca83949433.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://saratov.cian.ru/sale/flat/230499508/ (0)
+[20240:20251:1108/135304.607079:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135350.222381:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135435.814751:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135521.302993:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135607.214615:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135652.711303:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135738.186523:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135823.621618:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135909.100647:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/135954.581865:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140040.077756:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140125.513737:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140210.936384:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140256.444473:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140342.138047:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140427.580275:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140513.058981:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140558.598727:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140644.308704:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140730.055730:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140815.520833:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140901.035103:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/140946.594348:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/141032.361443:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/141117.791209:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1108/141203.242700:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/090131.199753:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -130
+[20240:20251:1109/090223.969334:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/090309.434246:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/090355.001581:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/090524.090433:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/090653.687545:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/090811.238346:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/090912.027388:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/090957.430317:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091043.053815:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091207.063708:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091252.476091:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091338.161583:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091423.626712:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091509.016740:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091554.453914:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091639.920498:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091725.394471:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091810.848560:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091856.314336:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/091941.823670:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092027.243619:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092112.708193:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092158.173094:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092243.565820:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092328.973024:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092414.465880:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092459.930245:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092545.395511:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092630.860127:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092716.260871:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092801.892663:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092847.399232:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/092932.924523:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093018.324521:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093103.752627:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093149.230887:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093235.151398:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093320.910435:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093406.571093:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093452.226616:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093537.683639:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093623.402470:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093708.792305:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093754.278531:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093839.790734:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/093925.720736:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094011.257051:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094056.665848:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094142.115661:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094227.407318:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094312.954715:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094358.295123:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094443.735241:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094529.378250:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20251:1109/094614.786539:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[20240:20240:1109/094623.084403:WARNING:session_recorder_impl.cc(87)] 1 sessions are still missing the initial context.
+[20240:20240:1109/094623.280127:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

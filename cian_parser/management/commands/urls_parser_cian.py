@@ -3,19 +3,7 @@ from cian_parser.urls_parser import main as urls_main
 
 
 class Command(BaseCommand):
-    help = 'urls parser: -upc, --urls_parser_cian, ads parser: -apc, --ads_parser_cian'
+    help = 'urls parser'
 
     def handle(self, *args, **options):
-        if options['urls_parser_cian']:
-            urls_main()
-        else:
-            print('argument is not found')
-
-    def add_arguments(self, parser):
-        parser.add_argument(
-        '-upc',
-        '--urls_parser_cian',
-        action='store_true',
-        default=False,
-        help='Вывод короткого сообщения'
-        )
+        urls_main()

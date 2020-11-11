@@ -28,10 +28,10 @@ class Operadriver():
         driver = webdriver.Remote(webdriver_service.service_url, webdriver.DesiredCapabilities.OPERA, options=options)
         return driver
 
-# driver_obj = Operadriver()
-# start = driver_obj.start_driver()
-# driver = driver_obj.opera(start, path[0])
-# url = 'https://2ip.ru/'
-# driver.get(url)
-# print(driver.find_element_by_class_name('ip').text)
-# driver.quit()
+    # driver_obj = Operadriver()
+    # start = driver_obj.start_driver()
+    # driver = driver_obj.opera(st  art, path[0])
+    # url = 'https://2ip.ru/'
+    # driver.get(url)
+    # print(driver.find_element_by_class_name('ip').text)
+    # driver.quit()

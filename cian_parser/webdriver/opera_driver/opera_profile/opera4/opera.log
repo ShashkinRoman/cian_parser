@@ -1,32 +1,19 @@
-[24398:24398:1016/145105.812117:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
-[24296:24296:1016/145105.826437:WARNING:load_error_reporter.cc(78)] Extension error: Не удалось загрузить расширение с адреса: . Файл манифеста отсутствует или недоступен для чтения
-[24458:1:1016/145106.113044:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[24460:1:1016/145106.118613:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[24482:1:1016/145106.131495:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[24494:1:1016/145106.162781:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[24495:1:1016/145106.175347:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[24515:1:1016/145106.178929:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[24527:1:1016/145106.227295:ERROR:child_thread_impl.cc(806)] Receiver for unknown Channel-associated interface: search.mojom.SearchBouncer
-[24296:24296:1016/145106.544614:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.546980:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.548174:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.552838:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.726551:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.726825:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.726961:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.727555:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.728306:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.728792:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.729053:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.729256:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.741963:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.742149:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.742328:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24296:1016/145106.742446:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
-[24296:24381:1016/145112.692074:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -127
-[24296:24381:1016/145148.897487:ERROR:socket_stream.cc(219)] Closing stream with result -2
-[24296:24381:1016/145149.007020:ERROR:zygote_communication_linux.cc(278)] Failed to send GetTerminationStatus message to zygote
-[24296:24381:1016/145149.007064:WARNING:zygote_communication_linux.cc(290)] Socket closed prematurely.
-[24296:24381:1016/145149.062610:WARNING:gpu_process_host.cc(1257)] The GPU process has crashed 1 time(s)
-[24296:24381:1016/145149.064429:WARNING:gpu_process_host.cc(1257)] The GPU process has crashed 2 time(s)
-[24296:24296:1016/145149.115848:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[26479:26479:1031/134147.853007:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[26451:26451:1031/134148.474623:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.474819:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.474926:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.475026:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.690355:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.690657:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.690760:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.690827:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.692415:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.692649:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.692729:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.692792:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.717780:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.717978:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.718556:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26451:1031/134148.721978:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[26451:26462:1031/134151.654793:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -127
+[26451:26451:1031/134216.503294:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

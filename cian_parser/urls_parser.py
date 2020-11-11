@@ -1,41 +1,49 @@
 import random
-import requests
-from requests.exceptions import ProxyError, ChunkedEncodingError, ConnectionError
 from datetime import datetime
 from time import sleep
-from bs4 import BeautifulSoup
 from cian_parser.utils import parameters_immovables, check_regions
 from cian_parser.models import UrlsAds, Regions
 from cian_parser.webdriver.opera_driver import Operadriver, path
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 def get_url_with_driver(driver, url_page, region_id, counter_repeat):
     driver.get(url_page)
-    urls = driver.find_elements_by_class_name('c6e8ba5398--main--1NDwp')
+    urls = driver.find_elements_by_class_name('_93444fe79c--container--2pFUD')  # ads container
     counter = 0
     counter_null = 0
+    # scroll_counter = 1
     for u in urls:
+        # scroll_counter += 1
         try:
-            url = u.find_element_by_class_name('c6e8ba5398--header--1fV2A').get_attribute('href')
+            url = u.find_element_by_class_name('_93444fe79c--link--39cNw')\
+                .get_attribute('href')  # url in title ad container
             try:
                 UrlsAds.objects.get(url=url)
                 counter += 1
-                # if counter_repeat > 20:
-                #     break
-                # print(f"repeat {counter_repeat}")
             except UrlsAds.DoesNotExist:
-                button = u.find_element_by_class_name('c6e8ba5398--phone--1202f')
+                # ActionChains(driver).move_to_element(urls[scroll_counter].find_element_by_class_name('_93444fe79c--button--IypxH')).perform()
+                button = u.find_element_by_class_name('_93444fe79c--button--IypxH')  # button with phone
                 button.click()
+                print('click')
                 sleep(0.5)
-                phone = u.find_element_by_class_name('c6e8ba5398--text--38oi6').find_element_by_tag_name('span').text
+
+                phone = u.find_element_by_class_name('_93444fe79c--phone-button--3RYRY')\
+                    .find_element_by_tag_name('span').text  # container with button phone
+
                 UrlsAds.objects.create(date=datetime.now(),
                                        url=url,
                                        region=Regions.objects.get(id=region_id),
                                        phone=phone)
                 print(f"{phone}, {url} added")
                 counter_null += 1
-        except:
-            print(f"for {u} urls not parsed")
+            except UrlsAds.MultipleObjectsReturned:
+                print(f"{url} " )
+
+        except Exception as exept:
+            print(exept)
+            print(f"for "
+                  f"{u.find_element_by_class_name('_93444fe79c--link--39cNw').get_attribute('href')} urls not parsed")
     if counter > 25:
         counter_repeat += 1
     if counter_null == 0:
@@ -47,14 +55,11 @@ def main():
     reg = ["Балаково"]
     print('urls_parser start')
     region_city_code = check_regions(reg)
-    # proxy_list = proxy_parse()
     urls_list = []
     driver_obj = Operadriver().start_driver()
-    # chrome_driver = Chromedriver()
     for region in region_city_code:
         urls = parameters_immovables(region)
         urls_list += urls
-    urls_ads_list = []
     for url in urls_list:
         driver = Operadriver().opera(driver_obj, path[2])
         print(url)
@@ -65,26 +70,10 @@ def main():
             print(f'{counter_repeat} counter repeat')
             sleep(random.randint(3, 7))
             try:
-                # start = UrlsAds.objects.all()
                 url_page = url[0] + str(i) + url[1]
                 region_id = url[2]
-                # start = len(urls_ads_list)
-                # if counter > 50:
-                #     print(f"counter > {counter}")
-                #     break
-                # elif test_request.status_code == 200:
-                # print(start)
-                # sleep(random.randint(1, 2))
-                # get_urls_from_page(url_page, urls_ads_list, counter_repeat, region_id, proxy_list)
                 counter_repeat = get_url_with_driver(driver, url_page, region_id, counter_repeat)
-                # end = len(urls_ads_list)
-                # if start == end:
-                #     print(f'page for {url} ended {datetime.now()}')
-                #     break
                 print(i)
-                # else:
-                #     print(f"can't execute get_urls_from_page {i}, "
-                #           f"status code request {test_request.status_code}")
             except:
                 print(f"can't execute cycle {i}")
         driver.quit()
