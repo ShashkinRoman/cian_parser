@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;correct serializer_ads&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/cian_photo_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/cian_photo_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/management/commands/photo_loaded.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/management/commands/photo_loaded_cian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/management/commands/serialize_ads.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/management/commands/serialize_ads_cian.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +290,7 @@
       <workItem from="1604821323012" duration="3922000" />
       <workItem from="1604991023548" duration="1429000" />
       <workItem from="1604997718336" duration="7843000" />
-      <workItem from="1605076342981" duration="1203000" />
+      <workItem from="1605076342981" duration="9034000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -423,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605076522015</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;correct serializer_ads&quot;">
+      <created>1605082576234</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605082576234</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,10 +543,10 @@
     </state>
     <state x="346" y="131" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603114904058" />
     <state x="288" y="118" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1601289419597" />
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1605076527741">
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1605082594926">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605076527741" />
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605082594926" />
     <state x="398" y="54" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1603815251170" />
     <state width="775" height="441" key="XDebugger.FullValuePopup" timestamp="1600691493538">
       <screen x="0" y="32" width="1600" height="868" />
@@ -568,10 +577,10 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="100" y="116" width="1400" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.32.1600.868@0.32.1600.868" timestamp="1600667884196" />
-    <state x="417" y="-8" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605004370126">
+    <state x="417" y="-8" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605168967865">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="417" y="-8" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.900@0.0.1600.900" timestamp="1605004370126" />
+    <state x="417" y="-8" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.900@0.0.1600.900" timestamp="1605168967865" />
     <state x="500" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1603533637599" />
     <state x="417" y="31" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.32.1600.868@0.32.1600.868" timestamp="1602844766881" />
     <state x="618" y="368" width="432" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603888637297">

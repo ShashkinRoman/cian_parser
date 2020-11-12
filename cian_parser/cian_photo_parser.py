@@ -27,16 +27,18 @@ def load_photo(urls, ad):
             photo_obj.image = File(buf, filename)
             photo_obj.url_ads = ad
             photo_obj.save()
-            ad.photo_parse_status = CianPhotoStatuses.objects.get(status='Photos loaded')
-            ad.save()
+            # ad.photo_parse_status = CianPhotoStatuses.objects.get(status='Photos loaded')
+            # ad.save()
 
 
 def main():
     photo_obj = InformationFromAds.objects.filter(photo_parse_status=1).filter(urls_on_photo__startswith='["')
     for photos in photo_obj:
         urls = json.loads(photos.urls_on_photo)
-        for url in urls:
-            load_photo(url, photos)
+        try:
+            load_photo(urls, photos)
+        except Exception:
+            print(Exception)
     
 
     # driver_obj = Operadriver()
