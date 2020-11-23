@@ -18,8 +18,9 @@ class UrlsAds(models.Model):
     request = models.CharField(verbose_name="Запрос", max_length=255, default="Null")
     date = models.DateTimeField(verbose_name="Дата парсинга информации")
     url = models.CharField(verbose_name="Ссылка", max_length=255, unique=True)
-    status = models.SmallIntegerField(default=0)
+    status_info_parse = models.SmallIntegerField(default=0)
     phone = models.CharField(verbose_name='Телефон', max_length=255, default='None')
+    # status_seller = models.SmallIntegerField(default=0) # 0 - not parse; 1 - parse successful
 
     def __str__(self):
         return f"{self.phone}, {Regions.region}, {self.date}, {self.url}"
@@ -110,7 +111,7 @@ class CianPhoto(models.Model):
     url_ads = models.ForeignKey(InformationFromAds, verbose_name='Ссылка на объявление', on_delete=models.CASCADE)
 
 
-
-
-
-
+class SellerAndOwner(models.Model):
+    phone_number = models.CharField(max_length=255, unique=True)
+    status = models.SmallIntegerField(null=True)
+    # 0 - seller; 1 - owner

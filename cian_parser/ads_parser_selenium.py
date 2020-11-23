@@ -3,7 +3,7 @@ import random
 from time import sleep
 from cian_parser.models import UrlsAds, InformationFromAds
 from cian_parser.webdriver.opera_driver import Operadriver, path
-
+from cian_parser.utils import check_seller_phone_number
 
 def price_func(driver):
     price = driver.find_element_by_class_name('a10a3f92e9--price_value--1iPpd').text[:-2]
@@ -88,7 +88,8 @@ def find_urls_photo(driver):
 
 
 def main():
-    urls = UrlsAds.objects.filter(status=0).filter(region_id=1).order_by('-date')
+    urls = UrlsAds.objects.filter(status_info_parse=0).filter(region_id=1).order_by('-date')
+    check_seller_phone_number(urls)
     driver_obj = Operadriver()
     driver_start = driver_obj.start_driver()
     driver = driver_obj.opera(driver_start, path[0])

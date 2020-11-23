@@ -4,7 +4,6 @@ from time import sleep
 from cian_parser.utils import parameters_immovables, check_regions
 from cian_parser.models import UrlsAds, Regions
 from cian_parser.webdriver.opera_driver import Operadriver, path
-from selenium.webdriver.common.action_chains import ActionChains
 
 
 def get_url_with_driver(driver, url_page, region_id, counter_repeat):
@@ -65,7 +64,7 @@ def main():
         print(url)
         counter_repeat = 0
         for i in range(1, 55):
-            if counter_repeat > 5:
+            if counter_repeat > 10:
                 break
             print(f'{counter_repeat} counter repeat')
             sleep(random.randint(3, 7))

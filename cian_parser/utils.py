@@ -1,4 +1,5 @@
-from cian_parser.models import Regions, SerializerInfo, CianSerializeStatuses, UrlsAds
+from cian_parser.models import Regions, SerializerInfo, CianSerializeStatuses, UrlsAds, SellerAndOwner
+from django.core.exceptions import ObjectDoesNotExist
 import json
 
 
@@ -143,3 +144,23 @@ def serializer_ads(queryset_ads):
         )
         ad.serialize_status = CianSerializeStatuses.objects.get(status='Serialize successful')
         ad.save()
+
+
+def check_seller_phone_number(queryset):
+    """
+    take instance UrlsParser, checks by the seller or owner by phone number
+    If on one number more one ad, change status 'seller' or, add with this status.
+    :param queryset:
+    :return:
+    """
+    for ad in queryset:
+        try:
+            seller_obj = SellerAndOwner.objects.get(phone_number=ad.phone)
+            if seller_obj.status == 1:
+                seller_obj.status = 0
+                seller_obj.save()
+            if seller_obj.status == None:
+                seller_obj.status = 1
+                seller_obj.save()
+        except ObjectDoesNotExist:
+            SellerAndOwner.objects.create(phone_number=ad.phone, status=1)

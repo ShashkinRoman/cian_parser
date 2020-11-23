@@ -10,7 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;large update with photo upload&quot;" />
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="&quot;large update with photo upload&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/ads_parser_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/ads_parser_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/urls_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/urls_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +292,11 @@
       <workItem from="1604821323012" duration="3922000" />
       <workItem from="1604991023548" duration="1429000" />
       <workItem from="1604997718336" duration="7843000" />
-      <workItem from="1605076342981" duration="9373000" />
+      <workItem from="1605076342981" duration="13774000" />
+      <workItem from="1605596103908" duration="2925000" />
+      <workItem from="1605609989776" duration="881000" />
+      <workItem from="1605947309917" duration="5719000" />
+      <workItem from="1606115695892" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -434,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605172783167</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;large update with photo upload&quot;">
+      <created>1605173156957</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605173156957</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,10 +564,10 @@
     </state>
     <state x="346" y="131" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603114904058" />
     <state x="288" y="118" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1601289419597" />
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1605172789134">
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1605173168961">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605172789134" />
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605173168961" />
     <state x="398" y="54" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1603815251170" />
     <state width="775" height="441" key="XDebugger.FullValuePopup" timestamp="1600691493538">
       <screen x="0" y="32" width="1600" height="868" />
@@ -580,12 +598,16 @@
       <screen x="0" y="32" width="1600" height="868" />
     </state>
     <state x="100" y="116" width="1400" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.32.1600.868@0.32.1600.868" timestamp="1600667884196" />
-    <state x="417" y="-8" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605168967865">
+    <state x="417" y="-8" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605596379681">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="417" y="-8" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.900@0.0.1600.900" timestamp="1605168967865" />
+    <state x="417" y="-8" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.900@0.0.1600.900" timestamp="1605596379681" />
     <state x="500" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1603533637599" />
     <state x="417" y="31" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.32.1600.868@0.32.1600.868" timestamp="1602844766881" />
+    <state x="568" y="163" width="459" height="570" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605173152914">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="568" y="163" width="459" height="570" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1600.900@0.0.1600.900" timestamp="1605173152914" />
     <state x="618" y="368" width="432" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603888637297">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -609,6 +631,10 @@
           <url>file://$PROJECT_DIR$/cian_parser/webdriver/chrome_driver.py</url>
           <line>41</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cian_parser/utils.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
