@@ -78,6 +78,5 @@ def main():
         driver.quit()
         print('urls_parser end')
 
-
 if __name__ == '__main__':
     main()

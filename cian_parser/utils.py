@@ -83,6 +83,12 @@ def lists_values():
 
 
 def serializer_ads(queryset_ads):
+    """
+    take queryset InformationFromAds and serialize information
+    in SerializeInfo for rest API
+    :param queryset_ads:
+    :return:
+    """
     _, _, _, _, list_with_info = lists_values()
     for ad in queryset_ads:
         dict_with_info = {}
@@ -162,5 +168,7 @@ def check_seller_phone_number(queryset):
             if seller_obj.status == None:
                 seller_obj.status = 1
                 seller_obj.save()
+                print(f"{ad.phone} add in seller")
         except ObjectDoesNotExist:
             SellerAndOwner.objects.create(phone_number=ad.phone, status=1)
+            print(f"{ad.phone} add in owner")

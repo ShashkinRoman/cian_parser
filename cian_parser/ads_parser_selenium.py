@@ -5,6 +5,7 @@ from cian_parser.models import UrlsAds, InformationFromAds
 from cian_parser.webdriver.opera_driver import Operadriver, path
 from cian_parser.utils import check_seller_phone_number
 
+
 def price_func(driver):
     price = driver.find_element_by_class_name('a10a3f92e9--price_value--1iPpd').text[:-2]
     return price
@@ -105,7 +106,7 @@ def main():
         sleep(random.randint(1, 3))
         try:  # check ad removed from publication
             if driver.find_element_by_class_name('a10a3f92e9--container--1In69').text == 'Объявление снято с публикации':
-                url_.status = 30
+                url_.status_info_parse = 30
                 print(f"{url}, ad removed from publication)")
                 url_.save()
         except:
@@ -124,7 +125,7 @@ def main():
                     seller_info=json.dumps(seller_info_func(driver)),
                     urls_on_photo=json.dumps(find_urls_photo(driver)),
                 )
-                url_.status = 10
+                url_.status_info_parse = 10
                 url_.save()
                 print(f'{url}, added')
                 logs_counter += 1
@@ -132,7 +133,7 @@ def main():
             except Exception as e:
                 print(e)
                 print(f"Can't save {url_}")
-                url_.status += 2
+                url_.status_info_parse += 2
                 url_.save()
                 counter_error += 1
                 if counter_error > 10:  # restart driver, if cant parse 10 ads
