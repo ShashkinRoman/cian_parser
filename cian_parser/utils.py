@@ -159,16 +159,26 @@ def check_seller_phone_number(queryset):
     :param queryset:
     :return:
     """
+    len_queryset = len(queryset)
+    counter_owner = 0
+    counter_seller = 0
+    counter_switch = 0
     for ad in queryset:
         try:
             seller_obj = SellerAndOwner.objects.get(phone_number=ad.phone)
             if seller_obj.status == 1:
                 seller_obj.status = 0
                 seller_obj.save()
+                counter_switch += 1
             if seller_obj.status == None:
                 seller_obj.status = 1
                 seller_obj.save()
-                print(f"{ad.phone} add in seller")
+            if seller_obj.status ==0:
+                counter_seller +=1
+                # print(f"{ad.phone} add in seller")
         except ObjectDoesNotExist:
             SellerAndOwner.objects.create(phone_number=ad.phone, status=1)
-            print(f"{ad.phone} add in owner")
+            # print(f"{ad.phone} add in owner")
+            counter_owner += 1
+    print(f"added {counter_owner} owners, added {counter_seller} seller"
+          f" {counter_switch} owners switch on seller, all {len_queryset} ads")

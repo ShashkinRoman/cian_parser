@@ -4,6 +4,7 @@ from time import sleep
 from cian_parser.models import UrlsAds, InformationFromAds
 from cian_parser.webdriver.opera_driver import Operadriver, path
 from cian_parser.utils import check_seller_phone_number
+from django.db import IntegrityError
 
 
 def price_func(driver):
@@ -130,6 +131,10 @@ def main():
                 print(f'{url}, added')
                 logs_counter += 1
                 print(logs_counter)
+            except IntegrityError:
+                url_.status_info_parse = 10
+                url_.save()
+                print('duplicate skip')
             except Exception as e:
                 print(e)
                 print(f"Can't save {url_}")
@@ -148,6 +153,7 @@ def main():
                 driver = driver_obj.opera(driver_start, path[0])
                 logs_counter = 0
                 print('driver reboot')
+    driver.quit()
 
 
 if __name__ == '__main__':
