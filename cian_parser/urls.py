@@ -8,6 +8,7 @@ router = routers.DefaultRouter()
 router.register(r'InformationFromAds', views.InformationFromAdsViewSet)
 router.register(r'UrlsAds', views.UrlsAdsViewSet)
 router.register(r'SerializerInfo', views.SerializerInfoViewSet)
+router.register(r'CianPhoto', views.CianPhotoViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.

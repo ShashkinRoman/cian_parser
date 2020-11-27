@@ -3,7 +3,8 @@ from django.shortcuts import redirect, render
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets, filters
 from rest_framework import permissions
-from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSerializer, SerializerInfoSerializer
+from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSerializer, SerializerInfoSerializer,\
+    CianPhotoSerializer
 from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo
 
 
@@ -40,3 +41,7 @@ class UrlsAdsViewSet(viewsets.ModelViewSet):
     # permission_classes = [permissions.IsAuthenticated]
 
 
+class CianPhotoViewSet(viewsets.ModelViewSet):
+
+    queryset = UrlsAds.objects.all()
+    serializer_class = CianPhotoSerializer
