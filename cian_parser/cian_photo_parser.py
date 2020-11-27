@@ -27,8 +27,8 @@ def load_photo(urls, ad):
             photo_obj.image = File(buf, filename)
             photo_obj.url_ads = ad
             photo_obj.save()
-            # ad.photo_parse_status = CianPhotoStatuses.objects.get(status='Photos loaded')
-            # ad.save()
+            ad.photo_parse_status = CianPhotoStatuses.objects.get(status='Photos loaded')
+            ad.save()
 
 
 def main():
