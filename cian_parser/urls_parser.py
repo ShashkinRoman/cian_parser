@@ -2,7 +2,7 @@ import random
 from datetime import datetime
 from time import sleep
 from cian_parser.utils import parameters_immovables, check_regions
-from cian_parser.models import UrlsAds, Regions
+from cian_parser.models import UrlsAds, Region
 from cian_parser.webdriver.opera_driver import Operadriver, path
 
 
@@ -32,7 +32,7 @@ def get_url_with_driver(driver, url_page, region_id, counter_repeat):
 
                 UrlsAds.objects.create(date=datetime.now(),
                                        url=url,
-                                       region=Regions.objects.get(id=region_id),
+                                       region=Region.objects.get(id=region_id),
                                        phone=phone)
                 print(f"{phone}, {url} added")
                 counter_null += 1

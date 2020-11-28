@@ -1,4 +1,4 @@
-from cian_parser.models import Regions, SerializerInfo, CianSerializeStatuses, UrlsAds, SellerAndOwner
+from cian_parser.models import Region, SerializerInfo, CianSerializeStatuses, UrlsAds, SellerAndOwner
 from django.core.exceptions import ObjectDoesNotExist
 import json
 
@@ -146,7 +146,8 @@ def serializer_ads(queryset_ads):
             kitchen_space=float(dict_with_info['Кухня'][:-3].replace(',', '.')) if dict_with_info['Кухня'] != None else None,
             living_space=float(dict_with_info['Жилая'][:-3].replace(',', '.')) if dict_with_info['Жилая'] != None else None,
             # deadline=dict_with_info['Срок сдачи'],
-            description=ad.description
+            description=ad.description,
+            urls=ad.urls_on_photo
         )
         ad.serialize_status = CianSerializeStatuses.objects.get(status='Serialize successful')
         ad.save()

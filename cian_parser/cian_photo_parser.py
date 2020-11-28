@@ -4,9 +4,8 @@ from datetime import datetime
 
 from django.core.files import File
 
-from cian_parser.webdriver.opera_driver import Operadriver, path
-from cian_parser.models import InformationFromAds, CianPhoto, CianPhotoStatuses
-from cian_parser.ads_parser_selenium import find_urls_photo
+from cian_parser.models import InformationFromAds, CianPhoto, CianPhotoStatuses, SerializerInfo
+
 import io
 
 
@@ -16,19 +15,23 @@ def load_photo(urls, ad):
     :param urls:
     :return:
     """
-    for url in urls:
-        url_image = url.split('2.jpg')[0] + '1.jpg'
-        response = requests.get(url_image)
-        if response.status_code == 200:
-            filename = str(ad.inf_url_ads.id) + '_' + str(datetime.now())
-            photo_obj = CianPhoto()
-            buf = io.BytesIO()
-            buf.write(response.content)
-            photo_obj.image = File(buf, filename)
-            photo_obj.url_ads = ad
-            photo_obj.save()
-            ad.photo_parse_status = CianPhotoStatuses.objects.get(status='Photos loaded')
-            ad.save()
+    try:
+        for url in urls:
+            url_image = url.split('2.jpg')[0] + '1.jpg'
+            response = requests.get(url_image)
+            if response.status_code == 200:
+                filename = str(ad.inf_url_ads.id) + '_' + str(datetime.now())
+                photo_obj = CianPhoto()
+                buf = io.BytesIO()
+                buf.write(response.content)
+                photo_obj.image = File(buf, filename)
+                photo_obj.url_ads = ad
+                photo_obj.ser_url_ads = SerializerInfo.objects.get(ser_url_ads=ad.inf_url_ads)
+                photo_obj.save()
+        ad.photo_parse_status = CianPhotoStatuses.objects.get(status='Photos loaded')
+        ad.save()
+    except Exception as e:
+        print(e)
 
 
 def main():

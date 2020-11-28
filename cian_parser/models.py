@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Regions(models.Model):
+class Region(models.Model):
     id = models.AutoField(verbose_name="id", primary_key=True)
     city = models.CharField(verbose_name="Запрос", max_length=255, default="Null")
     region = models.CharField(verbose_name="Город", max_length=255)
@@ -14,7 +14,7 @@ class Regions(models.Model):
 
 
 class UrlsAds(models.Model):
-    region = models.ForeignKey("Regions", on_delete=models.CASCADE)
+    region = models.ForeignKey(Region, on_delete=models.CASCADE)
     request = models.CharField(verbose_name="Запрос", max_length=255, default="Null")
     date = models.DateTimeField(verbose_name="Дата парсинга информации")
     url = models.CharField(verbose_name="Ссылка", max_length=255, unique=True)
@@ -23,11 +23,13 @@ class UrlsAds(models.Model):
     # status_seller = models.SmallIntegerField(default=0) # 0 - not parse; 1 - parse successful
 
     def __str__(self):
-        return f"{self.phone}, {Regions.region}, {self.date}, {self.url}"
+        return f"{self.phone}, {self.region}, {self.date}, {self.url}"
 
 
 class SerializerInfo(models.Model):
-    type_sale = models.CharField(verbose_name="Тип сделки", max_length=255, default='Продажа')# «продажа» «аренда»
+    # information_from_ads_id = 123123
+    # information_from_ads = models.ForeignKey()
+    type_sale = models.CharField(verbose_name="Тип сделки", max_length=255, default='Продажа')  # «продажа» «аренда»
     property_type = models.CharField(verbose_name="Тип недвижимости", max_length=255, default='None', null=True) # «жилая»/«living».
     type_of_housing = models.CharField(verbose_name="Вторичка/новостройка", max_length=255, default='None', null=True)
     category_obj = models.CharField(verbose_name="Категория объекта", max_length=255, default='None', null=True) # . «квартира»/«flat» «комната»/«room», «таунхаус»/«townhouse»
@@ -69,6 +71,10 @@ class SerializerInfo(models.Model):
     living_space = models.FloatField(verbose_name="Жилая", default='None', null=True)
     # deadline = models.CharField(verbose_name="Срок сдачи", max_length=255, default='None', null=True)
     description = models.CharField(verbose_name="Описание", max_length=5000, default='None', null=True)
+    urls = models.CharField(verbose_name="Дубль урлов из InformationFromAds", max_length=1000, null=True)
+    # @property
+    # def photos(self):
+    #     return self.information_from_ads.photos
 
     def __str__(self):
         return f"{self.type_sale}, {self.property_type}, " \
@@ -86,7 +92,7 @@ class CianSerializeStatuses(models.Model):
 
 class InformationFromAds(models.Model):
     phone = models.CharField(verbose_name="Телефон", max_length=255, default='None')
-    region = models.ForeignKey("Regions", on_delete=models.CASCADE)
+    region = models.ForeignKey(Region, on_delete=models.CASCADE)
     price = models.CharField(verbose_name="Цена", max_length=255, default="None")
     inf_url_ads = models.OneToOneField("UrlsAds", related_name="url_ads", on_delete=models.CASCADE)
     house_info = models.CharField(verbose_name="Информация о доме", max_length=2500, default='None')
@@ -108,7 +114,9 @@ class InformationFromAds(models.Model):
 
 class CianPhoto(models.Model):
     image = models.FileField(upload_to='', null=True)
-    url_ads = models.ForeignKey(InformationFromAds, verbose_name='Ссылка на объявление', on_delete=models.CASCADE)
+    url_ads = models.ForeignKey(InformationFromAds, verbose_name='Ссылка на объявление',
+                                related_name='photos', on_delete=models.CASCADE)
+    ser_url_ads = models.ForeignKey(SerializerInfo, related_name='ser_photos', on_delete=models.CASCADE)
 
 
 class SellerAndOwner(models.Model):
