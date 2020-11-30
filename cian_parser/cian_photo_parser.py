@@ -20,7 +20,7 @@ def load_photo(urls, ad):
             url_image = url.split('2.jpg')[0] + '1.jpg'
             response = requests.get(url_image)
             if response.status_code == 200:
-                filename = str(ad.inf_url_ads.id) + '_' + str(datetime.now())
+                filename = str(ad.inf_url_ads.id) + '_' + str(datetime.now()) + '.jpg'
                 photo_obj = CianPhoto()
                 buf = io.BytesIO()
                 buf.write(response.content)
