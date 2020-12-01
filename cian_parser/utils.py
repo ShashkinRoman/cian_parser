@@ -35,7 +35,7 @@ def parameters_immovables(dict_with_region):
 def check_regions(regions):
     list_with_dicts = []
     for region in regions:
-        region_obj = Regions.objects.get(region=region)
+        region_obj = Region.objects.get(region=region)
         dict_regions = {"id": region_obj.id,
                         "region": region_obj.region,
                         "city": region_obj.city,
