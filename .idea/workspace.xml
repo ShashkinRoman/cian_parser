@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="correct urls_photo">
-      <change beforePath="$PROJECT_DIR$/cian_parser/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/utils.py" afterDir="false" />
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +306,7 @@
       <workItem from="1606659792593" duration="7044000" />
       <workItem from="1606726925874" duration="2000" />
       <workItem from="1606728463888" duration="11844000" />
-      <workItem from="1606802579182" duration="293000" />
+      <workItem from="1606802579182" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -531,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606751143504</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="fix">
+      <created>1606802899826</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1606802899826</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +573,8 @@
     <MESSAGE value="&quot;add check system for owner and seller&quot;" />
     <MESSAGE value="add serializer CianPhoto" />
     <MESSAGE value="correct urls_photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct urls_photo" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="8" y="-8" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604321252878">
@@ -655,10 +664,10 @@
     </state>
     <state x="346" y="131" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603114904058" />
     <state x="288" y="118" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1601289419597" />
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1606751145456">
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1606802902298">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1606751145456" />
+    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1606802902298" />
     <state x="398" y="54" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1603815251170" />
     <state width="775" height="441" key="XDebugger.FullValuePopup" timestamp="1600691493538">
       <screen x="0" y="32" width="1600" height="868" />

@@ -1,5 +1,5 @@
 from django.db import models
-
+from random import randint
 
 class Region(models.Model):
     id = models.AutoField(verbose_name="id", primary_key=True)
@@ -113,7 +113,7 @@ class InformationFromAds(models.Model):
 
 
 class CianPhoto(models.Model):
-    image = models.FileField(upload_to='', null=True)
+    image = models.FileField(upload_to=f'balakovo/{randint(1,10)}', null=True)
     url_ads = models.ForeignKey(InformationFromAds, verbose_name='Ссылка на объявление',
                                 related_name='photos', on_delete=models.CASCADE)
     ser_url_ads = models.ForeignKey(SerializerInfo, related_name='ser_photos', on_delete=models.CASCADE)
