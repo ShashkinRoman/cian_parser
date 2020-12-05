@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="fix">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="fix upload_to">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +306,12 @@
       <workItem from="1606659792593" duration="7044000" />
       <workItem from="1606726925874" duration="2000" />
       <workItem from="1606728463888" duration="11844000" />
-      <workItem from="1606802579182" duration="2350000" />
+      <workItem from="1606802579182" duration="9958000" />
+      <workItem from="1606907110568" duration="1900000" />
+      <workItem from="1606985030879" duration="815000" />
+      <workItem from="1607076807146" duration="708000" />
+      <workItem from="1607085454603" duration="1761000" />
+      <workItem from="1607162968618" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -539,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606802899826</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fix upload_to">
+      <created>1606806733553</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1606806733553</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,155 +586,8 @@
     <MESSAGE value="add serializer CianPhoto" />
     <MESSAGE value="correct urls_photo" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="8" y="-8" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604321252878">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="8" y="-8" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1604321252878" />
-    <state x="8" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603532888200" />
-    <state x="8" y="24" width="1076" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868@0.32.1600.868" timestamp="1603813037956" />
-    <state x="580" y="308" width="653" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603456799351">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="580" y="308" width="653" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1603456799351" />
-    <state x="483" y="264" width="629" height="400" key="#com.intellij.fileTypes.FileTypeChooser/0.32.1600.868@0.32.1600.868" timestamp="1600667718158" />
-    <state x="536" y="195" width="524" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604399395273">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="536" y="195" width="524" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.900@0.0.1600.900" timestamp="1604399395273" />
-    <state x="486" y="164" width="624" height="488" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1603805901532">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="486" y="164" width="624" height="488" key="DUMP_DIALOG_DIMENSION_KEY/0.32.1600.868@0.32.1600.868" timestamp="1603805901532" />
-    <state x="586" y="-8" width="424" height="488" key="FileChooserDialogImpl" timestamp="1606283070252">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="586" y="-8" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1606283070252" />
-    <state x="586" y="24" width="424" height="488" key="FileChooserDialogImpl/0.32.1600.868@0.32.1600.868" timestamp="1603811627026" />
-    <state x="651" y="362" width="601" height="204" key="Github.ShareDialog" timestamp="1598620692636">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="651" y="362" width="601" height="204" key="Github.ShareDialog/0.32.1600.868@0.32.1600.868" timestamp="1598620692636" />
-    <state x="559" y="149" width="477" height="630" key="Github.UntrackedFilesDialog" timestamp="1598620715449">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="559" y="149" width="477" height="630" key="Github.UntrackedFilesDialog/0.32.1600.868@0.32.1600.868" timestamp="1598620715449" />
-    <state width="1554" height="228" key="GridCell.Tab.0.bottom" timestamp="1606751137904">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="1554" height="228" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1606751137904" />
-    <state width="777" height="270" key="GridCell.Tab.0.bottom/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="1554" height="228" key="GridCell.Tab.0.center" timestamp="1606751137904">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="1554" height="228" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1606751137904" />
-    <state width="777" height="270" key="GridCell.Tab.0.center/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="1554" height="228" key="GridCell.Tab.0.left" timestamp="1606751137903">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="1554" height="228" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1606751137903" />
-    <state width="777" height="270" key="GridCell.Tab.0.left/0.32.1600.868@0.32.1600.868" timestamp="1600862235881" />
-    <state width="1554" height="228" key="GridCell.Tab.0.right" timestamp="1606751137904">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="1554" height="228" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1606751137904" />
-    <state width="777" height="270" key="GridCell.Tab.0.right/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="1554" height="282" key="GridCell.Tab.1.bottom" timestamp="1606750189454">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="1554" height="282" key="GridCell.Tab.1.bottom/0.0.1600.900@0.0.1600.900" timestamp="1606750189454" />
-    <state width="777" height="270" key="GridCell.Tab.1.bottom/0.32.1600.868@0.32.1600.868" timestamp="1600862235883" />
-    <state width="1554" height="282" key="GridCell.Tab.1.center" timestamp="1606750189453">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="1554" height="282" key="GridCell.Tab.1.center/0.0.1600.900@0.0.1600.900" timestamp="1606750189453" />
-    <state width="777" height="270" key="GridCell.Tab.1.center/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="1554" height="282" key="GridCell.Tab.1.left" timestamp="1606750189453">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="1554" height="282" key="GridCell.Tab.1.left/0.0.1600.900@0.0.1600.900" timestamp="1606750189453" />
-    <state width="777" height="270" key="GridCell.Tab.1.left/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="1554" height="282" key="GridCell.Tab.1.right" timestamp="1606750189454">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="1554" height="282" key="GridCell.Tab.1.right/0.0.1600.900@0.0.1600.900" timestamp="1606750189454" />
-    <state width="777" height="270" key="GridCell.Tab.1.right/0.32.1600.868@0.32.1600.868" timestamp="1600862235882" />
-    <state width="265" height="519" key="HiddenNamespacesPopup" timestamp="1603888184266">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state width="265" height="519" key="HiddenNamespacesPopup/0.0.1600.900@0.0.1600.900" timestamp="1603888184266" />
-    <state width="318" height="607" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1603530882730" />
-    <state width="265" height="500" key="HiddenNamespacesPopup/0.32.1600.868@0.32.1600.868" timestamp="1603537462403" />
-    <state x="187" y="116" width="1536" height="872" key="MergeDialog" timestamp="1603456804799">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="187" y="116" width="1536" height="872" key="MergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603456804799" />
-    <state x="346" y="131" width="1016" height="734" key="SettingsEditor" timestamp="1603114904058">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="346" y="131" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603114904058" />
-    <state x="288" y="118" width="1016" height="734" key="SettingsEditor/0.32.1600.868@0.32.1600.868" timestamp="1601289419597" />
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1606802902298">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="398" y="-8" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1606802902298" />
-    <state x="398" y="54" width="800" height="532" key="Vcs.Push.Dialog.v2/0.32.1600.868@0.32.1600.868" timestamp="1603815251170" />
-    <state width="775" height="441" key="XDebugger.FullValuePopup" timestamp="1600691493538">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state width="775" height="441" key="XDebugger.FullValuePopup/0.32.1600.868@0.32.1600.868" timestamp="1600691493538" />
-    <state x="684" y="314" width="367" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603888227326">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="684" y="314" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1600.900@0.0.1600.900" timestamp="1603888227326" />
-    <state x="684" y="343" width="367" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.32.1600.868@0.32.1600.868" timestamp="1603806074742" />
-    <state x="146" y="94" width="824" height="688" key="com.intellij.database.dbimport.ImportDialog" timestamp="1603811654229">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="146" y="94" width="824" height="688" key="com.intellij.database.dbimport.ImportDialog/0.32.1600.868@0.32.1600.868" timestamp="1603811654229" />
-    <state x="536" y="270" width="524" height="388" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1600691238732">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="536" y="270" width="524" height="388" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.32.1600.868@0.32.1600.868" timestamp="1600691238732" />
-    <state x="556" y="279" width="484" height="369" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1603614144242">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="556" y="279" width="484" height="369" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.32.1600.868@0.32.1600.868" timestamp="1603614144242" />
-    <state x="629" y="73" width="693" height="607" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603614156365">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="629" y="73" width="693" height="607" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.32.1600.868@0.32.1600.868" timestamp="1603614156365" />
-    <state x="100" y="116" width="1400" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600667884196">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="100" y="116" width="1400" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.32.1600.868@0.32.1600.868" timestamp="1600667884196" />
-    <state x="417" y="-8" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605596379681">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="417" y="-8" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.900@0.0.1600.900" timestamp="1605596379681" />
-    <state x="500" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1603533637599" />
-    <state x="417" y="31" width="762" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.32.1600.868@0.32.1600.868" timestamp="1602844766881" />
-    <state x="568" y="163" width="459" height="570" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605173152914">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="568" y="163" width="459" height="570" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1600.900@0.0.1600.900" timestamp="1605173152914" />
-    <state x="618" y="368" width="432" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603888637297">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="618" y="368" width="432" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1603888637297" />
-    <state x="741" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603456784737" />
-    <state x="489" y="201" width="621" height="580" key="find.popup" timestamp="1598422361719">
-      <screen x="0" y="32" width="1600" height="868" />
-    </state>
-    <state x="489" y="201" width="621" height="580" key="find.popup/0.32.1600.868@0.32.1600.868" timestamp="1598422361719" />
-    <state x="463" y="186" width="673" height="704" key="search.everywhere.popup" timestamp="1603978644984">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="463" y="186" width="673" height="704" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1603978644984" />
-    <state x="556" y="245" width="807" height="823" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1603529813157" />
-    <state x="463" y="212" width="672" height="678" key="search.everywhere.popup/0.32.1600.868@0.32.1600.868" timestamp="1601403291680" />
+    <MESSAGE value="fix upload_to" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix upload_to" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -740,7 +605,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cian_parser$ads_parser_selenium.coverage" NAME="ads_parser_selenium Coverage Results" MODIFIED="1600862230359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
     <SUITE FILE_PATH="coverage/cian_parser$urls_parser.coverage" NAME="urls_parser Coverage Results" MODIFIED="1598608827976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
+    <SUITE FILE_PATH="coverage/cian_parser$ads_parser_selenium.coverage" NAME="ads_parser_selenium Coverage Results" MODIFIED="1600862230359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cian_parser" />
   </component>
 </project>

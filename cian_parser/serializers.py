@@ -36,7 +36,7 @@ class SerializerInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = SerializerInfo
         exclude = ()
-        fields = ['ser_photos',]
+        # fields = ['ser_photos']
         depth = 1
 
 
