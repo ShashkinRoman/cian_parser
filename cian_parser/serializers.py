@@ -31,7 +31,7 @@ class SerializerInfoSerializer(serializers.ModelSerializer):
     # photos = serializers.PrimaryKeyRelatedField(read_only=False,
     #                                             queryset=CianPhoto.objects.all(),
     #                                             )
-    ser_photos = CianPhotoSerializer(many=True)
+    images = CianPhotoSerializer(many=True)
 
     class Meta:
         model = SerializerInfo

@@ -32,7 +32,25 @@ def load_photo(urls, ad):
         ad.save()
     except Exception as e:
         print(e)
-
+#
+# def compress_image(uploaded_image):
+#     image_temporary = Image.open(uploaded_image)
+#     output_io_stream = BytesIO()
+#     # image_temporaryResized = image_temporary.resize((1020, 573))
+#     image_temporary.save(output_io_stream, format='JPEG', quality=30)
+#     output_io_stream.seek(0)
+#     uploaded_image = InMemoryUploadedFile(output_io_stream, 'ImageField', "%s.jpg" % uploaded_image.name.split('.')[0],
+#                                           'image/jpeg', sys.getsizeof(output_io_stream), None)
+#     return uploaded_image
+#
+# def save(self, *args, **kwargs):
+#     if not self.id:
+#         if self.image:
+#             self.image = compress_image(self.image)
+#         else:
+#             return
+#     super(FlatImageModel, self).save(*args, **kwargs)
+dict
 
 def main():
     photo_obj = InformationFromAds.objects.filter(photo_parse_status=1).filter(urls_on_photo__startswith='["')
