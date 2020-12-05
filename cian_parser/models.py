@@ -1,6 +1,7 @@
 from django.db import models
 from random import randint
 
+
 class Region(models.Model):
     id = models.AutoField(verbose_name="id", primary_key=True)
     city = models.CharField(verbose_name="Запрос", max_length=255, default="Null")
@@ -76,6 +77,9 @@ class SerializerInfo(models.Model):
     # def photos(self):
     #     return self.information_from_ads.photos
 
+    class Meta:
+        ordering = ['-pk']
+
     def __str__(self):
         return f"{self.type_sale}, {self.property_type}, " \
                f"{self.ser_url_ads.url}, {self.creation_date}," \
@@ -112,10 +116,17 @@ class InformationFromAds(models.Model):
                f"{self.description}, {self.offer_tittle}, {self.geo}"
 
 
+def rand_file_name_path(object, filename):
+    try:
+        return f'{filename.split("_")[0]}/{randint(1,99)}/{randint(1,99)}/{"_".join(filename.split("_")[1:])}'
+    except IndexError:
+        return f'/{randint(1, 99)}/{randint(1, 99)}/{filename}'
+
+
 class CianPhoto(models.Model):
-    image = models.ImageField(upload_to=f'balakovo/{randint(1,99)}/{randint(1,99)}', null=True)
+    image = models.ImageField(upload_to=rand_file_name_path, null=True)
     url_ads = models.ForeignKey(InformationFromAds, verbose_name='Ссылка на объявление',
-                                related_name='photos', on_delete=models.CASCADE)
+                                related_name='photos', on_delete=models.CASCADE, )
     ser_url_ads = models.ForeignKey(SerializerInfo, related_name='images', on_delete=models.CASCADE)
 
 
