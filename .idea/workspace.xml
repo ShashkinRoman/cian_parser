@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="fix upload_to">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
-    </list>
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="fix upload_to" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -311,7 +308,7 @@
       <workItem from="1606985030879" duration="815000" />
       <workItem from="1607076807146" duration="708000" />
       <workItem from="1607085454603" duration="1761000" />
-      <workItem from="1607162968618" duration="844000" />
+      <workItem from="1607162968618" duration="1317000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -551,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606806733553</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fix upload_to">
+      <created>1607165117601</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607165117601</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

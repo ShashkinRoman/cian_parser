@@ -116,7 +116,7 @@ class CianPhoto(models.Model):
     image = models.FileField(upload_to=f'balakovo/{randint(1,10)}', null=True)
     url_ads = models.ForeignKey(InformationFromAds, verbose_name='Ссылка на объявление',
                                 related_name='photos', on_delete=models.CASCADE)
-    ser_url_ads = models.ForeignKey(SerializerInfo, related_name='ser_photos', on_delete=models.CASCADE)
+    ser_url_ads = models.ForeignKey(SerializerInfo, related_name='image', on_delete=models.CASCADE)
 
 
 class SellerAndOwner(models.Model):
