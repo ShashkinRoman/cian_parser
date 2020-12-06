@@ -36,7 +36,7 @@ class UrlsAdsViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows groups to be viewed or edited.
     """
-    queryset = UrlsAds.objects.all()
+    queryset = UrlsAds.objects.select_related('ser_url_ads').all()
     serializer_class = UrlsAdsSerializer
     # permission_classes = [permissions.IsAuthenticated]
 

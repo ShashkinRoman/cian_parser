@@ -1,3 +1,5 @@
+from functools import lru_cache
+
 from django.db import models
 from random import randint
 
@@ -27,14 +29,41 @@ class UrlsAds(models.Model):
         return f"{self.phone}, {self.region}, {self.date}, {self.url}"
 
 
+class ClientAdManager(models.Manager):
+    def get_queryset(self):
+        qs = super(ClientAdManager, self).get_queryset()
+        return qs.exclude(ser_url_ads__phone__in=get_agents_phones(key=1))
+
+
+class AgentAdManager(models.Manager):
+    def get_queryset(self):
+        qs = super(AgentAdManager, self).get_queryset()
+        return qs.filter(ser_url_ads__phone__in=get_agents_phones(key=1))
+
+
 class SerializerInfo(models.Model):
+
+    @property
+    def is_agent(self):
+        return self.ser_url_ads.phone in get_agents_phones(key=1)
+
+    @property
+    def is_client(self):
+        return not self.is_agent
+
     # information_from_ads_id = 123123
     # information_from_ads = models.ForeignKey()
+
     type_sale = models.CharField(verbose_name="Тип сделки", max_length=255, default='Продажа')  # «продажа» «аренда»
     property_type = models.CharField(verbose_name="Тип недвижимости", max_length=255, default='None', null=True) # «жилая»/«living».
     type_of_housing = models.CharField(verbose_name="Вторичка/новостройка", max_length=255, default='None', null=True)
     category_obj = models.CharField(verbose_name="Категория объекта", max_length=255, default='None', null=True) # . «квартира»/«flat» «комната»/«room», «таунхаус»/«townhouse»
     ser_url_ads = models.ForeignKey(UrlsAds, verbose_name="Ссылка", on_delete=models.CASCADE)
+
+    @property
+    def phone(self):
+        return self.ser_url_ads.phone
+
     creation_date = models.DateTimeField(verbose_name="Дата размещения",  auto_now_add=True)  # YYYY-MM-DDTHH:mm:ss+00:00.
     country = models.CharField(verbose_name="Страна", max_length=255, default='Россия', null=True)
     region = models.CharField(verbose_name="Субъект", max_length=255, default='None', null=True)
@@ -76,14 +105,33 @@ class SerializerInfo(models.Model):
     # @property
     # def photos(self):
     #     return self.information_from_ads.photos
+    objects = models.Manager()
+    agents = AgentAdManager()
+    clients = ClientAdManager()
 
     class Meta:
         ordering = ['-pk']
+        # indexes = ['phone']
 
     def __str__(self):
         return f"{self.type_sale}, {self.property_type}, " \
                f"{self.ser_url_ads.url}, {self.creation_date}," \
                f"{self.price}, {self.sales_agent}"
+
+
+@lru_cache(200)
+def get_agents_phones(key):
+    print(key)
+    ads_list = list(SerializerInfo.objects.select_related('ser_url_ads').all())
+    phones_list = [o.ser_url_ads.phone for o in ads_list]
+
+    agents = []
+    verified = []
+    for phone in phones_list:
+        if phone in verified:
+            agents.append(phone)
+        verified.append(phone)
+    return list(set(agents))
 
 
 class CianPhotoStatuses(models.Model):

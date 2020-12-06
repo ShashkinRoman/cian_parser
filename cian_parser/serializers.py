@@ -22,6 +22,9 @@ class CianPhotoSerializer(serializers.ModelSerializer):
 
 
 class SerializerInfoSerializer(serializers.ModelSerializer):
+    phone = serializers.ReadOnlyField()
+    is_agent = serializers.ReadOnlyField()
+    is_client = serializers.ReadOnlyField()
     # photos = serializers.HyperlinkedRelatedField(
     #     many=True,
     #     read_only=True,
