@@ -25,6 +25,11 @@ class UrlsAds(models.Model):
     phone = models.CharField(verbose_name='Телефон', max_length=255, default='None')
     # status_seller = models.SmallIntegerField(default=0) # 0 - not parse; 1 - parse successful
 
+    class Meta:
+        indexes = [
+            models.Index(fields=['phone', 'date', 'url'])
+        ]
+
     def __str__(self):
         return f"{self.phone}, {self.region}, {self.date}, {self.url}"
 
@@ -111,7 +116,6 @@ class SerializerInfo(models.Model):
 
     class Meta:
         ordering = ['-pk']
-        indexes = ['phone']
 
     def __str__(self):
         return f"{self.type_sale}, {self.property_type}, " \
