@@ -111,7 +111,7 @@ class SerializerInfo(models.Model):
 
     class Meta:
         ordering = ['-pk']
-        # indexes = ['phone']
+        indexes = ['phone']
 
     def __str__(self):
         return f"{self.type_sale}, {self.property_type}, " \
