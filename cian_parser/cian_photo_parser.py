@@ -50,7 +50,7 @@ def load_photo(urls, ad):
 #         else:
 #             return
 #     super(FlatImageModel, self).save(*args, **kwargs)
-dict
+
 
 def main():
     photo_obj = InformationFromAds.objects.filter(photo_parse_status=1).filter(urls_on_photo__startswith='["')
