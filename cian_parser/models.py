@@ -1,7 +1,11 @@
 from functools import lru_cache
+from datetime import datetime
 
 from django.db import models
 from random import randint
+
+
+day_key = datetime.today().day
 
 
 class Region(models.Model):
@@ -37,20 +41,20 @@ class UrlsAds(models.Model):
 class ClientAdManager(models.Manager):
     def get_queryset(self):
         qs = super(ClientAdManager, self).get_queryset()
-        return qs.exclude(ser_url_ads__phone__in=get_agents_phones(key=1))
+        return qs.exclude(ser_url_ads__phone__in=get_agents_phones(key=day_key))
 
 
 class AgentAdManager(models.Manager):
     def get_queryset(self):
         qs = super(AgentAdManager, self).get_queryset()
-        return qs.filter(ser_url_ads__phone__in=get_agents_phones(key=1))
+        return qs.filter(ser_url_ads__phone__in=get_agents_phones(key=day_key))
 
 
 class SerializerInfo(models.Model):
 
     @property
     def is_agent(self):
-        return self.ser_url_ads.phone in get_agents_phones(key=1)
+        return self.ser_url_ads.phone in get_agents_phones(key=day_key)
 
     @property
     def is_client(self):
@@ -125,7 +129,7 @@ class SerializerInfo(models.Model):
 
 @lru_cache(200)
 def get_agents_phones(key):
-    print(key)
+    # print(key)
     ads_list = list(SerializerInfo.objects.select_related('ser_url_ads').all())
     phones_list = [o.ser_url_ads.phone for o in ads_list]
 
@@ -143,7 +147,7 @@ class CianPhotoStatuses(models.Model):
 
 
 class CianSerializeStatuses(models.Model):
-    status = models.CharField(verbose_name='Статус сериализации обхявления', max_length=255)
+    status = models.CharField(verbose_name='Статус сериализации объявления', max_length=255)
 
 
 class InformationFromAds(models.Model):
@@ -161,6 +165,7 @@ class InformationFromAds(models.Model):
     serialize_status = models.ForeignKey(CianSerializeStatuses, on_delete=models.CASCADE, default=1)
     photo_parse_status = models.ForeignKey(CianPhotoStatuses, on_delete=models.CASCADE, default=1)
     urls_on_photo = models.CharField(verbose_name="Ссылки на фотографии", max_length=5000, default=None, null=True)
+    rooms = models.SmallIntegerField(null=True)
 
     def __str__(self):
         return f"{self.phone}, {self.price}, {self.house_info}, " \

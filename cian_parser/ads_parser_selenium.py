@@ -89,8 +89,20 @@ def find_urls_photo(driver):
     return urls
 
 
+def quantity_rooms_func(driver):
+    title = driver.find_element_by_class_name('a10a3f92e9--title--2Widg').text[:6]
+    rooms_variations = {'Комнат': 1, '1-комн': 1, '2-комн': 2, '3-комн': 3,
+                        '4-комн': 4, '5-комн': 5, '6-комн': 6, 'Студия': 1}
+    try:
+        rooms = rooms_variations.get(title)
+    except Exception as e:
+        print(e)
+        rooms = 0
+    return rooms
+
+
 def main():
-    urls = UrlsAds.objects.filter(status_info_parse=0).filter(region_id=1).order_by('-date')
+    urls = UrlsAds.objects.filter(status_info_parse=2).filter(region_id=1).order_by('-date')
     check_seller_phone_number(urls)
     driver_obj = Operadriver()
     driver_start = driver_obj.start_driver()
@@ -104,7 +116,7 @@ def main():
         phone = url_.phone
         region = url_.region
         driver.get(url)
-        sleep(random.randint(1, 3))
+        sleep(random.randint(6, 10))
         try:  # check ad removed from publication
             if driver.find_element_by_class_name('a10a3f92e9--container--1In69').text == 'Объявление снято с публикации':
                 url_.status_info_parse = 30
@@ -125,6 +137,7 @@ def main():
                     geo=json.dumps(geo_func(driver)),
                     seller_info=json.dumps(seller_info_func(driver)),
                     urls_on_photo=json.dumps(find_urls_photo(driver)),
+                    rooms=quantity_rooms_func(driver),
                 )
                 url_.status_info_parse = 10
                 url_.save()
