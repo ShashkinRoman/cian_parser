@@ -54,3 +54,12 @@
 [26266:26266:1211/123628.255824:INFO:CONSOLE(1)] "TELEMETRY.increment: browser.microservice.frontend-header.external.http.api-cian-ru.notification-center-v1-desktop-get-notifications-count.fail.timeout undefined", source: https://cdn.cian.site/frontend/sentry/l/sentry.min.js (1)
 [26296:26300:1211/123628.575526:WARNING:spdy_session.cc(3384)] Received HEADERS for invalid stream 1
 [26266:26276:1211/123710.813406:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/123801.078150:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/123853.858349:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/123946.075587:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/124038.932700:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/124133.826247:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/124223.628672:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/124310.544914:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/124402.858647:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[26266:26276:1211/124454.502171:ERROR:socket_stream.cc(219)] Closing stream with result -2
