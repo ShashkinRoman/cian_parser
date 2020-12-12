@@ -102,7 +102,7 @@ def quantity_rooms_func(driver):
 
 
 def main():
-    urls = UrlsAds.objects.filter(status_info_parse=0).filter(region_id=1).order_by('-date')
+    urls = UrlsAds.objects.filter(status_info_parse=1).filter(region_id=1).order_by('-date')
     check_seller_phone_number(urls)
     driver_obj = Operadriver()
     driver_start = driver_obj.start_driver()
