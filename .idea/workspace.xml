@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="only with_rooms">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="correct field rooms on smallinteger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +328,8 @@
       <workItem from="1607705781356" duration="1055000" />
       <workItem from="1607764062383" duration="1705000" />
       <workItem from="1607850505456" duration="747000" />
-      <workItem from="1607878091764" duration="895000" />
+      <workItem from="1607878091764" duration="1884000" />
+      <workItem from="1607885264690" duration="2039000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -651,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607784516853</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="correct field rooms on smallinteger">
+      <created>1607879051236</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1607879051236</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +699,8 @@
     <MESSAGE value="add check agetns and owners" />
     <MESSAGE value="correct ads_parser status" />
     <MESSAGE value="only with_rooms" />
-    <option name="LAST_COMMIT_MESSAGE" value="only with_rooms" />
+    <MESSAGE value="correct field rooms on smallinteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct field rooms on smallinteger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

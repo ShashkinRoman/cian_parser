@@ -112,6 +112,7 @@ class SerializerInfo(models.Model):
     # deadline = models.CharField(verbose_name="Срок сдачи", max_length=255, default='None', null=True)
     description = models.CharField(verbose_name="Описание", max_length=5000, default='None', null=True)
     urls = models.CharField(verbose_name="Дубль урлов из InformationFromAds", max_length=5000, null=True)
+    # images_test = models.CharField(max_length=5000, null=True)
     # @property
     # def photos(self):
     #     return self.information_from_ads.photos
