@@ -1,10 +1,10 @@
 from functools import lru_cache
 from datetime import datetime
 
-from django.db import models
+from django.db import models, transaction
 from random import randint
 
-
+# transaction.atomic() na
 day_key = datetime.today().day
 
 
@@ -91,7 +91,8 @@ class SerializerInfo(models.Model):
     flat_plan = models.CharField(verbose_name="Планировка", max_length=255, default='None', null=True)
     window_view = models.CharField(verbose_name="Вид из окон", max_length=255, default='None', null=True)
     finishing = models.CharField(verbose_name="Отделка", max_length=255, default='None', null=True)
-    rooms = models.CharField(verbose_name="Всего комнат в квартире", max_length=255, default='None', null=True)
+    rooms_charfield = models.CharField(verbose_name="Всего комнат в квартире", max_length=255, default='None', null=True)
+    rooms = models.SmallIntegerField(verbose_name="Всего комнат в квартире", null=True)
     building_type = models.CharField(verbose_name="Тип дома", max_length=255, default='None', null=True)
     built_year = models.IntegerField(verbose_name="Год постройки", default='None', null=True)
     floor_type = models.CharField(verbose_name="Тип перекрытий", max_length=255, default='None', null=True)
