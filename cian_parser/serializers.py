@@ -1,5 +1,4 @@
 import json
-
 from django.contrib.auth.models import User, Group
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import serializers, filters
@@ -63,4 +62,13 @@ class UrlsAdsSerializer(serializers.ModelSerializer):
         fields = ['region', 'request', 'date', 'url', 'status', 'phone']
 
 
-
+# class NewOwnersSerializers(serializers.ModelSerializer):
+#     phone = serializers.ReadOnlyField()
+#     is_agent = serializers.ReadOnlyField()
+#     is_client = serializers.ReadOnlyField()
+#
+#     class Meta:
+#         model = SerializerInfo
+#         exclude = ()
+#         # fields = ['ser_photos']
+#         depth = 1

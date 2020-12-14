@@ -5,7 +5,7 @@ from rest_framework import viewsets, filters
 from rest_framework import permissions
 from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSerializer, SerializerInfoSerializer,\
     CianPhotoSerializer
-from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo
+from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo, get_clients_id, day_key
 
 
 class InformationFromAdsViewSet(viewsets.ModelViewSet):
@@ -30,6 +30,16 @@ class SerializerInfoViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
     # search_fields = ('$phone', '$house_info', '$description', '$general_information', '$description_info')
     # filterset_fields = ('phone',)
+
+
+class NewOwnersViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = SerializerInfo.objects.filter(pk__in=get_clients_id(day_key))
+    serializer_class = SerializerInfoSerializer
+    # permission_classes = [permissions.IsAuthenticated]
+    # filter_backends = [DjangoFilterBackend, filters.SearchFilter]
 
 
 class UrlsAdsViewSet(viewsets.ModelViewSet):

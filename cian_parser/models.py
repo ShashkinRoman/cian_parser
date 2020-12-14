@@ -1,6 +1,7 @@
 from functools import lru_cache
 from datetime import datetime
 
+from django.core.exceptions import MultipleObjectsReturned
 from django.db import models, transaction
 from random import randint
 
@@ -142,6 +143,23 @@ def get_agents_phones(key):
             agents.append(phone)
         verified.append(phone)
     return list(set(agents))
+
+
+@lru_cache(200)
+def get_clients_id(key):
+    # print(key)
+    all_obj = SerializerInfo.objects.select_related('ser_url_ads').all()
+    ads_list = list(all_obj)
+    phones_list = [o.ser_url_ads.phone for o in ads_list]
+    clients_id = []
+    clients_phones = []
+    for i in phones_list:
+        if phones_list.count(i) == 1:
+            clients_phones.append(i)
+    for i in clients_phones:
+            clients_id.append(all_obj.get(ser_url_ads__phone=i).id)
+    clients_id_sorted = sorted(clients_id, reverse=True)
+    return clients_id_sorted
 
 
 class CianPhotoStatuses(models.Model):

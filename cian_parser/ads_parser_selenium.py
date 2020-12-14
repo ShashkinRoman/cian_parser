@@ -6,7 +6,6 @@ from cian_parser.webdriver.opera_driver import Operadriver, path
 from cian_parser.utils import check_seller_phone_number
 from django.db import IntegrityError
 
-
 def price_func(driver):
     price = driver.find_element_by_class_name('a10a3f92e9--price_value--1iPpd').text[:-2]
     return price
