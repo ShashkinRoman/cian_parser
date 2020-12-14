@@ -12,12 +12,6 @@ class InformationFromAdsSerializer(serializers.ModelSerializer):
 
 
 class CianPhotoSerializer(serializers.ModelSerializer):
-    # images_list = serializers.SerializerMethodField()
-    #
-    # def get_images_list(self, obj):
-    #     images_json_serialized = self.inf_url_ads.urls_on_photo
-    #     images_json = json.loads(images_json_serialized)
-    #     return images_json
 
     class Meta:
         model = CianPhoto
@@ -28,17 +22,8 @@ class SerializerInfoSerializer(serializers.ModelSerializer):
     phone = serializers.ReadOnlyField()
     is_agent = serializers.ReadOnlyField()
     is_client = serializers.ReadOnlyField()
-    # photos = serializers.HyperlinkedRelatedField(
-    #     many=True,
-    #     read_only=True,
-    #     view_name='cianphoto-detail'
-    # )
-    # photos = serializers.
-    # photos = serializers.PrimaryKeyRelatedField(read_only=False,
-    #                                             queryset=CianPhoto.objects.all(),
-    #                                             )
-    # images = CianPhotoSerializer(many=True)
     images = serializers.SerializerMethodField()
+
 
     def get_images(self, obj):
         images_json_serialized = obj.ser_url_ads.url_ads.urls_on_photo
@@ -51,7 +36,6 @@ class SerializerInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = SerializerInfo
         exclude = ()
-        # fields = ['ser_photos']
         depth = 1
 
 
@@ -62,13 +46,13 @@ class UrlsAdsSerializer(serializers.ModelSerializer):
         fields = ['region', 'request', 'date', 'url', 'status', 'phone']
 
 
-# class NewOwnersSerializers(serializers.ModelSerializer):
-#     phone = serializers.ReadOnlyField()
-#     is_agent = serializers.ReadOnlyField()
-#     is_client = serializers.ReadOnlyField()
-#
-#     class Meta:
-#         model = SerializerInfo
-#         exclude = ()
-#         # fields = ['ser_photos']
-#         depth = 1
+class NewOwnersSerializers(serializers.ModelSerializer):
+    phone = serializers.ReadOnlyField()
+    is_agent = serializers.ReadOnlyField()
+    is_client = serializers.ReadOnlyField()
+
+    class Meta:
+        model = SerializerInfo
+        exclude = ()
+        # fields = ['ser_photos']
+        depth = 1

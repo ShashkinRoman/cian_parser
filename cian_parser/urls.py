@@ -5,11 +5,11 @@ from cian_parser import views
 
 
 router = routers.DefaultRouter()
-router.register(r'InformationFromAds', views.InformationFromAdsViewSet)
-router.register(r'UrlsAds', views.UrlsAdsViewSet)
-router.register(r'SerializerInfo', views.SerializerInfoViewSet)
-router.register(r'CianPhoto', views.CianPhotoViewSet)
-router.register(r'NewOwnersViewSet', views.NewOwnersViewSet)
+router.register(r'informationfromads', views.InformationFromAdsViewSet)
+router.register(r'urlsads', views.UrlsAdsViewSet)
+router.register(r'serializerinfo', views.SerializerInfoViewSet)
+router.register(r'cianphoto', views.CianPhotoViewSet)
+# router.register(r'newownersviewset', views.NewOwnersViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.

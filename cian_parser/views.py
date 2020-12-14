@@ -4,7 +4,7 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets, filters
 from rest_framework import permissions
 from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSerializer, SerializerInfoSerializer,\
-    CianPhotoSerializer
+    CianPhotoSerializer, NewOwnersSerializers
 from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo, get_clients_id, day_key
 
 
@@ -37,7 +37,7 @@ class NewOwnersViewSet(viewsets.ModelViewSet):
     API endpoint that allows users to be viewed or edited.
     """
     queryset = SerializerInfo.objects.filter(pk__in=get_clients_id(day_key))
-    serializer_class = SerializerInfoSerializer
+    serializer_class = NewOwnersSerializers
     # permission_classes = [permissions.IsAuthenticated]
     # filter_backends = [DjangoFilterBackend, filters.SearchFilter]
 
