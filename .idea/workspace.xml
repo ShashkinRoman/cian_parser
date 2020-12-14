@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="correct field images">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="add awners">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/ads_parser_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/ads_parser_selenium.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
@@ -335,14 +335,7 @@
       <workItem from="1607885264690" duration="2342000" />
       <workItem from="1607929699882" duration="3989000" />
       <workItem from="1607934507795" duration="3467000" />
-      <workItem from="1607939288166" duration="1947000" />
-    </task>
-    <task id="LOCAL-00001" summary="&quot;firs&quot;">
-      <created>1598623048948</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1598623048948</updated>
+      <workItem from="1607939288166" duration="2278000" />
     </task>
     <task id="LOCAL-00002" summary="&quot;add headless and vpn in chrome_driver&quot;">
       <created>1599044363657</created>
@@ -680,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607929869466</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add awners">
+      <created>1607941562497</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1607941562498</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,7 +721,8 @@
     <MESSAGE value="only with_rooms" />
     <MESSAGE value="correct field rooms on smallinteger" />
     <MESSAGE value="correct field images" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct field images" />
+    <MESSAGE value="add awners" />
+    <option name="LAST_COMMIT_MESSAGE" value="add awners" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
