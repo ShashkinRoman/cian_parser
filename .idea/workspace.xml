@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="correct field rooms on smallinteger">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="correct field images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
@@ -329,7 +329,7 @@
       <workItem from="1607764062383" duration="1705000" />
       <workItem from="1607850505456" duration="747000" />
       <workItem from="1607878091764" duration="1884000" />
-      <workItem from="1607885264690" duration="2039000" />
+      <workItem from="1607885264690" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;firs&quot;">
       <created>1598623048948</created>
@@ -660,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607879051236</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="correct field images">
+      <created>1607887609569</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1607887609569</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +707,8 @@
     <MESSAGE value="correct ads_parser status" />
     <MESSAGE value="only with_rooms" />
     <MESSAGE value="correct field rooms on smallinteger" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct field rooms on smallinteger" />
+    <MESSAGE value="correct field images" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct field images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
