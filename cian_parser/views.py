@@ -30,7 +30,8 @@ class SerializerInfoViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = SerializerInfo.objects.filter(rooms__isnull=False)
+    queryset = SerializerInfo.objects.filter(rooms__isnull=False).filter(
+        ser_url_ads__url_ads__urls_on_photo__startswith='["')
     serializer_class = SerializerInfoSerializer
     # permission_classes = [permissions.IsAuthenticated]
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
