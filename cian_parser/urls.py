@@ -1,13 +1,13 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from cian_parser.views import InformationFromAdsViewSet, SerializerInfoViewSet, UrlsAdsViewSet, CianPhotoViewSet, NewOwnersViewSet
+from cian_parser.views import InformationFromAdsViewSet, SerializerInfoViewSet, UrlsAdsViewSet, NewOwnersViewSet
 
 
 router = routers.DefaultRouter()
 router.register('informationfromads', InformationFromAdsViewSet, 'informationfromads')
 router.register('urlsads', UrlsAdsViewSet, 'urlsads')
-router.register('cianphoto', CianPhotoViewSet, 'cianphoto')
+# router.register('cianphoto', CianPhotoViewSet, 'cianphoto')
 router.register('newownersviewset', NewOwnersViewSet, 'newownersviewset')
 router.register('serializerinfo', SerializerInfoViewSet, 'serializerinfo')
 

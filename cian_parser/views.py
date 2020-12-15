@@ -3,10 +3,15 @@ from django.shortcuts import redirect, render
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets, filters
 from rest_framework import permissions
-from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSerializer, SerializerInfoSerializer,\
-    CianPhotoSerializer, NewOwnersSerializers
-from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo, get_clients_id, day_key, get_agents_phones, \
-    CianPhoto
+from rest_framework.decorators import action
+from rest_framework.response import Response
+
+from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSerializer, SerializerInfoSerializer, \
+    NewOwnersSerializers
+    # CianPhotoSerializer, \
+
+from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo, get_clients_id, day_key, get_agents_phones
+    # CianPhoto
 
 
 class InformationFromAdsViewSet(viewsets.ModelViewSet):
@@ -33,16 +38,27 @@ class SerializerInfoViewSet(viewsets.ModelViewSet):
     # filterset_fields = ('phone',)
 
 
+
 class NewOwnersViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
     # pk_client_list = [client.pk for client in list(SerializerInfo.objects.all()) if client.is_client]
     agent_phones = get_agents_phones(day_key)
-    queryset = SerializerInfo.objects.exclude(ser_url_ads__phone__in=agent_phones)
+    queryset = SerializerInfo.objects.filter(sales_agent__isnull=True).exclude(ser_url_ads__phone__in=agent_phones)
     serializer_class = NewOwnersSerializers
     # permission_classes = [permissions.IsAuthenticated]
     # filter_backends = [DjangoFilterBackend, filters.SearchFilter]
+
+    @action(detail=False)
+    def jopa(self, request):
+        objects = SerializerInfo.objects.all()
+
+        # Првоеряем пагинацию
+        objects = self.paginate_queryset(objects)
+        if objects is not None:
+            serializer = self.get_serializer(objects, many=True)
+            return self.get_paginated_response(serializer.data)
 
 
 class UrlsAdsViewSet(viewsets.ModelViewSet):
@@ -54,7 +70,7 @@ class UrlsAdsViewSet(viewsets.ModelViewSet):
     # permission_classes = [permissions.IsAuthenticated]
 
 
-class CianPhotoViewSet(viewsets.ModelViewSet):
-
-    queryset = CianPhoto.objects.all()
-    serializer_class = CianPhotoSerializer
+# class CianPhotoViewSet(viewsets.ModelViewSet):
+#
+#     queryset = CianPhoto.objects.all()
+#     serializer_class = CianPhotoSerializer
