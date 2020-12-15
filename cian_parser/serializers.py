@@ -28,7 +28,7 @@ class SerializerInfoSerializer(serializers.ModelSerializer):
         obj_cian_photo = obj.images.all()
         list_of_dict_images = []
         for image in obj_cian_photo:
-            list_of_dict_images.append({'image': image.image})
+            list_of_dict_images.append({'image': image.image.path})
         return list_of_dict_images
         # images_json_serialized = obj.ser_url_ads.url_ads.urls_on_photo
         # list_of_dict_images = []

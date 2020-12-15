@@ -69,7 +69,7 @@ class UrlsAdsViewSet(viewsets.ModelViewSet):
     serializer_class = UrlsAdsSerializer
     # permission_classes = [permissions.IsAuthenticated]
 
-
+#
 # class CianPhotoViewSet(viewsets.ModelViewSet):
 #
 #     queryset = CianPhoto.objects.all()

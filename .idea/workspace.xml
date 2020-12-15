@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="fix cian_photo tables">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="correct func image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cian_parser/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,14 +335,7 @@
       <workItem from="1607939288166" duration="5049000" />
       <workItem from="1607945270475" duration="4572000" />
       <workItem from="1608017110490" duration="12718000" />
-      <workItem from="1608039889168" duration="6946000" />
-    </task>
-    <task id="LOCAL-00006" summary="&quot;add test chromedriver vpn&quot;">
-      <created>1599820330413</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1599820330413</updated>
+      <workItem from="1608039889168" duration="8053000" />
     </task>
     <task id="LOCAL-00007" summary="&quot;add test chromedriver vpn&quot;">
       <created>1602760602559</created>
@@ -679,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608058074066</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="correct func image">
+      <created>1608060538964</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1608060538964</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +699,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;delete extention and add vpn&quot;" />
     <MESSAGE value="&quot;add test chromedriver vpn&quot;" />
     <MESSAGE value="&quot;add reboot counter for change io&quot;" />
     <MESSAGE value="&quot;correct cian&quot;" />
@@ -723,7 +723,8 @@
     <MESSAGE value="fix owners" />
     <MESSAGE value="fix load_photo" />
     <MESSAGE value="fix cian_photo tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix cian_photo tables" />
+    <MESSAGE value="correct func image" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct func image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
