@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="correct func image">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cian_parser/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,21 +333,7 @@
       <workItem from="1607939288166" duration="5049000" />
       <workItem from="1607945270475" duration="4572000" />
       <workItem from="1608017110490" duration="12718000" />
-      <workItem from="1608039889168" duration="8053000" />
-    </task>
-    <task id="LOCAL-00007" summary="&quot;add test chromedriver vpn&quot;">
-      <created>1602760602559</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1602760602559</updated>
-    </task>
-    <task id="LOCAL-00008" summary="&quot;correct cian&quot;">
-      <created>1602850177087</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1602850177087</updated>
+      <workItem from="1608039889168" duration="8481000" />
     </task>
     <task id="LOCAL-00009" summary="&quot;add serializer for ads&quot;">
       <created>1603640061735</created>
@@ -680,7 +664,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608060538964</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="correct func image">
+      <created>1608061673581</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1608061673581</updated>
+    </task>
+    <task id="LOCAL-00057" summary="correct func image">
+      <created>1608061812868</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1608061812868</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
