@@ -52,7 +52,7 @@ class AgentAdManager(models.Manager):
 
 
 class SerializerInfo(models.Model):
-
+    #todo добавить прямую связь с Informationurlads
     @property
     def is_agent(self):
         return self.ser_url_ads.phone in get_agents_phones(key=day_key)

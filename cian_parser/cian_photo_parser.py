@@ -28,8 +28,8 @@ def load_photo(urls, ad):
                 photo_obj.url_ads = ad
                 photo_obj.ser_url_ads = SerializerInfo.objects.get(ser_url_ads=ad.inf_url_ads)
                 photo_obj.save()
-        # ad.photo_parse_status = CianPhotoStatuses.objects.get(status='Photos loaded')
-        # ad.save()
+        ad.photo_parse_status = CianPhotoStatuses.objects.get(status='Photos loaded')
+        ad.save()
     except Exception as e:
         print(e)
 #
@@ -53,6 +53,7 @@ def load_photo(urls, ad):
 
 
 def main():
+    # todo поменять проверку потексту на isnull
     photo_obj = InformationFromAds.objects.filter(photo_parse_status=1).filter(urls_on_photo__startswith='["')
     for photos in photo_obj:
         urls = json.loads(photos.urls_on_photo)
