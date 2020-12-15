@@ -48,11 +48,8 @@ class UrlsAdsSerializer(serializers.ModelSerializer):
 
 class NewOwnersSerializers(serializers.ModelSerializer):
     phone = serializers.ReadOnlyField()
-    is_agent = serializers.ReadOnlyField()
-    is_client = serializers.ReadOnlyField()
 
     class Meta:
         model = SerializerInfo
         exclude = ()
-        # fields = ['ser_photos']
-        depth = 1
+        # depth = 1

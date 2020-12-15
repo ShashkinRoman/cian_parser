@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="add owners">
+    <list default="true" id="24c07b42-446e-44ff-b496-7a0c965437b4" name="Default Changelist" comment="wip: refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cian_parser/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cian_parser/urls.py" afterDir="false" />
@@ -335,6 +335,7 @@
       <workItem from="1607934507795" duration="3467000" />
       <workItem from="1607939288166" duration="5049000" />
       <workItem from="1607945270475" duration="4572000" />
+      <workItem from="1608017110490" duration="734000" />
     </task>
     <task id="LOCAL-00003" summary="&quot;add headless and vpn in chrome_driver&quot;">
       <created>1599044747997</created>
@@ -722,7 +723,8 @@
     <MESSAGE value="correct field images" />
     <MESSAGE value="add awners" />
     <MESSAGE value="add owners" />
-    <option name="LAST_COMMIT_MESSAGE" value="add owners" />
+    <MESSAGE value="wip: refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip: refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -735,6 +737,21 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cian_parser/utils.py</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cian_parser/urls.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework/routers.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework/routers.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

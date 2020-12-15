@@ -1,15 +1,15 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from cian_parser import views
+from cian_parser.views import InformationFromAdsViewSet, SerializerInfoViewSet, UrlsAdsViewSet, CianPhotoViewSet, NewOwnersViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'informationfromads', views.InformationFromAdsViewSet)
-router.register(r'urlsads', views.UrlsAdsViewSet)
-router.register(r'serializerinfo', views.SerializerInfoViewSet)
-router.register(r'cianphoto', views.CianPhotoViewSet)
-# router.register(r'newownersviewset', views.NewOwnersViewSet)
+router.register('informationfromads', InformationFromAdsViewSet, 'informationfromads')
+router.register('urlsads', UrlsAdsViewSet, 'urlsads')
+router.register('cianphoto', CianPhotoViewSet, 'cianphoto')
+router.register('newownersviewset', NewOwnersViewSet, 'newownersviewset')
+router.register('serializerinfo', SerializerInfoViewSet, 'serializerinfo')
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
