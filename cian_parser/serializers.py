@@ -1,9 +1,11 @@
 import json
 from django.contrib.auth.models import User, Group
 from django_filters.rest_framework import DjangoFilterBackend
+import os
 from rest_framework import serializers, filters
 from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo, CianPhoto
-
+from dotenv import load_dotenv
+load_dotenv()
 
 class InformationFromAdsSerializer(serializers.ModelSerializer):
     class Meta:
@@ -28,7 +30,7 @@ class SerializerInfoSerializer(serializers.ModelSerializer):
         obj_cian_photo = obj.images.all()
         list_of_dict_images = []
         for image in obj_cian_photo:
-            list_of_dict_images.append({'image': image.image.url})
+            list_of_dict_images.append({'image': f'http://{os.getenv("IP")}/{image.image.url}'})
         return list_of_dict_images
         # images_json_serialized = obj.ser_url_ads.url_ads.urls_on_photo
         # list_of_dict_images = []
