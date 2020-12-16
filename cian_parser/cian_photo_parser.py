@@ -54,7 +54,7 @@ def load_photo(urls, ad):
 
 def main():
     # todo поменять проверку потексту на isnull
-    photo_obj = InformationFromAds.objects.filter(photo_parse_status=1).filter(ser_url_ads_urls_on_photo__startswith='["')
+    photo_obj = InformationFromAds.objects.filter(photo_parse_status=1).filter(urls_on_photo__startswith='["')
     for photos in photo_obj:
         urls = json.loads(photos.urls_on_photo)
         try:
