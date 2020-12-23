@@ -23,6 +23,14 @@ def parameters_immovables(dict_with_region):
     ads = []
     domen, location, region, region_id = dict_with_region.get('domen'), dict_with_region.get('code_location'),\
                                          dict_with_region.get('code'), dict_with_region.get('id')
+
+    for i in range(0, 7):
+        url1 = 'https://' + domen + '.cian.ru/cat.php?deal_type=sale&engine_version=2&location%5B0%5D=' \
+               + location + '&is_by_homeowner=1&offer_type=flat&p='
+        url2 = '&region=' + region + '&room' + str(i) + '=1'
+        url = (url1, url2, region_id)
+        ads.append(url)
+
     for i in range(0, 7):
         url1 = 'https://' + domen + '.cian.ru/cat.php?deal_type=sale&engine_version=2&location%5B0%5D=' \
                + location + '&offer_type=flat&p='

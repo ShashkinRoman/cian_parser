@@ -10,7 +10,7 @@ from cian_parser.serializers import UrlsAdsSerializer, InformationFromAdsSeriali
     NewOwnersSerializers
     # CianPhotoSerializer, \
 
-from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo, get_clients_id, day_key, get_agents_phones
+from cian_parser.models import InformationFromAds, UrlsAds, SerializerInfo, day_key, get_agents_phones
     # CianPhoto
 
 
