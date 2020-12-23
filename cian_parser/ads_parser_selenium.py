@@ -76,15 +76,15 @@ def seller_info_func(driver):
 
 
 def find_urls_photo(driver):
+    urls = []
     try:
         photo_line = driver.find_element_by_class_name('fotorama__nav__shaft')
         urls_obj = photo_line.find_elements_by_class_name('fotorama__nav__frame')
-        urls = []
         for url in urls_obj:
             urls.append(url.find_element_by_tag_name('img').get_attribute('src'))
         del urls[-1]
-    except Exception:
-        urls = []
+    except Exception as e:
+        print(e)
     return urls
 
 
